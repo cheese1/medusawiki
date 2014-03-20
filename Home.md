@@ -1,0 +1,1 @@
+Welcome to the SickBeard-TVRage wiki!
