@@ -1,5 +1,3 @@
-Welcome to the SickBeard-TVRage wiki!
-
 ## Frequently Asked Questions & Answers (FAQ)
 
 **Does Sickbeard TVRage support NAS hardware?**
