@@ -4,7 +4,7 @@ Welcome to the SickBeard-TVRage wiki!
 
 **Error: Rar Not Supported: No suitable RAR unpacker installed**
 
-Sickbeard has ability to unpack RAR-archived releases but is distributed without OS-specific RAR binary. If you get this error, your need to download RAR binary and place it in _SickBeard-TVRage/lib/unrar2/_
+Sickbeard has ability to unpack RAR-archived releases but is distributed without OS-specific UNRAR binary. If you get this error, your need to download RAR binary and place it in _SickBeard-TVRage/lib/unrar2/_
 * RAR Binary for Windows: [UNRAR for Windows] (http://www.rarlab.com/rar/unrarw32.exe)
 
 ## Pre-built NAS Apps
