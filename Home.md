@@ -23,3 +23,22 @@ Sickbeard has ability to unpack RAR-archived releases but is distributed without
 Close Sickbeard, then delete _cache.db_ in your SickBeard directory. This may solve the problem. 
 
 If you still have the same issues, search the repository for the error message (without the specific provider name) and if there's an open issue, copy your log (at Debug level). If no such issue exists, open a new one. 
+
+**Cannot update Sickbeard-TVRage, Git gives FETCH_HEAD error.**
+
+Some times on your local Sickbeard distribution have been changed. 
+
+On Windows, OS X: Use the following commands:
+* git stash
+* git stash drop
+* git pull
+
+On Synology:
+* Stop SB using Syno package tool
+* Remove current sourcecode
+* _cd /volume1/@appstore/sickbeard-custom/var_
+* _rm -Rf SickBeard_
+* Fresh clone
+** /volume1/@appstore/git/bin/git clone https://github.com/echel0n/SickBeard-TVRage.git SickBeard
+* Start SB using Syno package tool
+* Enjoy!
