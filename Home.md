@@ -20,4 +20,6 @@ Sickbeard has ability to unpack RAR-archived releases but is distributed without
 
 **Error while searching ..., skipping: 'NoneType' object is not iterable'''**
 
-Close Sickbeard, then delete _cache.db_ in your SickBeard directory. This may solve the problem. If you still have the same issues, search the repository for the error message (without the specific provider name) and if there's an open issue, copy your log (at Debug level). If no such issue exists, open a new one. 
+Close Sickbeard, then delete _cache.db_ in your SickBeard directory. This may solve the problem. 
+
+If you still have the same issues, search the repository for the error message (without the specific provider name) and if there's an open issue, copy your log (at Debug level). If no such issue exists, open a new one. 
