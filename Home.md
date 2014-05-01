@@ -14,10 +14,6 @@ Sickbeard has ability to unpack RAR-archived releases but is distributed without
 * RAR Binary for Linux x64: [UNRAR for Linux x64] (http://www.rarlab.com/rar/rarlinux-x64-5.1.b3.tar.gz)
 * RAR Binary for FreeBSD: [UNRAR for FreeBSD] (http://www.rarlab.com/rar/rarbsd-5.1.b3.tar.gz)
 
-**Error while searching ..., skipping: 'sqlite3.Connection' object has no attribute 'action'**
-
-**Error while searching ..., skipping: local variable 'epObj' referenced before assignment**
-
 **Error while searching ..., skipping: 'NoneType' object is not iterable'''**
 
 Close Sickbeard, then delete _cache.db_ in your SickBeard directory. This may solve the problem. 
