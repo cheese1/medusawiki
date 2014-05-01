@@ -15,6 +15,12 @@ Sickbeard has ability to unpack RAR-archived releases but is distributed without
 * RAR Binary for Linux x64: [UNRAR for Linux x64] (http://www.rarlab.com/rar/rarlinux-x64-5.1.b3.tar.gz)
 * RAR Binary for FreeBSD: [UNRAR for FreeBSD] (http://www.rarlab.com/rar/rarbsd-5.1.b3.tar.gz)
 
+**Adding existing shows causes endless loading folders.**
+
+Some of your shows contain .XML or .NFO files that cause issues with Sickbeard-TVRage. Removing .xml and .nfo files fixes these issues.
+
+If you do not want to remove all .xml and .nfo files from all your TV shows, move your TV Shows to another directory and then move back handful at a time, then try to import them. If a batch fails, one of the TV Shows in it may need to have .xml and .nfo files removed to properly import. 
+
 **Error while searching ..., skipping: 'NoneType' object is not iterable'''**
 
 Close Sickbeard, then delete _cache.db_ in your SickBeard directory. This may solve the problem. 
