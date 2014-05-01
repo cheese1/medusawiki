@@ -17,6 +17,8 @@ Sickbeard has ability to unpack RAR-archived releases but is distributed without
 
 **Adding existing shows causes endless loading folders.**
 
+![Endless loading when importing existing shows](https://cloud.githubusercontent.com/assets/1388212/2829806/daab16e8-cfa7-11e3-86d1-370c46ac4c5c.PNG)
+
 Some of your shows contain .XML or .NFO files that cause issues with Sickbeard-TVRage. Removing .xml and .nfo files fixes these issues.
 
 If you do not want to remove all .xml and .nfo files from all your TV shows, move your TV Shows to another directory and then move back handful at a time, then try to import them. If a batch fails, one of the TV Shows in it may need to have .xml and .nfo files removed to properly import. 
