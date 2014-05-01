@@ -5,6 +5,7 @@
 Yes. There are pre-built NAS versions of Sickbeard:
 * [For QNAP](http://bit.ly/1j5WtdN) 
 * [For Asustor](http://bit.ly/1pFr1rW)
+* [For Thecus] (http://bit.ly/1fAJukV)
 
 **Error: Rar Not Supported: No suitable RAR unpacker installed**
 
@@ -19,6 +20,13 @@ Sickbeard has ability to unpack RAR-archived releases but is distributed without
 Close Sickbeard, then delete _cache.db_ in your SickBeard directory. This may solve the problem. 
 
 If you still have the same issues, search the repository for the error message (without the specific provider name) and if there's an open issue, copy your log (at Debug level). If no such issue exists, open a new one. 
+
+**How to enable debug logging for better issue logging
+
+Shutdown Sickbeard, and edit the config.ini in your favourite editor. Add debug=1 in the configuration in the very first line and start sickbeard. 
+Once the error happens again, use the logfile, paste it on [pastebin] (http://pastebin.org) or an equivalent site and create, or update your issue.
+
+Don't forget to remove the debug line once you're done considering debug can be a bit spammy.
 
 **Cannot update Sickbeard-TVRage, Git gives FETCH_HEAD error.**
 
