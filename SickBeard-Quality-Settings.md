@@ -66,6 +66,20 @@ Custom Qualities use two special _categories_ and one special _setting_ to allow
 
 **Archive on First Match** Setting allows you to instruct SickBeard to download _only the first_ matched **Archive** Quality, even if multiple Qualities are selected
 
+####Basic Examples to Use Quality Settings#
+
+Say you have a show which is popular and easily available, and you want something HD, but not too big of a file size.  Your best Quality Setting choice may be the **Preset Quality** - **HD 720p**.  With that Preset Setting, you'll be able to grab a quick 720p release and keep your file size down.
+
+On the flip side of the coin, there are some shows out there that are tough to find, and releases are mixed and unreliable.  Your best Quality Setting choice may be the **Preset Quality** - **Any**.  That way, no matter what, when your show gets released, you'll grab a copy.
+
+Maybe you're a quality freak and you need to get your 1080p fix with your newest and swankiest TV.  If its just got to be the best for you, your best Quality Setting choice may be the **Preset Quality** - **HD 1080p**.
+
+####Advanced Examples#
+
+The usual use of the Custom Quality Settings is when you'd like to 
+
+
+
 
 
 ####Media Extensions#
