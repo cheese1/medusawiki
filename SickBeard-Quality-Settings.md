@@ -60,7 +60,7 @@ Preset Qualities are groups of Qualities where the **first** Quality that is fou
 * HD
     * HD TV or 1080p HD TV or 720p WEB-DL or 1080p WEB-DL or 720p BluRay or 1080p BluRay
 * Custom
-    ** Custom Quality gives you the Initial and Archive menus, outlined below  
+    * Custom Quality gives you the Initial and Archive menus, outlined below  
   
   
 
@@ -101,7 +101,7 @@ Say you want something that would normally fall under the Preset Quality of HD 7
 3) Select the Archive Qualities of HD 1080p, 1080p WEB-DL, and 1080p BluRay  
     * This _will_ download progressively higher quality 1080p releases until SickBeard reaches 1080p BluRay, only then will it stop  
 
-_Its a great show, I've got to get **Any** version for watching now, and **only one** 720p quality for a long-term collection_  (For the record, I call this the "Game of Thrones" Setting)
+_Its a great show, I've got to get **Any** version for watching now, and **only one** 720p quality for a long-term collection_  (For the record, I call this the "Game of Thrones" Setting)  
 So you need to watch it now and you'd be happy to watch any version quick! But its so good you'll watch it again and again, and your collection revolves around 720P episodes.  
 1) Choose the Preset Quality - Any  
 2) Change the Preset Quality to Custom.  You'll see that all of the Any Qualities are chosen under Initial  
