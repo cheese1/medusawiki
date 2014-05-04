@@ -4,4 +4,4 @@ Welcome to the SickBeard-TVRage wiki!
 
 [Episode Status](Episode Status)  
 
-[Quality Settings](Quality Status)
+[Quality Settings](Quality Settings)
