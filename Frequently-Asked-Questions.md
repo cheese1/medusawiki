@@ -28,6 +28,12 @@ Once the error happens again, use the logfile, paste it on [pastebin] (http://pa
 
 Don't forget to remove the debug line once you're done considering debug can be a bit spammy.
 
+**Reverse Proxy is not working.**
+
+Make the following changes to your config.ini file:
+* _web_host=0.0.0.0_
+* _localhost_ip=[your LAN IP]_
+
 **Cannot update Sickbeard-TVRage, Git gives FETCH_HEAD error.**
 
 Some times on your local Sickbeard distribution have been changed. 
