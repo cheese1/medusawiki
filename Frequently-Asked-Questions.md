@@ -15,6 +15,14 @@ Sickbeard has ability to unpack RAR-archived releases but is distributed without
 * RAR Binary for Linux x64: [UNRAR for Linux x64] (http://www.rarlab.com/rar/rarlinux-x64-5.1.b3.tar.gz)
 * RAR Binary for FreeBSD: [UNRAR for FreeBSD] (http://www.rarlab.com/rar/rarbsd-5.1.b3.tar.gz)
 
+**Releases have different show name than the one in SickRage, and are not snatched.**
+
+If you encounter releases that use different show name than the one from TVDb or TVRage that SickRage uses, you can add a Scene Exception to your show [Go to Show, Edit Show] with the name that the releases are using. 
+
+A common case is when TVDb show has a name without a year (i.e. _Revolution_), while releases add year of show premiere (i.e. _Revolution (2012)_)
+
+SickRage will now recognize this show by the official and all scene exception names you provide. 
+
 **Error while searching ..., skipping: 'NoneType' object is not iterable'''**
 
 Close Sickbeard, then delete _cache.db_ in your SickBeard directory. This may solve the problem. 
