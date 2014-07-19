@@ -4,6 +4,8 @@ Welcome to the SickRage wiki!
 <br>
 [Frequently Asked Questions](Frequently Asked Questions)
 <br>
+[Installation Instructions](Installation Instructions)
+<br>
 [Episode Status](Episode Status)
 <br>
 [Quality Settings](Quality Settings)
