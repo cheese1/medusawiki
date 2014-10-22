@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Install SickRage on Ubuntu](http://www.htpcguides.com/install-sickrage-ubuntu-14-04/)
 
 ### 3. Mac OSX
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Install SickRage on Ubuntu](http://www.htpcguides.com/install-sickrage-mac-osx-usenet-torrent-tv/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Install SickRage on Mac OSX](http://www.htpcguides.com/install-sickrage-mac-osx-usenet-torrent-tv/)
 
 ### 4. CentOS / RHEL / Fedora
 
