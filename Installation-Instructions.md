@@ -12,3 +12,6 @@
 ### 4. CentOS / RHEL / Fedora
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Installing SickRage on CentOS 6](CentOS 6)
+
+### 5. Raspberry Pi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Install SickRage on Raspberry Pi](http://www.htpcguides.com/install-sickrage-raspberry-pi-usenet-torrent-tv/)
