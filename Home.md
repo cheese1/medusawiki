@@ -1,6 +1,6 @@
 Welcome to the SickRage wiki!
 
-[Bugs and Issue Reports](http://sickrage.tv/forums/forum/help-support/bug-issue-reports)
+[Bugs and Issue Reports](http://github.com/sickragetv/sickrage-issues/issues)
 <br>
 [Frequently Asked Questions](Frequently Asked Questions)
 <br>
