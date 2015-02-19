@@ -1,5 +1,13 @@
 ## Frequently Asked Questions & Answers (FAQ)
 
+**Where are the LOG files?**
+
+It's inside SickRage folder
+/SickRage/Logs/sickrage.log
+
+Note: Synology users can use WinSCP to gain access/browse to the root where the Sickrage log is located.
+          /volume1/@appstore/sickbeard-custom/var/Logs/sickrage.log
+
 **Does SickRage support NAS hardware?**
 
 Yes. There are pre-built NAS versions of Sickbeard:
