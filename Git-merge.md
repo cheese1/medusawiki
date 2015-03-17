@@ -22,7 +22,7 @@ $ git push --tags origin master
 ```
 
 ### Merge a PR via command line ###
-* The PR must be merged into `SiCKRAGETV:develop`
+* The PR must be based on `SiCKRAGETV:develop`
 * The branch we want to commit is `fernandog:remote_tvcache_traceback`
 ```
 $ git checkout -b fernandog-remote_tvcache_traceback develop
@@ -34,7 +34,7 @@ $ git branch -d fernandog-remote_tvcache_traceback
 ```
 
 ### Merge a hotfix(master and develop) ###
-* The PR must be merged into `SiCKRAGETV:master`
+* The PR must be based on `SiCKRAGETV:master`
 * The branch we want to commit is `fernandog:remote_tvcache_traceback`
 ```
 $ git checkout -b fernandog-remote_tvcache_traceback develop
