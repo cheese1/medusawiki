@@ -7,7 +7,7 @@
 ### Index ###
 * [Merge develop into master](https://github.com/SiCKRAGETV/SickRage/wiki/Git-merge#merge-develop-into-master)
 * [Merge a PR via command line](https://github.com/SiCKRAGETV/SickRage/wiki/Git-merge#Merge-a-PR-via-command-line)
-* [Merge a hotfix(master and develop)](https://github.com/SiCKRAGETV/SickRage/wiki/Git-merge#Merge-a-hotfix(master-and-develop))
+* [Merge a hotfix(master and develop)](https://github.com/SiCKRAGETV/SickRage/wiki/Git-merge#merge-a-hotfixmaster-and-develop)
 
 ********
 
