@@ -17,7 +17,7 @@ Yes. There are pre-built NAS versions of SickRage:
 
 **Error: Rar Not Supported: No suitable RAR unpacker installed**
 
-SickRage has ability to unpack RAR-archived releases but require the external `unrar` command on Linux, Mac, FreeBSD and other Unix OS. In Windows, it use unrar.dll(x86) or unrar64.dll(x86_64) which are included in SickRage.
+SickRage has the ability to unpack RAR-archived releases but require the external `unrar` command on Linux, Mac, FreeBSD and other Unix OS. In Windows, it use unrar.dll(x86) or unrar64.dll(x86_64) which are included in SickRage.
 
 If you get this error, your need to make sure unrar is installed and available into PATH.
 
