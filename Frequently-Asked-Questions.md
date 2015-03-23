@@ -66,6 +66,6 @@ On Synology:
 * _cd /volume1/@appstore/sickbeard-custom/var_
 * _rm -Rf SickBeard_
 * Fresh clone
-** /volume1/@appstore/git/bin/git clone https://github.com/echel0n/SickBeard-TVRage.git SickBeard
+**/volume1/@appstore/git/bin/git clone https://github.com/echel0n/SickBeard-TVRage.git SickBeard
 * Start SB using Syno package tool
 * Enjoy!
