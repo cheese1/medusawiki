@@ -1,5 +1,5 @@
 ##Where are the LOG files?
-By default they are inside SickRage folder: `SickRage/Logs/sickrage.log`
+You can find the log files path in _Config->Help & Info_, look for *SR Log Dir*.
 
 *Note: Synology users can use WinSCP to gain access/browse to the root where the Sickrage log is located: `/volume1/@appstore/sickbeard-custom/var/Logs/sickrage.log`*
 
