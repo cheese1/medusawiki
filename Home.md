@@ -9,3 +9,5 @@ Welcome to the SickRage wiki!
 [Episode Status](Episode Status)
 <br>
 [Quality Settings](Quality Settings)
+<br>
+[Post Processing](Post Processing)
