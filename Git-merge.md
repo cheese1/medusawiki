@@ -37,7 +37,7 @@ $ git branch -d fernandog-remote_tvcache_traceback
 * The PR must be based on `SiCKRAGETV:master`
 * The branch we want to commit is `fernandog:remote_tvcache_traceback`
 ```
-$ git checkout -b fernandog-remote_tvcache_traceback develop
+$ git checkout -b fernandog-remote_tvcache_traceback master
 $ git pull https://github.com/fernandog/SickRage.git remote_tvcache_traceback
 $ git checkout master
 $ git merge --no-ff fernandog-remote_tvcache_traceback
