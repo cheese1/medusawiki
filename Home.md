@@ -11,3 +11,5 @@ Welcome to the SickRage wiki!
 [Quality Settings](Quality Settings)
 <br>
 [Post Processing](Post Processing)
+<br>
+[Download-episodes-file-from-SickRage-UI](Download-episodes-file-from-SickRage-UI)
