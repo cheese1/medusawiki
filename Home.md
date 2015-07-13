@@ -12,6 +12,6 @@ Welcome to the SickRage wiki!
 <br>
 [Post Processing](Post Processing)
 <br>
-[Donate](Donate)
+[Donations](Donations)
 <br>
 [Download-episodes-file-from-SickRage-UI](Download-episodes-file-from-SickRage-UI)
