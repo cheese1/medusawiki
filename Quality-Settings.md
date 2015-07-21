@@ -60,7 +60,7 @@ Preset Qualities are groups of Qualities where the **first** Quality that is fou
 * HD
     * HD TV or 1080p HD TV or 720p WEB-DL or 1080p WEB-DL or 720p BluRay or 1080p BluRay
 * Custom
-    * Custom Quality gives you the Initial and Archive menus, outlined below  
+    * Custom Quality gives you the Allowed and Preferred menus, outlined below  
   
   
 
@@ -72,7 +72,7 @@ The Custom Quality gives you a new menu where you can use two special _categorie
 
 **Preferred** Quality allows you to select a _second_ set of Qualities that instructs SickBeard to download _any successively better_ matched Quality, except where;
 
-**Archive on First Match** Setting allows you to instruct SickBeard to download _only the first_ matched **Archive** Quality, even if multiple Qualities are selected
+**Archive on First Match** Setting allows you to instruct SickBeard to download _only the first_ matched **Preferred** Quality, even if multiple Qualities are selected
   
   
 
@@ -89,27 +89,27 @@ Maybe you're a quality freak and you need to get your 1080p fix with your newest
 ####Advanced Custom Examples#
 
 _I Only Want WEB-DLs_  
-Use the Custom setting to choose the Initial Qualities of 720p WEB-DL and 1080p WEB-DL.  Nothing but WEB-DLs for you!
+Use the Custom setting to choose the Allowed Qualities of 720p WEB-DL and 1080p WEB-DL.  Nothing but WEB-DLs for you!
 
 _I'm an Archivist, give me it all!_  
-Use the Custom setting to choose the Initial Quality of SD, and choose every other Quality under the Archive Qualities.  As a fair warning: This will download **every** release that comes out for that show in order of increasing quality, as they are released.
+Use the Custom setting to choose the Allowed Quality of SD, and choose every other Quality under the Preferred Qualities.  As a fair warning: This will download **every** release that comes out for that show in order of increasing quality, as they are released.
 
 _I want a version for watching now, and at least one 1080p quality for a long-term collection_  
 Say you want something that would normally fall under the Preset Quality of HD 720p, but you also would like to have a 1080p version for your long-term collection.
 1) Choose the Preset Quality - HD 720p  
-2) Change the Preset Quality to Custom.  You'll see that all of the HD 720p Qualities are chosen under Initial  
-3) Select the Archive Qualities of HD 1080p, 1080p WEB-DL, and 1080p BluRay  
+2) Change the Preset Quality to Custom.  You'll see that all of the HD 720p Qualities are chosen under Allowed  
+3) Select the Preferred Qualities of HD 1080p, 1080p WEB-DL, and 1080p BluRay  
     * This _will_ download progressively higher quality 1080p releases until SickBeard reaches 1080p BluRay, only then will it stop  
 
 _Its a great show, I've got to get **Any** version for watching now, and **only one** 720p quality for a long-term collection_  (For the record, I call this the "Game of Thrones" Setting)  
 So you need to watch it now and you'd be happy to watch any version quick! But its so good you'll watch it again and again, and your collection revolves around 720P episodes.  
 1) Choose the Preset Quality - Any  
-2) Change the Preset Quality to Custom.  You'll see that all of the Any Qualities are chosen under Initial  
-3) Select the Archive Qualities of HD 720p, 720p WEB-DL, and 720p BluRay  
+2) Change the Preset Quality to Custom.  You'll see that all of the Any Qualities are chosen under Allowed  
+3) Select the Preferred Qualities of HD 720p, 720p WEB-DL, and 720p BluRay  
 4) Save the page (this will activate the Archive on First Match feature) and then come back to the same Edit page  
 5) Check off the **Archive on First Match** Setting  
 
-This will allow you to get your grubby little hands on the first release that hits the interwebz, and as soon as **any one** of the 720p qualities is released, SickBeard will download the **first only** and then stop!  No multiple Archive downloads for you, just viewing pleasure :)  
+This will allow you to get your grubby little hands on the first release that hits the interwebz, and as soon as **any one** of the 720p qualities is released, SickBeard will download the **first only** and then stop!  No multiple Preferred downloads for you, just viewing pleasure :)  
   
   
   
