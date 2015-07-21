@@ -68,9 +68,9 @@ Preset Qualities are groups of Qualities where the **first** Quality that is fou
 
 The Custom Quality gives you a new menu where you can use two special _categories_ and one special _setting_ to allow for additional customization of your desired SickBeard Quality Settings: the **Initial** Quality and **Archive** Quality Categories, and the **Archive on First Match** setting.
 
-**Initial** Quality allows you to select a custom set of Qualities that instructs SickBeard to download _only the first_ matched Quality
+**Allowed** Quality allows you to select a custom set of Qualities that instructs SickBeard to download _only the first_ matched Quality
 
-**Archive** Quality allows you to select a _second_ set of Qualities that instructs SickBeard to download _any successively better_ matched Quality, except where;
+**Preferred** Quality allows you to select a _second_ set of Qualities that instructs SickBeard to download _any successively better_ matched Quality, except where;
 
 **Archive on First Match** Setting allows you to instruct SickBeard to download _only the first_ matched **Archive** Quality, even if multiple Qualities are selected
   
