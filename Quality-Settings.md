@@ -1,5 +1,5 @@
 ###Quality Settings#
-A major part of SickBeard's functionality is built around the Quality Settings.  The Quality Settings allow you to instruct SickBeard to Snatch a show's release, or leave it alone.
+A major part of SickRage's functionality is built around the Quality Settings.  The Quality Settings allow you to instruct SickRage to Snatch a show's release, or leave it alone.
   
   
 
@@ -66,13 +66,13 @@ Preset Qualities are groups of Qualities where the **first** Quality that is fou
 
 ####Custom Qualities#
 
-The Custom Quality gives you a new menu where you can use two special _categories_ and one special _setting_ to allow for additional customization of your desired SickBeard Quality Settings: the **Allowed** Quality and **Preferred** Quality Categories, and the **Archive on First Match** setting.
+The Custom Quality gives you a new menu where you can use two special _categories_ and one special _setting_ to allow for additional customization of your desired SickRage Quality Settings: the **Allowed** Quality and **Preferred** Quality Categories, and the **Archive on First Match** setting.
 
-**Allowed** Quality allows you to select a custom set of Qualities that instructs SickBeard to download _only the first_ matched Quality
+**Allowed** Quality allows you to select a custom set of Qualities that instructs SickRage to download _only the first_ matched Quality
 
-**Preferred** Quality allows you to select a _second_ set of Qualities that instructs SickBeard to download _any successively better_ matched Quality, except where;
+**Preferred** Quality allows you to select a _second_ set of Qualities that instructs SickRage to download _any successively better_ matched Quality, except where;
 
-**Archive on First Match** Setting allows you to instruct SickBeard to download _only the first_ matched **Preferred** Quality, even if multiple Qualities are selected
+**Archive on First Match** Setting allows you to instruct SickRage to download _only the first_ matched **Preferred** Quality, even if multiple Qualities are selected
   
   
 
@@ -99,7 +99,7 @@ Say you want something that would normally fall under the Preset Quality of HD 7
 1) Choose the Preset Quality - HD 720p  
 2) Change the Preset Quality to Custom.  You'll see that all of the HD 720p Qualities are chosen under Allowed  
 3) Select the Preferred Qualities of HD 1080p, 1080p WEB-DL, and 1080p BluRay  
-    * This _will_ download progressively higher quality 1080p releases until SickBeard reaches 1080p BluRay, only then will it stop  
+    * This _will_ download progressively higher quality 1080p releases until SickRage reaches 1080p BluRay, only then will it stop  
 
 _Its a great show, I've got to get **Any** version for watching now, and **only one** 720p quality for a long-term collection_  (For the record, I call this the "Game of Thrones" Setting)  
 So you need to watch it now and you'd be happy to watch any version quick! But its so good you'll watch it again and again, and your collection revolves around 720P episodes.  
@@ -109,7 +109,7 @@ So you need to watch it now and you'd be happy to watch any version quick! But i
 4) Save the page (this will activate the Archive on First Match feature) and then come back to the same Edit page  
 5) Check off the **Archive on First Match** Setting  
 
-This will allow you to get your grubby little hands on the first release that hits the interwebz, and as soon as **any one** of the 720p qualities is released, SickBeard will download the **first only** and then stop!  No multiple Preferred downloads for you, just viewing pleasure :)  
+This will allow you to get your grubby little hands on the first release that hits the interwebz, and as soon as **any one** of the 720p qualities is released, SickRage will download the **first only** and then stop!  No multiple Preferred downloads for you, just viewing pleasure :)  
   
   
   
