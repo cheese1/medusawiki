@@ -2,7 +2,7 @@
 
 SickBeard uses a variety of Episode Status settings to manage your TV Shows.
 
-The Status Types reflect a number of different episode and show states within SickBeard. It can have an effect on:  
+The Status Types reflect a number of different episode and show states within SickRage. It can have an effect on:  
 
 * Wanted State
 * Downloaded State
