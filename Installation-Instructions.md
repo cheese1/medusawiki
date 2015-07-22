@@ -53,13 +53,13 @@ The installation assumes that you're not using the root user to install/run sick
     ```bash
     # SickRage service configuration
     
-    #run Sickbeard as
-    SB_USER=media
-    SB_HOME=/usr/share/sickrage
-    SB_DATA=/usr/share/sickrage
-    SB_PIDFILE=/usr/share/sickrage/sickrage.pid
+    #run SickRage as
+    SR_USER=media
+    SR_HOME=/usr/share/sickrage
+    SR_DATA=/usr/share/sickrage
+    SR_PIDFILE=/usr/share/sickrage/sickrage.pid
     
-    #gui address, eg: \${protocol}://\${host}:\${port}/sickrage/
+    #gui address, eg: \${protocol}://\${host}:\${port}/home/
     protocol=http
     host='<<< hostname or IP >>>' #example host=mymachine
     port='<<<Desired Port>>>'     #example port=8081
@@ -73,7 +73,7 @@ The installation assumes that you're not using the root user to install/run sick
     #  example: nicecmd="nice -n 19 ionice -c3"
     ```
 
-9. Add the sickbeard service to system services
+9. Add the sickrage service to system services
     
     ```bash
     sudo chkconfig --add sickrage
