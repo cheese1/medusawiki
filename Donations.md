@@ -11,6 +11,6 @@ Current active team members:
 <br/>
 [fernandog](https://github.com/fernandog) - Admin/Moderator/Contributor
 <br/>
-[WebSpider](https://github.com/WebSpider) - Moderator/Developer
+[medariox](https://github.com/medariox) - Moderator/Developer
 <br/>
 [neoatomic](https://github.com/neoatomic) - Moderator/Support bitcoin:3NDyJxQ5BLfTYvry9TYYhpQnfPfvqSjAAU
