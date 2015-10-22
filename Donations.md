@@ -7,7 +7,7 @@ However there are more ways to help. If you are familiar with Python, HTML, Java
  
 Current active team members:
 
-[miigotu](https://github.com/miigotu)   - Admin/Developer/Maintainer [![PayPayl donate button](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=miigotu%40gmail%2ecom&lc=US&item_name=SickRage&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted "Donate using paypal")
+[miigotu](https://github.com/miigotu)   - Admin/Developer/Maintainer [![PayPayl donate button](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=miigotu%40gmail%2ecom&lc=US&item_name=SickRage&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted "Donate using paypal") bitcoin:3KZAwEPhp1uWzGZ6Yo9wsN16yXvSToEj3n
 <br/>
 [fernandog](https://github.com/fernandog) - Admin/Moderator/Contributor
 <br/>
