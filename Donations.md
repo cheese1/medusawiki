@@ -13,4 +13,4 @@ Current active team members:
 <br/>
 [WebSpider](https://github.com/WebSpider) - Moderator/Developer
 <br/>
-[neoatomic](https://github.com/neoatomic) - Moderator/Support
+[neoatomic](https://github.com/neoatomic) - Moderator/Support bitcoin:3NDyJxQ5BLfTYvry9TYYhpQnfPfvqSjAAU
