@@ -13,4 +13,4 @@ Current active team members:
 <br/>
 [medariox](https://github.com/medariox) - Moderator/Developer  
 <br/>
-[neoatomic](https://github.com/neoatomic) - Moderator/Support bitcoin:3NDyJxQ5BLfTYvry9TYYhpQnfPfvqSjAAU  
+[neoatomic](https://github.com/neoatomic) - Moderator/Support  [![BitCoin donate button](https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957762%2F313cd946-831c-11e5-91e0-a69ba6fae6dd.png)](https://greenaddress.it/pay/GAua8uEhuZvvTFy1Bdwwon9wpUPB8 "Donate using Bitcoin")  
