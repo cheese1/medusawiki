@@ -7,13 +7,10 @@ However there are more ways to help. If you are familiar with Python, HTML, Java
  
 Current active team members:
 
-[miigotu](https://github.com/miigotu)   - Admin/Developer/Maintainer [![PayPayl donate button](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=miigotu%40gmail%2ecom&lc=US&item_name=SickRage&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted "Donate using paypal") bitcoin:3KZAwEPhp1uWzGZ6Yo9wsN16yXvSToEj3n
-
+[miigotu](https://github.com/miigotu)   - Admin/Developer/Maintainer  [![PayPal donate button](https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957731%2Fdf1228ce-831b-11e5-9f1b-d5ee712d392d.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=miigotu%40gmail%2ecom&lc=US&item_name=SickRage&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted "Donate using paypal") [![BitCoin donate button](https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957762%2F313cd946-831c-11e5-91e0-a69ba6fae6dd.png)](https://greenaddress.it/pay/GA29eVg6dJ77gUASLdEVnF3v6GGf7d "Donate using Bitcoin")  
 <br/>
-[fernandog](https://github.com/fernandog) - Admin/Moderator/Contributor
-
+[fernandog](https://github.com/fernandog) - Admin/Moderator/Contributor  
 <br/>
-[medariox](https://github.com/medariox) - Moderator/Developer
-
+[medariox](https://github.com/medariox) - Moderator/Developer  
 <br/>
-[neoatomic](https://github.com/neoatomic) - Moderator/Support bitcoin:3NDyJxQ5BLfTYvry9TYYhpQnfPfvqSjAAU
+[neoatomic](https://github.com/neoatomic) - Moderator/Support bitcoin:3NDyJxQ5BLfTYvry9TYYhpQnfPfvqSjAAU  
