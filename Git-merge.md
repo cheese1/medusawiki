@@ -1,13 +1,13 @@
 ### Requirement ###
 * Git
-* A clone of [Sickrage repo](https://github.com/SiCKRAGETV/SickRage.git)
+* A clone of [Sickrage repo](https://github.com/SickRage/SickRage.git)
 
 ********
 
 ### Index ###
-* [Merge develop into master](https://github.com/SiCKRAGETV/SickRage/wiki/Git-merge#merge-develop-into-master)
-* [Merge a PR via command line](https://github.com/SiCKRAGETV/SickRage/wiki/Git-merge#Merge-a-PR-via-command-line)
-* [Merge a hotfix(master and develop)](https://github.com/SiCKRAGETV/SickRage/wiki/Git-merge#merge-a-hotfixmaster-and-develop)
+* [Merge develop into master](https://github.com/SickRage/SickRage/wiki/Git-merge#merge-develop-into-master)
+* [Merge a PR via command line](https://github.com/SickRage/SickRage/wiki/Git-merge#Merge-a-PR-via-command-line)
+* [Merge a hotfix(master and develop)](https://github.com/SickRage/SickRage/wiki/Git-merge#merge-a-hotfixmaster-and-develop)
 
 ********
 
@@ -22,7 +22,7 @@ $ git push --tags origin master
 ```
 
 ### Merge a PR via command line ###
-* The PR must be based on `SiCKRAGETV:develop`
+* The PR must be based on `SickRage:develop`
 * The branch we want to commit is `fernandog:remote_tvcache_traceback`
 ```
 $ git checkout -b fernandog-remote_tvcache_traceback develop
@@ -34,7 +34,7 @@ $ git branch -d fernandog-remote_tvcache_traceback
 ```
 
 ### Merge a hotfix(master and develop) ###
-* The PR must be based on `SiCKRAGETV:master`
+* The PR must be based on `SickRage:master`
 * The branch we want to commit is `fernandog:remote_tvcache_traceback`
 ```
 $ git checkout -b fernandog-remote_tvcache_traceback master

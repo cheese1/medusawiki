@@ -1,7 +1,7 @@
 Welcome to the SickRage wiki!
 
-[Bugs and Issue Reports](http://github.com/sickragetv/sickrage-issues/issues)
+[Bugs and Issue Reports](http://github.com/SickRage/sickrage-issues/issues)
 <br>
-[Donations] (https://github.com/SiCKRAGETV/SickRage/wiki/Donations)
+[Donations] (https://github.com/SickRage/SickRage/wiki/Donations)
 <br>
-[GIT merge](https://github.com/SiCKRAGETV/SickRage/wiki/Git-merge)
+[GIT merge](https://github.com/SickRage/SickRage/wiki/Git-merge)
