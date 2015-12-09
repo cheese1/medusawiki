@@ -20,3 +20,5 @@ Current active team members:
 [VinceVal](https://github.com/VinceVal) - Moderator/Developer/Support  
 ***
 [Labrys](https://github.com/labrys) - Moderator/Developer/Support  
+***
+[supergonkas](https://github.com/duramato) - Moderator/Contributer/Support
