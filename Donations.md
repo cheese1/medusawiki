@@ -21,4 +21,4 @@ Current active team members:
 ***
 [Labrys](https://github.com/labrys) - Moderator/Developer/Support  
 ***
-[supergonkas](https://github.com/duramato) - Moderator/Contributer/Support
+[supergonkas](https://github.com/duramato) - Moderator/Contributer/Support Donate to teh [RedCross](http://www.cruzvermelha.pt/donativos.html)
