@@ -2,7 +2,7 @@
 [What is SickRage?](https://github.com/SickRage/sickrage-issues/wiki/What-is-SickRage%3F)  
 [Guides](https://github.com/SickRage/sickrage-issues/wiki/Installation-&-Configuration-Guides)  
 [FAQ's and Fixes](https://github.com/SickRage/sickrage-issues/wiki/FAQ%27s-and-Fixes)  
-[Quality Settings](https://github.com/SickRage/SickRage/wiki/Quality-Settings)
+[Quality Settings](https://github.com/SickRage/SickRage/wiki/Quality-Settings)  
 [Installation packages](https://github.com/SickRage/sickrage-issues/wiki/Sickrage-installation-packages)  
 [Main settings explained](https://github.com/SickRage/sickrage-issues/wiki/Settings-explained)  
 [Show settings explained](https://github.com/SickRage/sickrage-issues/wiki/Show-settings-explained)  
