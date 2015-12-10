@@ -1,4 +1,4 @@
-Welcome to the SickRage wiki!
+(Full wiki is HERE)[https://github.com/SickRage/sickrage-issues/wiki]  
 
 [Bugs and Issue Reports](http://github.com/SickRage/sickrage-issues/issues)
 <br>
