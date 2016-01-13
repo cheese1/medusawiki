@@ -19,6 +19,6 @@ Current active team members:
 ***
 [VinceVal](https://github.com/VinceVal) - Moderator/Developer/Support  
 ***
-[Labrys](https://github.com/labrys) - Moderator/Developer/Support  
+[Labrys](https://github.com/labrys) - Moderator/Developer/Support : Donate to the [<img src="https://www.eff.org/files/2014/01/24/eff-logo-plain-72.jpg" width="32" alt="Electronic Frontier Foundation">Electronic Frontier Foundation](https://supporters.eff.org/donate)
 ***
 [supergonkas](https://github.com/duramato) - Moderator/Contributer/Support , Feel free to donate to the PT [Red Cross](http://www.cruzvermelha.pt/donativos.html) 
