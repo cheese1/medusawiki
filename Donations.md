@@ -21,4 +21,4 @@ Current active team members:
 ***
 [Labrys](https://github.com/labrys) - Moderator/Developer/Support : Donate to the [<img src="https://www.eff.org/files/2014/01/24/eff-logo-plain-72.jpg" width="32" alt="Electronic Frontier Foundation">Electronic Frontier Foundation](https://supporters.eff.org/donate)
 ***
-[supergonkas](https://github.com/duramato) - Moderator/Contributer/Support , Feel free to donate to the PT [Red Cross](http://www.cruzvermelha.pt/donativos.html) [<img src="http://www.cruzvermelha.pt/favicon.ico" width="32" alt="Red Cross">](http://www.cruzvermelha.pt/donativos.html) I also torrent tracker invites
+[supergonkas](https://github.com/duramato) - Moderator/Contributer/Support , Feel free to donate to the PT [Red Cross](http://www.cruzvermelha.pt/donativos.html) [<img src="http://www.cruzvermelha.pt/favicon.ico" width="32" alt="Red Cross">](http://www.cruzvermelha.pt/donativos.html)    I also torrent tracker invites
