@@ -1,13 +1,13 @@
 ### Requirement ###
 * Git
-* A clone of [Sickrage repo](https://github.com/SickRage/SickRage.git)
+* A clone of [Sickrage repo](https://github.com/PyMedusa/SickRage.git)
 
 ********
 
 ### Index ###
-* [Merge develop into master](https://github.com/SickRage/SickRage/wiki/Git-merge#merge-develop-into-master)
-* [Merge a PR via command line](https://github.com/SickRage/SickRage/wiki/Git-merge#Merge-a-PR-via-command-line)
-* [Merge a hotfix(master and develop)](https://github.com/SickRage/SickRage/wiki/Git-merge#merge-a-hotfixmaster-and-develop)
+* [Merge develop into master](https://github.com/PyMedusa/SickRage/wiki/Git-merge#merge-develop-into-master)
+* [Merge a PR via command line](https://github.com/PyMedusa/SickRage/wiki/Git-merge#Merge-a-PR-via-command-line)
+* [Merge a hotfix(master and develop)](https://github.com/PyMedusa/SickRage/wiki/Git-merge#merge-a-hotfixmaster-and-develop)
 
 ********
 
