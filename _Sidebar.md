@@ -1,4 +1,4 @@
-[Wiki Home](https://github.com/PyMedusa/SickRage-issues/wiki)  
+[Wiki Home](https://github.com/PyMedusa/SickRage/wiki)  
 [What is SickRage?](https://github.com/PyMedusa/SickRage/wiki/What-is-SickRage%3F)  
 [Guides](https://github.com/PyMedusa/SickRage/wiki/Installation-&-Configuration-Guides)  
 [FAQ's and Fixes](https://github.com/PyMedusa/SickRage/wiki/FAQ%27s-and-Fixes)  
