@@ -22,4 +22,3 @@ I also accept torrent tracker invites
 ***
 [OmgImAlexis](https://github.com/OmgImAlexis) -  [![PayPal donate button](https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957731%2Fdf1228ce-831b-11e5-9f1b-d5ee712d392d.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MXNTEL7HLGFQA)  
 ***
-[VinceVal](https://github.com/VinceVal)
