@@ -154,7 +154,7 @@ Lets you set the default status of shows that have been deleted or have already 
 #### GitHub  
 
 `Branch version:`  
-This shows the Sickrage versions you can select. Master branch is the default and the Develop branch is hidden, and can only be access if a GitHub account is added. However end-users should always use Master and only switch to Develop if asked.  
+This shows the Medusa versions you can select. Master branch is the default and the Develop branch is hidden, and can only be access if a GitHub account is added. However end-users should always use Master and only switch to Develop if asked.  
 `GitHub username`  
 Here you can add your GitHub username.  
 `GitHub password`  
@@ -202,11 +202,11 @@ Lets you set the Backlog search frequency. Backlog is only used if episodes cant
 `Daily search frequency`  
 Lets you set the Daily search frequency. This is the main search for finding episodes. The default recommendation is 120 minutes. Dont go below 30 minutes!.  
 `Usenet retention`  
-If you use NZB's than check what the retention of your Usenet server is and add the value in this field. This prevents Sickrage from sending episode NZB's that are not on your Usenet server anymore. Most payed Usenet servers have a retention above 1000 days, but ISP servers generally offer much less like 31 days.  
+If you use NZB's than check what the retention of your Usenet server is and add the value in this field. This prevents Medusa from sending episode NZB's that are not on your Usenet server anymore. Most payed Usenet servers have a retention above 1000 days, but ISP servers generally offer much less like 31 days.  
 `Ignore words`  
 If Medusa comes across any of those words in the title of a search result, the result will be SKIPPED. Apply's to all shows. USE WITH CAUTION!   
 `Require words`  
-Sickrage SKIPPES/IGNORES all search results that dont have those words in the title. Apply's to all shows. USE WITH CAUTION!  
+Medusa SKIPPES/IGNORES all search results that dont have those words in the title. Apply's to all shows. USE WITH CAUTION!  
 `Allow high priority`  
 This sets downloads of recently aired episodes to high priority. So those get priority over already aired episodes. Some download clients like SABnzb allow sending with high priority to prioritize downloads.  
 `Daily search on startup`  
@@ -226,7 +226,7 @@ Removes files left behind from a failed download. Needs to have failed downloads
 `Search NZBs`  
 Enable this setting if you plan to use NZB's and usenet to snatch your shows.  
 `Send .nzb files to:`  
-Select you download client. Currently the directly supported NZB clients are SABnzbd and NZBget. However for all other clients you can use the blackhole method. With this method Sickrage places the NZB in a folder of your choosing. Simply let your download client monitor that folder for new NZB files. And the download client does the rest. This makes Medusa compatible with almost every download client out there.  
+Select you download client. Currently the directly supported NZB clients are SABnzbd and NZBget. However for all other clients you can use the blackhole method. With this method Medusa places the NZB in a folder of your choosing. Simply let your download client monitor that folder for new NZB files. And the download client does the rest. This makes Medusa compatible with almost every download client out there.  
 `SABnzbd server URL`  
 Add the URL where your SABnzbd client is located.  
 `SABnzbd username`  
