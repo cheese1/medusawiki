@@ -1,6 +1,6 @@
 ### Requirement ###
 * Git
-* A clone of [Sickrage repo](https://github.com/PyMedusa/Medusa.git)
+* A clone of [Medusa repo](https://github.com/PyMedusa/Medusa.git)
 
 ********
 
