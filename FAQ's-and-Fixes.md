@@ -25,7 +25,7 @@
 ##Where are the LOG files located?
 You can find the log files path in _Config->Help & Info_, look for *SR Log Dir*.
 
-*Note: Synology users can use WinSCP to gain access/browse to the root where the Sickrage log is located: `/volume1/@appstore/sickrage/var/Logs/sickrage.log`*  
+*Note: Synology users can use WinSCP to gain access/browse to the root where the Medusa log is located: `/volume1/@appstore/sickrage/var/Logs/sickrage.log`*  
 
 ## How do i enable debug logs to get more detailed information in my logs?  
 Go to settings (gearwheels) ---> General ---> Advanced Settings. Enable the setting `Enable debug`. Or set in manually in your config.ini. The line is called `debug = 0` replace the 0 with 1 and save. (Make sure Medusa is not running!)
@@ -34,7 +34,7 @@ If you like to upload the log you can use [pastebin] (http://pastebin.org) or an
 ##Does Medusa support NAS devices?
 Yes. There are pre-built NAS versions of Medusa:
 * Synology, QNAP, Asustor, Thecus and many others.  
-See the [Medusa installation packages](https://github.com/pyMedusa/SickRage/wiki/Sickrage-installation-packages) section.  
+See the [Medusa installation packages](https://github.com/pyMedusa/SickRage/wiki/Medusa-installation-packages) section.  
 
 
 ##(scene exceptions) Releases have a different show name than in Medusa, and are not snatched?
@@ -105,7 +105,7 @@ To install `unrar`:
 
 ## I'm getting SSL errors what now?
 A SSL error looks generally something like this: `_ssl.c:499: error:14077438:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert internal error`  
-They are mainly the cause of not having Python installed correctly. Python needs to have the pyOpenSSL & cryptography modules installed to handle HTTPS connections. For more information see the [SSL Errors](https://github.com/pyMedusa/SickRage/wiki/SSL-Errors) section. Note, [QNAP](https://github.com/pyMedusa/SickRage/wiki/Sickrage-installation-packages#qnap) users need to have a recent Medusa package installed.
+They are mainly the cause of not having Python installed correctly. Python needs to have the pyOpenSSL & cryptography modules installed to handle HTTPS connections. For more information see the [SSL Errors](https://github.com/pyMedusa/SickRage/wiki/SSL-Errors) section. Note, [QNAP](https://github.com/pyMedusa/SickRage/wiki/Medusa-installation-packages#qnap) users need to have a recent Medusa package installed.
 
 ## Can i support Medusa? How?
 Yes, of course you can! We are always looking for help. If you are familiar with Python, HTML, Java or other programming languages, please give a shout. Also, if you have experience moderating and want to help users by solving/answering their basic questions regarding Medusa, feel free to help on the Medusa [Issue Tracker](https://github.com/pyMedusa/SickRage/issues) and [IRC Channel](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#pymedusa). Last there is, of course, the option to [Donate](https://github.com/pyMedusa/SickRage/wiki/Donations) that helps us pay for the upkeep/maintaining cost of the Medusa project.  
@@ -143,7 +143,7 @@ git reset --hard origin/master
 git pull
 ````
 When you get the below error and cant update, then check the line `git_remote = origin` in your config.ini.  
-Its probbebly missing the `origin`. If so, shutdown Sickrage and add it. Then restart. 
+Its probbebly missing the `origin`. If so, shutdown Medusa and add it. Then restart. 
 
 `git pull -f master returned : fatal: 'master' does not appear to be a git repository`  
 
@@ -157,12 +157,12 @@ Synology & QNAP users can use [WinSCP](https://winscp.net/eng/download.php) to a
 
 ## How to switch to the new Repo?
 
-Luckily it's very easy, but it depends a little on what device you are running Sickrage.
+Luckily it's very easy, but it depends a little on what device you are running Medusa.
 The quickest way is to switch with a few simple Git commands, which is explained below: 
 
-First make a backup from within Sickrage, or manually backup `config.ini` & `sickbeard.db`.
+First make a backup from within Medusa, or manually backup `config.ini` & `sickbeard.db`.
 
-Note: You need to run the below commands in your Medusa folder. And make sure you run the commands with the same User as you run Sickrage with, or permission problems may occur.
+Note: You need to run the below commands in your Medusa folder. And make sure you run the commands with the same User as you run Medusa with, or permission problems may occur.
 
 
 * First stop the Medusa service
@@ -174,12 +174,12 @@ git prune && git remote prune origin
 git reset --hard origin/master
 ```
 
-* Start the Sickrage service
+* Start the Medusa service
 * Do another restart of Medusa so all changes can take effect
 
-If you installed Sickrage with an installer than check the [installation packages](https://github.com/pyMedusa/SickRage/wiki/Sickrage-installation-packages) wiki for a new version. Then simply reinstall with that new  installer, and restore the backup. The above procedure isn't necessary than. But it also works.  
-Synology users can find a How-to [here](https://github.com/pyMedusa/SickRage/wiki/Switching-your-Synology's-Sickrage-to-the-new-repository). And for Windows users making a backup, and reinstalling with the latest [Windows installer](https://github.com/VinceVal/SickRageInstaller/releases/latest) is advised.  
-More info on packages/installers you can find [here](https://github.com/pyMedusa/SickRage/wiki/Sickrage-installation-packages)
+If you installed Medusa with an installer than check the [installation packages](https://github.com/pyMedusa/SickRage/wiki/Medusa-installation-packages) wiki for a new version. Then simply reinstall with that new  installer, and restore the backup. The above procedure isn't necessary than. But it also works.  
+Synology users can find a How-to [here](https://github.com/pyMedusa/SickRage/wiki/Switching-your-Synology's-Medusa-to-the-new-repository). And for Windows users making a backup, and reinstalling with the latest [Windows installer](https://github.com/VinceVal/SickRageInstaller/releases/latest) is advised.  
+More info on packages/installers you can find [here](https://github.com/pyMedusa/SickRage/wiki/Medusa-installation-packages)
 
 Note : As of February 2016 the old repo has bumped the database version (sickbeard.db) from v42 to v44 without any changes. Just to frustrate/discourage users from switching. It still works fine, but you will get a warning during startup that its outdated. If you are annoyed with the warning message and are familiar with SQL than you can run the below commands.:  
 `sqlite3 sickbeard.db 'UPDATE db_version SET db_version=42, db_minor_version=1' `  
@@ -194,9 +194,9 @@ In rare cases the Post Processing stops working and will show a negative time in
 
 ## What is a network time zone warning?
 
-Sickrage uses a file called [network_timezones.txt](https://github.com/pyMedusa/sickrage.github.io/blob/master/sb_network_timezones/network_timezones.txt) to check the timezone of a tv channel.
-This allows Sickrage to calculate the exact time that a show airs in your OWN timezone. When it's 12:00 in Europe its 04:00-06:00 in the US etc.
-By knowing this Sickrage can start searching on a more precise time. This might help downloading an episode quicker. (depending on the timezone where you are located.) If there isn't a tv timezone known to Sickrage it will start searching by date, so at 0:00 midnight local time.
+Medusa uses a file called [network_timezones.txt](https://github.com/pyMedusa/sickrage.github.io/blob/master/sb_network_timezones/network_timezones.txt) to check the timezone of a tv channel.
+This allows Medusa to calculate the exact time that a show airs in your OWN timezone. When it's 12:00 in Europe its 04:00-06:00 in the US etc.
+By knowing this Medusa can start searching on a more precise time. This might help downloading an episode quicker. (depending on the timezone where you are located.) If there isn't a tv timezone known to Medusa it will start searching by date, so at 0:00 midnight local time.
 
 An network time zone warning will look like this: 
 
@@ -206,7 +206,7 @@ When you come across such a warning you can add the tv channel and timezone to t
 
 ## Unable to sent torrent to Synology Download station.
 
-Sickrage supports Synology's Download Station, but some users can run into problems setting it up correctly.  
+Medusa supports Synology's Download Station, but some users can run into problems setting it up correctly.  
 One of those is : `WARNING SEARCHQUEUE-BACKLOG-281620 :: [9149089] DownloadStation: Unable to send Torrent `  
 
 There are a few things you should check if this happens.  
@@ -217,6 +217,6 @@ First check it the connection test works in the search settings. If that does wo
 * If its a custom created folder than set share (folder) permissions in the sc-media & sc-download user-groups.
 * If using DSM 6 than remove `/volume1/` from the [path](https://github.com/pyMedusa/sickrage-issues/issues/610#issuecomment-181091059 ) in the search settings. 
 
-When all fails than you could also use the black-hole method as a work around. Sickrage will store the nzb/torrent in a folder of your choosing.
+When all fails than you could also use the black-hole method as a work around. Medusa will store the nzb/torrent in a folder of your choosing.
 Then simply set DS to monitor that folder for nzbs and torrents. As soon as one is found the download will start. 
 
