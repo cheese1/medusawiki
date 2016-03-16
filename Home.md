@@ -1,4 +1,4 @@
-### ![](https://avatars2.githubusercontent.com/u/9251163?v=3&s=30) Medusa Wiki
+Medusa Wiki
 
 
   
