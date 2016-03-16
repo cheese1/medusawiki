@@ -2,7 +2,6 @@
 [What is Medusa?](https://github.com/pyMedusa/SickRage/wiki/What-is-Medusa%3F)  
 [Guides](https://github.com/pyMedusa/SickRage/wiki/Installation-&-Configuration-Guides)  
 [FAQ's and Fixes](https://github.com/pyMedusa/SickRage/wiki/FAQ%27s-and-Fixes)  
-[Installation packages](https://github.com/pyMedusa/SickRage/wiki/Medusa-installation-packages)  
 [Main settings explained](https://github.com/pyMedusa/SickRage/wiki/Settings-explained)  
 [Show settings explained](https://github.com/pyMedusa/SickRage/wiki/Show-settings-explained)  
 [Remaining settings expla](https://github.com/pyMedusa/SickRage/wiki/Remaining-settings-explained)  
