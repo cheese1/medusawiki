@@ -1,12 +1,12 @@
 ### The Ultimate Medusa Linux Guide
 
-This guide will detail setting up Sickrage on a Linux machine, along with all the bells and whistles. This ultimate guide was written based on a real-world setup, and, may or may not be what your end desire is, but it should be generalized enough to help you on your quest for the solution that fits your needs perfectly.
+This guide will detail setting up Medusa on a Linux machine, along with all the bells and whistles. This ultimate guide was written based on a real-world setup, and, may or may not be what your end desire is, but it should be generalized enough to help you on your quest for the solution that fits your needs perfectly.
 
 ###### Specific Sections:
 * Installation
     * [Prerequisites](#prerequisites)
     * [Linux Setup](#linux-setup)
-    * [Medusa Installation](#sickrage-installation)
+    * [Medusa Installation](#medusa-installation)
     * [Deluge Installation](#deluge-installation)
     * [Plex Media Server Installation](#plex-media-server-installation)
     * [OpenVPN](#openvpn)
@@ -27,7 +27,7 @@ This guide will cover a lot of material, and includes a lot of optional componen
 
 #### Linux Setup
 
-We're going to install Medusa on our linux system manually. Why not use the package manager? Well, it can cause problems under certain circumstances (sickrage will update itself from git), and, this is just a much cleaner solution. If you absolutely insist on using the package manager, be warned that upgrades can easily break and your package manager can fail to update the package, so you'll have to --force it or something similar.
+We're going to install Medusa on our linux system manually. Why not use the package manager? Well, it can cause problems under certain circumstances (Medusa will update itself from git), and, this is just a much cleaner solution. If you absolutely insist on using the package manager, be warned that upgrades can easily break and your package manager can fail to update the package, so you'll have to --force it or something similar.
 
 First, we need to decide where this installation and all our media files will live. This will be a fairly large amount of data, so, it should be on a big enough partition to handle it. Mine is in _/srv/media_ but yours can be anywhere you want/have enough space.
 
@@ -38,7 +38,7 @@ Second, we need to pick a user to run this all as. We're going to be using a sin
 
 The first line will add a group named _media_ with a GID of 420. The second line will create a user named _media_ in the group _media_, with a UID of 420, with a home directory of _/srv/media_ and a login shell of _/usr/bin/nologin_ (to prevent the shell from being able to be logged into directly).
 
-_If you decided to use your distro's package manager after all, please edit your **/etc/passwd** and **/etc/group** files, and alter the UID and GID of the **sickrage** user to be the same as the UID/GID of the **media** (420). This will ensure that Medusa runs as the "media" user **anyway** with out having to manually change all the configuration files every time your distro wants to upgrade sickrage (which is unnecessary, usually)._
+_If you decided to use your distro's package manager after all, please edit your **/etc/passwd** and **/etc/group** files, and alter the UID and GID of the **Medusa** user to be the same as the UID/GID of the **media** (420). This will ensure that Medusa runs as the "media" user **anyway** with out having to manually change all the configuration files every time your distro wants to upgrade Medusa (which is unnecessary, usually)._
 
 #### Medusa Installation
 
