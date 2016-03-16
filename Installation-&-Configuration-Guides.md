@@ -21,15 +21,6 @@ New to Sickrage? Then the below guides will help you with the setup, and discove
 
 Medusa can be installed on many different systems. Below you will find guides for many of those.
 
-###### Windows
-* https://github.com/pyMedusa/SickRage/wiki/SickRage-Windows-Installer
-
-  (Manual installation guides for Windows can be found [here](https://github.com/pyMedusa/SickRage/wiki/SickRage-Windows-Installer#manual-installation-guides-for-windows).)
-
-###### Synology:
-
-* Add the [Synocummunity](https://synocommunity.com/#easy-install) Repo to your Synology, then follow : [Installing](https://github.com/pyMedusa/SickRage/wiki/Switching-your-Synology's-Sickrage-to-the-new-repository#install-sickrage)  
-
 ###### Mac:
 * http://www.htpcguides.com/install-sickrage-mac-osx-usenet-torrent-tv/  
 [(Additional info for using NZBtoMedia on MAC)](https://gist.github.com/XxUnkn0wnxX/bf3d848232f4a71b6556)    
