@@ -1,6 +1,6 @@
 ### Requirement ###
 * Git
-* A clone of [Sickrage repo](https://github.com/PyMedusa/SickRage.git)
+* A clone of [Sickrage repo](https://github.com/PyMedusa/Medusa.git)
 
 ********
 
@@ -22,11 +22,11 @@ $ git push --tags origin master
 ```
 
 ### Merge a PR via command line ###
-* The PR must be based on `SickRage:develop`
+* The PR must be based on `Medusa:develop`
 * The branch we want to commit is `fernandog:remote_tvcache_traceback`
 ```
 $ git checkout -b fernandog-remote_tvcache_traceback develop
-$ git pull https://github.com/fernandog/SickRage.git remote_tvcache_traceback
+$ git pull https://github.com/fernandog/Medusa.git remote_tvcache_traceback
 $ git checkout develop
 $ git merge --no-ff fernandog-remote_tvcache_traceback
 $ git push origin develop
@@ -34,11 +34,11 @@ $ git branch -d fernandog-remote_tvcache_traceback
 ```
 
 ### Merge a hotfix(master and develop) ###
-* The PR must be based on `SickRage:master`
+* The PR must be based on `Medusa:master`
 * The branch we want to commit is `fernandog:remote_tvcache_traceback`
 ```
 $ git checkout -b fernandog-remote_tvcache_traceback master
-$ git pull https://github.com/fernandog/SickRage.git remote_tvcache_traceback
+$ git pull https://github.com/fernandog/Medusa.git remote_tvcache_traceback
 $ git checkout master
 $ git merge --no-ff fernandog-remote_tvcache_traceback
 $ git push origin master
