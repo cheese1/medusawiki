@@ -1,6 +1,6 @@
 ### Configuration Guides
 
-New to Sickrage? Then the below guides will help you with the setup, and discover all its cool features.
+New to Medusa? Then the below guides will help you with the setup, and discover all its cool features.
 
 ###### Configuration guides for Medusa:
 * http://www.htpcguides.com/configure-sickrage-usenet-torrent-tv/
@@ -24,14 +24,14 @@ Medusa can be installed on many different systems. Below you will find guides fo
 ###### Mac:
 * http://www.htpcguides.com/install-sickrage-mac-osx-usenet-torrent-tv/  
 [(Additional info for using NZBtoMedia on MAC)](https://gist.github.com/XxUnkn0wnxX/bf3d848232f4a71b6556)    
-[(Launch Sickrage On Boot & Via App)](https://gist.github.com/XxUnkn0wnxX/d199daecc5c414174cf9)  
+[(Launch Medusa On Boot & Via App)](https://gist.github.com/XxUnkn0wnxX/d199daecc5c414174cf9)  
 
 ###### Debian/Ubuntu 14.04 with Upstart:
 * http://www.htpcguides.com/install-sickrage-ubuntu-14-04/
 
 ###### Debian/Ubuntu 15.x with systemd:
 Our Guide
-* https://github.com/pyMedusa/SickRage/wiki/Sickrage-installation-Ubuntu-15
+* https://github.com/pyMedusa/SickRage/wiki/Medusa-installation-Ubuntu-15
 
 HTPCGuide's Guide
 * http://www.htpcguides.com/install-sickrage-ubuntu-vivid-vervet-15-x-and-later
@@ -61,7 +61,7 @@ HTPCGuide's Guide
 * https://github.com/pyMedusa/sickrage-issues/issues/716#issuecomment-178950957
 
 ###### Centos 6
-* https://github.com/pyMedusa/SickRage/wiki/Sickrage-installation-CENTOS-6
+* https://github.com/pyMedusa/SickRage/wiki/Medusa-installation-CENTOS-6
 
 ###### Centos 7
 * http://deviantengineer.com/2015/06/usenet-centos7/
@@ -88,7 +88,7 @@ HTPCGuide's Guide
 
 
 ## IMPORTANT NOTE!  
-Some guides are not yet updated with the new Sickrage Repository URL.  
+Some guides are not yet updated with the new Medusa Repository URL.  
 Make sure you use `https://github.com/pyMedusa/SickRage.git`  
 
 
