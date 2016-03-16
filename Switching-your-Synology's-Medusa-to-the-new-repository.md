@@ -4,26 +4,26 @@ Luckily this is very easy and can be preformed with a few simple steps.
 
 Summery. :  
 
-1) Go into Sickrage and make a backup.  
-2) Go to the Synology Package Center and remove Sickrage.  
-3) Then Reinstall Sickrage, but now in the installation screen/wizard add the new URL.  
-`git://github.com/SickRage/SickRage.git`  
-4) Restore your backup, and restart Sickrage.  
+1) Go into Medusa and make a backup.  
+2) Go to the Synology Package Center and remove Medusa.  
+3) Then Reinstall Medusa, but now in the installation screen/wizard add the new URL.  
+`git://github.com/pyMedusa/SickRage.git`  
+4) Restore your backup, and restart Medusa.  
 
 Thats it. :+1:  
 
-Note: By default the synocommunity sickbeard-custom package uses port 8083, and Synocommunity's sickrage package uses port 8899. So if you restore your backup between the two the port will also be restored back. Therefor make sure you open the Sickrage page with the correct port.
+Note: By default the synocommunity sickbeard-custom package uses port 8083, and Synocommunity's Medusa package uses port 8899. So if you restore your backup between the two the port will also be restored back. Therefor make sure you open the Medusa page with the correct port.
 
 
 ## Explained with illustrations.  
 
-Login to Sickrage and go to Backup and Restore in the configuration. Create a backup and store it in a safe location.  
+Login to Medusa and go to Backup and Restore in the configuration. Create a backup and store it in a safe location.  
 
 ![1](https://cloud.githubusercontent.com/assets/7928052/11318354/73fa0d0e-904f-11e5-9432-581a8e795508.png)  
 =
 
 
-Login to Synology's DSM and go into the Package Center and open the Sickrage Package. There Select Remove.  
+Login to Synology's DSM and go into the Package Center and open the Medusa Package. There Select Remove.  
 
 ![2](https://cloud.githubusercontent.com/assets/7928052/11318355/73faad5e-904f-11e5-8a00-36a0ca446070.png)
 =
@@ -43,7 +43,7 @@ Now that Medusa is removed we need to (re)install it again. Go to the community 
 
 
 Now you will get a wizard/installation screen. Fill-in the new URL :  
-`Fork URL:`    `git://github.com/SickRage/SickRage.git`  
+`Fork URL:`    `git://github.com/pyMedusa/SickRage.git`  
 `Fork branch:` `master` 
 
 ![2](https://cloud.githubusercontent.com/assets/7928052/12465370/f6963596-bfcd-11e5-814f-5c168c512b79.png)
@@ -57,7 +57,7 @@ Open the GUI and go to Backup/Restore under configuration and restore your backu
 =
 
 
-Last thing you need to do is a restart of Sickrage so the changes take effect.   
+Last thing you need to do is a restart of Medusa so the changes take effect.   
 
 ![8](https://cloud.githubusercontent.com/assets/7928052/11318356/740d7dbc-904f-11e5-9e3a-4ebfea556b2e.png)  
 =
@@ -71,4 +71,3 @@ In some cases you can get a cache warning after restoring the backup. You can ig
 MAIN :: Restore: Unable to remove the cache/sessions directory: error 2 : No such file or directory  
 MAIN :: Restore: Unable to remove the cache/indexers directory: error 2 : No such file or directory  
 ```
-
