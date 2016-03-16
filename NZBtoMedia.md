@@ -2,7 +2,7 @@
 
 NZBtoMedia is a collection of scripts for [post-processing](https://github.com/pyMedusa/SickRage/wiki/Post-Processing).  
 Normally Medusa scans the download folder for new files/downloads every 10 minutes. However that prevents the hard disks from going into sleep/hibernation. Scripts on the other hand let Medusa instantly know if a download was completed. Therefore the scanning of the `tv download folder` isn't necessary anymore.
-Another advantage is that other [post-processing](https://github.com/pyMedusa/SickRage/wiki/Post-Processing) options can be done, before the file is sent to Sickrage. But most of those options are already included in Medusa, so you probably wont use them.
+Another advantage is that other [post-processing](https://github.com/pyMedusa/SickRage/wiki/Post-Processing) options can be done, before the file is sent to Medusa. But most of those options are already included in Medusa, so you probably wont use them.
 Last and probably the MOST important reason, it supports failed downloads. Meaning that when your client fails to download the file a notification gets sent to Medusa and a new search gets started, with hopefully now a valid file.  
 
 ## Before you start
@@ -28,14 +28,14 @@ For more info see [NZBtoMedia's Repo](https://github.com/clinton-hall/nzbToMedia
 ## How to setup NZBtoMedia with NZBget.?  
 
 The good news is that NZBget has NZBtoMedia support build-in to the program. This allows for easy configuration.  
-First you need to make sure that NZBget points to the NZBtoMedia files. Sometimes the files are included in the NZBget/Scrips folder. However if they are not you have two options. Manually download the latest NZBtoMedia [package](https://github.com/clinton-hall/nzbToMedia/archive/master.zip) and unpack them there. Or point to the NZBtoMedia folder included within Sickrage. This can be done in NZBGet by going to Settings --> PATHS --> `ScriptDir`.
+First you need to make sure that NZBget points to the NZBtoMedia files. Sometimes the files are included in the NZBget/Scrips folder. However if they are not you have two options. Manually download the latest NZBtoMedia [package](https://github.com/clinton-hall/nzbToMedia/archive/master.zip) and unpack them there. Or point to the NZBtoMedia folder included within Medusa. This can be done in NZBGet by going to Settings --> PATHS --> `ScriptDir`.
 
 ==
 
 ![naamloos](https://cloud.githubusercontent.com/assets/7928052/13014408/f9a0cfb0-d1b3-11e5-915a-bc695e77b4ba.png)
 
 The first step is to do the basic configuration of NZBget. So add your Usenet provider and download path etc.  
-Go to `PATHS` and fill-in your download Path that Sickrage monitors under `MainDir` or `DestDir` depending on your preference.   
+Go to `PATHS` and fill-in your download Path that Medusa monitors under `MainDir` or `DestDir` depending on your preference.   
 
 
 == 
@@ -57,7 +57,7 @@ Next we need to setup the settings for the nzbToSickBeard script itself.
 Go to `nzbToSickBeard` in the Setting. Now change/add : 
 
 * `sbcategory`        leave set to `tv` (or change if you changed it in Medusa.)  
-* `sbhost`            leave to `localhost` (or enter IP if Sickrage runs on different machine)  
+* `sbhost`            leave to `localhost` (or enter IP if Medusa runs on different machine)  
 * `sbport`            Enter the port on witch Medusa is running.  
 * `sbusername`        Enter the username if Medusa requires login.  
 * `sbpassword`        Enter the password if Medusa requires login.  
@@ -94,11 +94,11 @@ Go to the `[SickBeard]` section and add/change the following settings. :
   
 `[SickBeard]`  
   
-* `enabled = 0`            (Change the `0` to `1` to enable Sickrage)  
-* `host = localhost`       (Change IP number if Sickrage runs on a different device)  
+* `enabled = 0`            (Change the `0` to `1` to enable Medusa)  
+* `host = localhost`       (Change IP number if Medusa runs on a different device)  
 * `port = 8081`            (Change the port to the one that your Medusa install uses)   
-* `username =`             (Add your username if you have enabled login in Sickrage)  
-* `password =`             (Add your password if you have enabled login in Sickrage)  
+* `username =`             (Add your username if you have enabled login in Medusa)  
+* `password =`             (Add your password if you have enabled login in Medusa)  
 * `fork =`                 (Only replace `auto` with `sickrage`if detection problems)  
 
 Go to the `[Nzb]` section and add/change the following settings. :    
