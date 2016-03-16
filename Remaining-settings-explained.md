@@ -210,7 +210,7 @@ Here you can connect directly to the Medusa IRC channel. Just for some smalltalk
 **Changelog**  
 Shows the page with the Changelog. This lets you see the changes that where made to Medusa and what new functions where added.  
 
-**Support Sickrage**  
+**Support Medusa**  
 
 
 **View Log**  
