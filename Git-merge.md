@@ -1,6 +1,6 @@
 ### Requirement ###
 * Git
-* A clone of [Medusa repo](https://github.com/PyMedusa/Medusa.git)
+* A clone of [Medusa repo](https://github.com/PyMedusa/SickRage.git)
 
 ********
 
@@ -22,11 +22,11 @@ $ git push --tags origin master
 ```
 
 ### Merge a PR via command line ###
-* The PR must be based on `Medusa:develop`
+* The PR must be based on `SickRage:develop`
 * The branch we want to commit is `{YOUR_GITHUB_USER}:branchABC`
 ```
 $ git checkout -b branchABC develop
-$ git pull https://github.com/{YOUR_GITHUB_USER}/Medusa.git branchABC
+$ git pull https://github.com/{YOUR_GITHUB_USER}/SickRage.git branchABC
 $ git checkout develop
 $ git merge --no-ff branchABC
 $ git push origin develop
@@ -38,7 +38,7 @@ $ git branch -d branchABC
 * The branch we want to commit is `{YOUR_GITHUB_USER}:branchABC`
 ```
 $ git checkout -b branchABC master
-$ git pull https://github.com/{YOUR_GITHUB_USER}/Medusa.git branchABC
+$ git pull https://github.com/{YOUR_GITHUB_USER}/SickRage.git branchABC
 $ git checkout master
 $ git merge --no-ff branchABC
 $ git push origin master
