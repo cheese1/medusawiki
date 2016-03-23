@@ -1,3 +1,3 @@
 - [ ] Season search button
 - [ ] Avoid Daily searcher run together with Manual Search
-- [ ] 
+- [ ] Add global ignored words to displayShow and snatchSelection
