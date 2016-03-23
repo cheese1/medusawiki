@@ -5,3 +5,4 @@
 - [ ] Rename "Manual Snatch" to "Manual Search" and old manual search to "Forced search"
 - [ ] Fix special search (only getting results if it has xem numbering)
 - [ ] Add episode name to manual snatch page
+- [ ] Change copyright
