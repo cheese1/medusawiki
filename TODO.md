@@ -1,0 +1,3 @@
+- [ ] Season search button
+- [ ] Avoid Daily searcher run together with Manual Search
+- [ ] 
