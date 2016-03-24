@@ -1,12 +1,15 @@
+### Manual Search:
 - [ ] Only change "manual download" icon to "downloaded" when the snatch really happend, not as soon we click the button
 - [ ] Ask user to Log last snatch release as failed when manual searching & downloading another release
 - [ ] Add a button "Previous/Next episode" in SnatchSelection.mako
 - [ ] Season search button
 - [ ] Avoid Daily searcher run together with Manual Search
+- [ ] Rename "Manual Snatch" to "Manual Search" and old manual search to "Forced search"
+- [ ] Add episode name to manual snatch page
+- [ ] Fix special search (only getting results if it has xem numbering)
+- [ ] Add option "Enable fallback for manual search"
+
+### MISC
 - [ ] Add global ignored words to displayShow and snatchSelection
 - [ ] Fix official NZB providers not saving CATs
-- [ ] Rename "Manual Snatch" to "Manual Search" and old manual search to "Forced search"
-- [ ] Fix special search (only getting results if it has xem numbering)
-- [ ] Add episode name to manual snatch page
 - [ ] Change copyright
-- [ ] Add option "Enable fallback for manual search"
