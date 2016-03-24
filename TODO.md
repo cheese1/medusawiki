@@ -1,3 +1,6 @@
+- [ ] Only change "manual download" icon to "downloaded" when the snatch really happend, not as soon we click the button
+- [ ] Ask uset to Log last snatch release as failed when manual searching & downloading another release
+- [ ] Add a button "Previous/Next episode" in SnatchSelection.mako
 - [ ] Season search button
 - [ ] Avoid Daily searcher run together with Manual Search
 - [ ] Add global ignored words to displayShow and snatchSelection
