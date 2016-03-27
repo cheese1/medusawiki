@@ -1,6 +1,6 @@
 ### Manual Search:
 - [X] Add provider setting " Enable manual search" 
-- [ ] Only change "manual download" icon to "downloaded" when the snatch really happend, not as soon we click the button
+- [ ] Only change "manual download" icon to "downloaded" when the snatch really happened, not as soon we click the button
 - [ ] Ask user to Log last snatch release as failed when manual searching & downloading another release
 - [ ] Add a button "Previous/Next episode" in SnatchSelection.mako
 - [ ] Season search button
@@ -10,6 +10,7 @@
 - [ ] Fix special search (only getting results if it has xem numbering)
 
 ### MISC
-- [ ] Add global ignored words to displayShow and snatchSelection
-- [ ] Fix official NZB providers not saving CATs
-- [ ] Change copyright
+- [ ] Add global ignored words to displayShow and snatchSelection @fernandog
+- [ ] Fix official NZB providers not saving CATs @OmgImAlexis
+- [ ] Change copyright @Labrys
+- [ ] Limit URL len when mass update @OmgImAlexis
