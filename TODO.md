@@ -2,6 +2,7 @@
 - [X] Add provider setting " Enable manual search" @fernandog
 - [x] Only change "manual download" icon to "downloaded" when the snatch really happened, not as soon we click the button @p0psicles
 - [x] Rename "Manual Snatch" to "Manual Search" and old manual search to "Forced search" @fernandog
+- [x] Add manual search icon to poster/banner layout
 - [ ] Ask user to Log last snatch release as failed when manual searching & downloading another release
 - [ ] Add a button "Previous/Next episode" in SnatchSelection.mako
 - [ ] Season search button
