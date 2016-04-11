@@ -7,12 +7,11 @@
 - [ ] Add a button "Previous/Next episode" in SnatchSelection.mako
 - [ ] Season search button
 - [ ] Avoid Daily searcher run together with Manual Search
-
 - [ ] Add episode name to manual snatch page
 - [ ] Fix special search (only getting results if it has xem numbering)
 
 ### MISC
-- [ ] Add global ignored words to displayShow and snatchSelection @fernandog
+- [x] Add global ignored words to displayShow and snatchSelection @fernandog
 - [ ] Fix official NZB providers not saving CATs @OmgImAlexis
 - [ ] Change copyright @Labrys
 - [ ] Limit URL len when mass update @OmgImAlexis
