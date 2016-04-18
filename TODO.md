@@ -5,9 +5,7 @@
 - [x] Add manual search icon to poster/banner layout
 - [X] Season search button
 - [X] Avoid Daily searcher run together with Manual Search
-- [ ] Ask user to Log last snatch release as failed when manual searching & downloading another release
 - [ ] Add a button "Previous/Next episode" in SnatchSelection.mako
-- [ ] Add episode name to manual snatch page
 - [ ] Fix special search (only getting results if it has xem numbering)
 
 ### MISC
