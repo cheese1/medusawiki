@@ -10,6 +10,6 @@
 
 ### MISC
 - [x] Add global ignored words to displayShow and snatchSelection @fernandog
-- [ ] Fix official NZB providers not saving CATs @OmgImAlexis
+- [x] Fix official NZB providers not saving CATs
 - [ ] Change copyright @Labrys
-- [ ] Limit URL len when mass update @OmgImAlexis
+- [x] Limit URL len when mass update @OmgImAlexis
