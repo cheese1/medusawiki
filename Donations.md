@@ -16,6 +16,7 @@ However there are more ways to help. If you are familiar with Python, HTML, Java
 [supergonkas](https://github.com/duramato) - Feel free to donate to the PT [Red Cross](http://www.cruzvermelha.pt/donativos.html) [<img src="http://www.cruzvermelha.pt/favicon.ico" width="32" alt="Red Cross">](http://www.cruzvermelha.pt/donativos.html)    
 I also accept torrent tracker invites
 ***
+[p0psicles](https://github.com/p0psicles) - Like supergonkas I would appreciate any donation to the [Red Cross](http://www.redcross.org/donations/ways-to-donate) [<img src="http://www.redcross.org/favicon.ico" width="32" alt="Red Cross">](http://www.redcross.org/donations/ways-to-donate) 
 ### Special thanks to (in alphabetical order):
 ***
 [neoatomic](https://github.com/neoatomic) - [![BitCoin donate button](https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957762%2F313cd946-831c-11e5-91e0-a69ba6fae6dd.png)](https://greenaddress.it/pay/GAua8uEhuZvvTFy1Bdwwon9wpUPB8 "Donate using Bitcoin")  
