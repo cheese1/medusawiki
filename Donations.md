@@ -13,6 +13,8 @@ However there are more ways to help. If you are familiar with Python, HTML, Java
 ***
 [medariox](https://github.com/medariox)
 ***
+[ratoaq2](https://github.com/ratoaq2)
+***
 [supergonkas](https://github.com/duramato) - Feel free to donate to the PT [Red Cross](http://www.cruzvermelha.pt/donativos.html) [<img src="http://www.cruzvermelha.pt/favicon.ico" width="32" alt="Red Cross">](http://www.cruzvermelha.pt/donativos.html)    
 I also accept torrent tracker invites
 ***
