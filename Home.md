@@ -13,6 +13,4 @@ Note, the wiki is still in development and far from ready. If you like to contri
 Important links :  
 [Bug reports](https://github.com/PyMedusa/SickRage/issues)  
 [Feature requests](http://feathub.com/PyMedusa/SickRage)  
-[Donations](https://github.com/PyMedusa/SickRage/wiki/Donations)  
-
-/wiki/Git-merge)
+[Donations](https://github.com/PyMedusa/SickRage/wiki/Donations)
