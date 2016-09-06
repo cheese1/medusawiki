@@ -22,6 +22,9 @@ New to Medusa? Then the below guides will help you with the setup, and discover 
 Medusa can be installed on many different systems. Below you will find guides for many of those.
 For some of these guides you will need to provide a github url. If this is asked, please you the correct url: https://github.com/pyMedusa/SickRage.git.
 
+###### Windows:
+* https://github.com/pymedusa/MedusaInstaller/releases
+
 ###### Mac:
 * http://www.htpcguides.com/install-sickrage-mac-osx-usenet-torrent-tv/  
 [(Additional info for using NZBtoMedia on MAC)](https://gist.github.com/XxUnkn0wnxX/bf3d848232f4a71b6556)    
