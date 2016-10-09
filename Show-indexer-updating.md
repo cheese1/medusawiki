@@ -20,11 +20,10 @@ The running season, is the last season of a series. It should get a default next
 The delta will be taken from the airdate compared to now.
 
 The next update is calculated by deviding the delta of the last airdate by 200.
-last airdate	delta seconds	next update seconds	    next update hours
-			
-7 days	        604800	        3024	                0,84
-1 month	        2592000	        12960	                3,6
-1 year	        31536000	    157680	                43,8
-20 years	    630720000	    3153600	                876
-			
-Devider:	200
+| last airdate | delta seconds | next update seconds | next update hours |   |
+|--------------|---------------|---------------------|-------------------|---|
+| 7 days       | 604800        | 3024                | 0,84              |   |
+| 1 month      | 2592000       | 12960               | 3,6               |   |
+| 1 year       | 31536000      | 157680              | 43,8              |   |
+| 20 years     | 630720000     | 3153600             | 876               |   |
+| Devider:     | 200           |                     |                   |   |
