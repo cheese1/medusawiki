@@ -1,5 +1,3 @@
-# Show indexer Updating
-
 As of version x, a new way of show updating has been implemented.
 Previously update files have been used from thetvdb. We've made changes to this to make this less dependent of the thetvdb update files, as 1. we're aiming to implement new indexers like tvmaze and 2. we don't how long these files will stay available, as thetvdb has moved from their xml api to a new swagger based rest api.
 
