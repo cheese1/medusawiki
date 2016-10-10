@@ -46,7 +46,7 @@ Those will show you the version currently in use by Medusa.
 
 ## How do I fix an SSL error?
 
-There are multiple ways but the most obviously is update your OpenSSl & Python versions. Some [Solutions](https://github.com/pyMedusa/SickRage/wiki/SSL-Errors#solutions) you find below.  
+There are multiple ways but the most obviously is update your OpenSSl & Python versions. Some [Solutions](https://github.com/pymedusa/Medusa/wiki/SSL-Errors#solutions) you find below.  
 
 However you might be in a situation where you have an old device and updating isn't possible. Than there are some workarounds. We advice to use them as a last resort as they aren't the best practice.
 

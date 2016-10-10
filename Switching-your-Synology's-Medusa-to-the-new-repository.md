@@ -7,7 +7,7 @@ Summery. :
 1) Go into Medusa and make a backup.  
 2) Go to the Synology Package Center and remove Medusa.  
 3) Then Reinstall Medusa, but now in the installation screen/wizard add the new URL.  
-`git://github.com/pyMedusa/SickRage.git`  
+`git://github.com/pymedusa/Medusa.git`  
 4) Restore your backup, and restart Medusa.  
 
 Thats it. :+1:  
@@ -43,7 +43,7 @@ Now that Medusa is removed we need to (re)install it again. Go to the community 
 
 
 Now you will get a wizard/installation screen. Fill-in the new URL :  
-`Fork URL:`    `git://github.com/pyMedusa/SickRage.git`  
+`Fork URL:`    `git://github.com/pymedusa/Medusa.git`  
 `Fork branch:` `master` 
 
 ![2](https://cloud.githubusercontent.com/assets/7928052/12465370/f6963596-bfcd-11e5-814f-5c168c512b79.png)

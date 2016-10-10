@@ -2,7 +2,7 @@
 
 -------------------
 
-[ [Add Show button] ](https://github.com/pyMedusa/SickRage/wiki/Show-settings-explained#add-show-button) [ [Shows overview and buttons explained] ](https://github.com/pyMedusa/SickRage/wiki/Show-settings-explained#shows-overview-and-buttons-explained) [ [Shows Edit Button] ](https://github.com/pyMedusa/SickRage/wiki/Show-settings-explained#shows-edit-button)   
+[ [Add Show button] ](https://github.com/pymedusa/Medusa/wiki/Show-settings-explained#add-show-button) [ [Shows overview and buttons explained] ](https://github.com/pymedusa/Medusa/wiki/Show-settings-explained#shows-overview-and-buttons-explained) [ [Shows Edit Button] ](https://github.com/pymedusa/Medusa/wiki/Show-settings-explained#shows-edit-button)   
 
 ---------------------
 
@@ -45,9 +45,9 @@ What status should be set for episodes that have NOT yet aired.? (Set Wanted or 
  * `Anime`  
 Is this an Anime show and should Medusa use Anime functions.?
  * `Scene Numbering`  
-Should Medusa use [Scene Numbering](https://github.com/pyMedusa/SickRage/wiki/Scene-exceptions-and-numbering#what-is-scene-numbering).?  
+Should Medusa use [Scene Numbering](https://github.com/pymedusa/Medusa/wiki/Scene-exceptions-and-numbering#what-is-scene-numbering).?  
  * `Preferred quality of episodes to be downloaded`  
-What [quality](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings) should Medusa use.?  
+What [quality](https://github.com/pymedusa/Medusa/wiki/Quality-Settings) should Medusa use.?  
  * `Save Defaults`  
 This allows the settings you have selected to be saved as defaults, So you dont have to manually select them next time adding a show.  
 Now that you have setup all settings press the `add` button.  
@@ -92,9 +92,9 @@ What status should be set for episodes that have NOT yet aired.? (Set Wanted or 
  * `Anime`  
 Is this an Anime show and should Medusa use Anime functions.?
  * `Scene Numbering`  
-Should Medusa use [Scene Numbering](https://github.com/pyMedusa/SickRage/wiki/Scene-exceptions-and-numbering#what-is-scene-numbering).?  
+Should Medusa use [Scene Numbering](https://github.com/pymedusa/Medusa/wiki/Scene-exceptions-and-numbering#what-is-scene-numbering).?  
  * `Preferred quality of episodes to be downloaded`  
-What [quality](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings) should Medusa use.?  
+What [quality](https://github.com/pymedusa/Medusa/wiki/Quality-Settings) should Medusa use.?  
  * `Save Defaults`  
 This allows the settings you have selected to be saved as defaults, So you dont have to manually select them next time adding a show.  
 Now that you have setup all settings press the `add` button.  
@@ -160,9 +160,9 @@ This lets you customize the columns of the seasons. You can add the seize column
 * `Show Location:`  
 Lets you set the location of the shows folder.  
 * `Preferred Quality:`  
-Lets you set the quality of the file that Medusa should download. See [Quality Settings](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings) for more info.  
+Lets you set the quality of the file that Medusa should download. See [Quality Settings](https://github.com/pymedusa/Medusa/wiki/Quality-Settings) for more info.  
 `Default Episode Status:`  
-Lets you set the Default Episode Status. Needs to be set to WANTED if you want new shows to be downloaded.! See [Default Episode Status](https://github.com/pyMedusa/SickRage/wiki/FAQ%27s-and-Fixes#newly-aired-shows-are-not-downloading-and-set-to-skippedignored) for more info.  
+Lets you set the Default Episode Status. Needs to be set to WANTED if you want new shows to be downloaded.! See [Default Episode Status](https://github.com/pymedusa/Medusa/wiki/FAQ%27s-and-Fixes#newly-aired-shows-are-not-downloading-and-set-to-skippedignored) for more info.  
 * `Info Language:`  
 Lets you set the default language for the show. Info, descriptions etc. Note, not subtitles.!  
 * `Subtitles:`  Enable or disable the automatic download of subtitles for this show.  
@@ -174,13 +174,13 @@ Lets you set the default language for the show. Info, descriptions etc. Note, no
 * `Anime:`  Select if the show only contains an episode number instead of the normal S01E01 format in the title.  
 * `Sports:`  ?  
 * `Seasons folders:` Sort episodes in seasonal folders. Disable if you like all episodes in one folder.  
-* `Scene Numbering:`  Enable or disable Scene Numbering. See [Scene Numbering](https://github.com/pyMedusa/SickRage/wiki/Scene-exceptions-and-numbering#what-is-scene-numbering) for more info.  
+* `Scene Numbering:`  Enable or disable Scene Numbering. See [Scene Numbering](https://github.com/pymedusa/Medusa/wiki/Scene-exceptions-and-numbering#what-is-scene-numbering) for more info.  
 * `DVD Order:`  ?  
 
 ![Advanced](https://cloud.githubusercontent.com/assets/7928052/13013968/f3d5ba48-d1b1-11e5-901a-5f033ccefdea.png)
 
 * `Scene Exception:`  
-Lets you set and remove Scene Exceptions. See [Scene exceptions and numbering](https://github.com/pyMedusa/SickRage/wiki/Scene-exceptions-and-numbering) for more info.  
+Lets you set and remove Scene Exceptions. See [Scene exceptions and numbering](https://github.com/pymedusa/Medusa/wiki/Scene-exceptions-and-numbering) for more info.  
 * `Archive on first match:`  check this to have the episode archived after the first best match is found from your archive quality list.  
 * `Ignored Words:`  All releases containing those words will be skipped.! Use with caution.!  Separate words with a comma, e.g. "word1,word2,word3"  
 * `Required Words:`  All releases NOT containing those words will be skipped.! Use with caution.! Separate words with a comma, e.g. "word1,word2,word3"  

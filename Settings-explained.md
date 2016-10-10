@@ -1,6 +1,6 @@
 ----------
-[ [Help & Info] ](https://github.com/pyMedusa/SickRage/wiki/Settings-explained#help--info) [ [General] ](https://github.com/pyMedusa/SickRage/wiki/Settings-explained#general) [ [ Backup ] ](https://github.com/pyMedusa/SickRage/wiki/Settings-explained#backup) [ [Search settings] ](https://github.com/pyMedusa/SickRage/wiki/Settings-explained#search-settings) [ [Search providers] ](https://github.com/pyMedusa/SickRage/wiki/Settings-explained#search-providers) 
-[ [Subtitles search] ](https://github.com/pyMedusa/SickRage/wiki/Settings-explained#subtitles-search) [ [Post processing] ](https://github.com/pyMedusa/SickRage/wiki/Settings-explained#post-processing)  [ [ Notifications] ](https://github.com/pyMedusa/SickRage/wiki/Settings-explained#notifications) [ [Anime] ](https://github.com/pyMedusa/SickRage/wiki/Settings-explained#anime)  
+[ [Help & Info] ](https://github.com/pymedusa/Medusa/wiki/Settings-explained#help--info) [ [General] ](https://github.com/pymedusa/Medusa/wiki/Settings-explained#general) [ [ Backup ] ](https://github.com/pymedusa/Medusa/wiki/Settings-explained#backup) [ [Search settings] ](https://github.com/pymedusa/Medusa/wiki/Settings-explained#search-settings) [ [Search providers] ](https://github.com/pymedusa/Medusa/wiki/Settings-explained#search-providers) 
+[ [Subtitles search] ](https://github.com/pymedusa/Medusa/wiki/Settings-explained#subtitles-search) [ [Post processing] ](https://github.com/pymedusa/Medusa/wiki/Settings-explained#post-processing)  [ [ Notifications] ](https://github.com/pymedusa/Medusa/wiki/Settings-explained#notifications) [ [Anime] ](https://github.com/pymedusa/Medusa/wiki/Settings-explained#anime)  
 
 -----------
 
@@ -28,7 +28,7 @@ Shows the location of your sickbeard.db file. It includes all your shows for Med
 `SR Cache Dir:`  
 Shows the location of your cache folder. It includes all your search data, banners and other temporary files for Medusa.  
 `SR Log Dir:`  
-Shows the location of your sickrage.log file. It includes all the events, warnings and errors. If you ever experience problems or issues, the log will be your best friend.    
+Shows the location of your application.log file. It includes all the events, warnings and errors. If you ever experience problems or issues, the log will be your best friend.    
 `SR Arguments:`  
 Shows with what arguments Medusa has been started.  
 `Python Version:`  
@@ -102,7 +102,7 @@ Use AM/PM time or 24hr.
 `Timezone:`  
 Lets you set the timezone. Display dates and times in either your timezone or the shows network timezone  
 `Download url`  
-[See here](https://github.com/pyMedusa/SickRage/wiki/How-to-use-Download-url)  
+[See here](https://github.com/pymedusa/Medusa/wiki/How-to-use-Download-url)  
 
 
 #### Web Interface  
@@ -369,7 +369,7 @@ This allows you to run an script after a subtitle was downloaded.  Can be useful
 ![subtitle-accounts](https://cloud.githubusercontent.com/assets/7928052/13013551/34598f6a-d1b0-11e5-9322-cbd1da84e3d0.png)
 
 ##Post Processing  
-* In this section you can use post process options that Medusa should preform after a episode is downloaded. For example renaming of the file etc. More information can also be found under [Post Processing](https://github.com/pyMedusa/SickRage/wiki/Post-Processing)  
+* In this section you can use post process options that Medusa should preform after a episode is downloaded. For example renaming of the file etc. More information can also be found under [Post Processing](https://github.com/pymedusa/Medusa/wiki/Post-Processing)  
 
 ![postprocessing-1](https://cloud.githubusercontent.com/assets/7928052/13013585/5c1a412a-d1b0-11e5-8d3c-804ff72ffbdb.png)
 
@@ -380,7 +380,7 @@ This allows you to run an script after a subtitle was downloaded.  Can be useful
 `Skip Remove Detection`  
 ?  
 `Extra Scripts`  
-Medusa gives you the opportunity to run your own scripts for post-processing. See [post processing](https://github.com/pyMedusa/SickRage/wiki/Post-Processing) for more information.  
+Medusa gives you the opportunity to run your own scripts for post-processing. See [post processing](https://github.com/pymedusa/Medusa/wiki/Post-Processing) for more information.  
 `Move Associated Files`  
 Should Medusa move any files that are downloaded with the episode file like external subtitles etc.?  
 `Sync File Extensions`  

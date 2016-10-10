@@ -7,8 +7,6 @@ Therefore we have created a Windows installer to simplify the process. This inst
 It also will take care of creating a service, so that Medusa will automatically start with Windows.
 Both x32 and x64 bit installations are supported and automatically recognized.    
 
-For more detailed information checkout https://github.com/VinceVal/SickRageInstaller#sickrageinstaller  
-
 ## Network drive mappings ##
 
 The installer uses a service (account) to run Medusa automatically on startup. This is a different account than your Windows user account witch you use to login to Windows. Meaning that any network drive mappings are not existing for that (service) account and need to be created.
@@ -19,13 +17,13 @@ sc config "SickRage" obj= "username" password= "password"
 sc restart Medusa
 ```  
 
-If you are unable to get those setup correctly, you can always disable the service and start Medusa manually. Medusa will then run as the user that is logged in to Windows. Alternatively you can also install Medusa [manually](https://github.com/pyMedusa/SickRage/wiki/SickRage-Windows-Installer/_edit#manual-installation-guides-for-windows)  
+If you are unable to get those setup correctly, you can always disable the service and start Medusa manually. Medusa will then run as the user that is logged in to Windows. Alternatively you can also install Medusa [manually](https://github.com/pymedusa/Medusa/wiki/SickRage-Windows-Installer/_edit#manual-installation-guides-for-windows)  
 
 ---
 
 ## Installing Medusa on Windows ##
 
-Head over to the [Medusa Package Installer](https://github.com/VinceVal/SickRageInstaller/releases) and download the latest release.  
+Head over to the [Medusa Package Installer](https://github.com/pymedusa/MedusaInstaller/releases) and download the latest release.  
 (Special thanks to VinceVal for compiling this installer.)  
 
 Browse to the folder/location where you have placed the installer file and execute/run it.  
@@ -110,7 +108,7 @@ Now you can access Medusa by opening your favorite browser and go to http://loca
 In case you prefer to do the installation manually, than you can have a look at the below guides. Note that Cheetah isn't necessary anymore, so you don't have to install it.  
 
 `Official Windows installer:`  
-https://github.com/VinceVal/SickRageInstaller
+https://github.com/pymedusa/MedusaInstaller
 
 `Windows:`  
 http://www.htpcguides.com/install-sickrage-windows-usenet-torrent-tv/

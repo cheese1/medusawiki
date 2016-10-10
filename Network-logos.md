@@ -35,4 +35,4 @@ Example : `Sky Atlantic`   this needs to be renamed to `sky atlantic` So the log
 Note : Special characters are not supported.!
 
 When you have the logo ready it needs to be added to Medusa. This is done with a Pull request on GitHub. You can use a program like [Sourcetree](https://www.sourcetreeapp.com/) for submitting.
-If you are not able to do this, than you can alternatively post the logo and exact filename on our Medusa [issue tracker](https://github.com/pyMedusa/sickrage-issues/issues ), one of the contributers/developers will than add it for you.
+If you are not able to do this, than you can alternatively post the logo and exact filename on our Medusa [issue tracker](https://github.com/pymedusa/sickrage-issues/issues ), one of the contributers/developers will than add it for you.

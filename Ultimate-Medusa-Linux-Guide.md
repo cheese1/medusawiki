@@ -45,11 +45,11 @@ _If you decided to use your distro's package manager after all, please edit your
 Now, we need to perform the actual installation of Medusa. If you have used your distro's package manager, you can skip this step. We created _/srv/media_ earlier when we created the _media_ user, so, that's where we'll put it.
 
     cd /srv/media
-    git clone https://github.com/pyMedusa/sickrage.git
+    git clone https://github.com/pymedusa/Medusa.git
 
 Next, we need to create the startup file that controls Medusa. If you're on a recent distro, you're possibly running _systemd_ in which case, this script will work for you. If you are **not** on a _systemd_ distro, you will need to get your own startup script (or, use the one that came with your package manager).
 
-Edit the file _/etc/systemd/system/sickrage.service_ (it will not exist, so, create it).
+Edit the file _/etc/systemd/system/medusa.service_ (it will not exist, so, create it).
 Copy and paste the following into it:
 
     [Unit]
@@ -60,12 +60,12 @@ Copy and paste the following into it:
     Restart=always
     User=media
     Group=media
-    ExecStart=/usr/bin/env python2 /srv/sickrage/SickBeard.py --quiet --config /srv/sickrage/config.ini --datadir /srv/sickrage
+    ExecStart=/usr/bin/env python2 /srv/medusa/SickBeard.py --quiet --config /srv/medusa/config.ini --datadir /srv/medusa
 
     [Install]
     WantedBy=multi-user.target
 
-Save it, and enable it to run at startup: `systemctl enable sickrage.service`
+Save it, and enable it to run at startup: `systemctl enable medusa.service`
 
 Congrats, you've installed Medusa. Now, we'll need to install the other mandatory pieces, and, configure the whole thing.
 
@@ -251,16 +251,16 @@ Obviously, change _deluge.domain.tld_ to your specific subdomain, and change _ro
 
 Please note that the above also is for HTTPS and does SSL encryption. You can change the _:443_ to _:80_ and remove the first 4 _SSL*_ lines (not the _SSLProxy*_ ones, unless you have SSL disabled on Deluge or whatever you're using, in which case change https to http in the router-dyn-dns-entry line) if you don't want that. Note that my encryption certificates are provided by the free CA [letsencrypt.org](https://letsencrypt.org). Lastly, we're using port 3001 to talk to the LAN, so if your service is located at a different port, use it instead or we'll set up a forward for it later.
 
-My Medusa vhost is located at _/etc/httpd/conf/extra/vhost-sickrage.conf_ (your vhost dir may vary) and looks like this:
+My Medusa vhost is located at _/etc/httpd/conf/extra/vhost-medusa.conf_ (your vhost dir may vary) and looks like this:
 
 	<VirtualHost *:443>
 	    ServerAdmin email@address
-	    ServerName sickrage.domain.tld
+	    ServerName medusa.domain.tld
 	    SSLEngine on
 	    SSLProxyEngine on
 	    SSLOptions +StdEnvVars
-	    SSLCertificateFile "/etc/letsencrypt/live/sickrage.domain.tld/fullchain.pem"
-	    SSLCertificateKeyFile "/etc/letsencrypt/live/sickrage.domain.tld/privkey.pem"
+	    SSLCertificateFile "/etc/letsencrypt/live/medusa.domain.tld/fullchain.pem"
+	    SSLCertificateKeyFile "/etc/letsencrypt/live/medusa.domain.tld/privkey.pem"
 	    SSLProxyVerify none
 	    SSLProxyCheckPeerCN off
 	    SSLProxyCheckPeerName off
@@ -271,10 +271,10 @@ My Medusa vhost is located at _/etc/httpd/conf/extra/vhost-sickrage.conf_ (your 
 	        ProxyPassReverse https://outer-dyn-dns-entry/
 	        ProxyPassReverseCookieDomain outer-dyn-dns-entry %{HTTP:Host}
 	    </Location>
-	    ErrorLog "/var/log/httpd/sickrage.domain.tld-error_log"
-	    CustomLog "/var/log/httpd/sickrage.domain.tld-access_log" common
+	    ErrorLog "/var/log/httpd/medusa.domain.tld-error_log"
+	    CustomLog "/var/log/httpd/medusa.domain.tld-access_log" common
 	</VirtualHost>
 
-Again, same as above, change _sickrage.domain.tld_ to your specific subdomain, and change _router-dyn-dns-entry_ to your router's dynamic DNS address. Pretty much the same notes apply here, too: port 3000 is being used to talk to Medusa, if you're running on a different port, change it here, or, we'll set up a port forward later.
+Again, same as above, change _medusa.domain.tld_ to your specific subdomain, and change _router-dyn-dns-entry_ to your router's dynamic DNS address. Pretty much the same notes apply here, too: port 3000 is being used to talk to Medusa, if you're running on a different port, change it here, or, we'll set up a port forward later.
 
 Of note, you'll probably want a default :443 vhost which gets loaded whenever somebody hits an undefined subdomain, or, your apache server's raw IP address. This means that they won't get Medusa or Deluge's web interface unless they know exactly what hostname to connect to. It provides some protection against people finding your installation, but more importantly, it provides a sanity screening for the automated exploit bots all over the internet. I can't count the number of requests I get per hour of bots looking for wordpress vulnerabilities, or IIS buffer overflows, etc. While they won't harm Medusa or Deluge, both stacks are written in python which is a bit slower than Apache, and arguably take up more resources to get hit, so, the fewer things that aren't necessary hitting those two stacks the better - let them hit Apache instead.

@@ -1,5 +1,5 @@
 =========================
-[ [Quality Settings] ](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings#quality-settings) [ [Quality detection/determination] ](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings#quality-detectiondetermination) [ [Quality names to recognize the Quality of a file] ](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings#quality-names-to-recognize-the-quality-of-a-file) [ [Difference between Preset and Custom Qualities] ](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings#difference-between-preset-and-custom-qualities) [ [Preset Qualities] ](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings#preset-qualities) [ [Custom Qualities] ](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings#custom-qualities) [ [Example Advanced Custom Qualities] ](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings#example-advanced-custom-qualities) [ [Media Extensions] ](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings#media-extensions)
+[ [Quality Settings] ](https://github.com/pymedusa/Medusa/wiki/Quality-Settings#quality-settings) [ [Quality detection/determination] ](https://github.com/pymedusa/Medusa/wiki/Quality-Settings#quality-detectiondetermination) [ [Quality names to recognize the Quality of a file] ](https://github.com/pymedusa/Medusa/wiki/Quality-Settings#quality-names-to-recognize-the-quality-of-a-file) [ [Difference between Preset and Custom Qualities] ](https://github.com/pymedusa/Medusa/wiki/Quality-Settings#difference-between-preset-and-custom-qualities) [ [Preset Qualities] ](https://github.com/pymedusa/Medusa/wiki/Quality-Settings#preset-qualities) [ [Custom Qualities] ](https://github.com/pymedusa/Medusa/wiki/Quality-Settings#custom-qualities) [ [Example Advanced Custom Qualities] ](https://github.com/pymedusa/Medusa/wiki/Quality-Settings#example-advanced-custom-qualities) [ [Media Extensions] ](https://github.com/pymedusa/Medusa/wiki/Quality-Settings#media-extensions)
 
 =========================
 
@@ -8,7 +8,7 @@
 
 There have been some recent changes/modifications to the qualities. For more info check the temporary link below.  
 
-https://github.com/pyMedusa/SickRage/wiki/Qualities-Changes
+https://github.com/pymedusa/Medusa/wiki/Qualities-Changes
 
 
 ## Quality Settings
@@ -54,14 +54,14 @@ This shows you what a title needs to contain to be recognized as a Quality in Me
 
 Note: All `RIP` qualities can have either `rip` or `mux` in the filename. ( Example: WEBRip and WEBMux )
 
-(All of these settings will find files with the required [Media Extensions](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings#media-extensions).)  
+(All of these settings will find files with the required [Media Extensions](https://github.com/pymedusa/Medusa/wiki/Quality-Settings#media-extensions).)  
 
 This quality determination also apply's to imported/already downloaded files. So when you rename your files and they dont include the valid quality names, they can be detected as `Unknown` by Medusa.!  
 
   
 ##Difference between Preset and Custom Qualities
 
-Now that you are aware of what a title needs to contain, we can proceed with actually choosing and setting a quality. There are two ways to setup your wanted quality's. [Preset Qualities](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings#preset-qualities) witch are pre-configured quality options that you can select or [Custom Qualities](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings#custom-qualities) if you want to set your own advanced wanted quality's.  
+Now that you are aware of what a title needs to contain, we can proceed with actually choosing and setting a quality. There are two ways to setup your wanted quality's. [Preset Qualities](https://github.com/pymedusa/Medusa/wiki/Quality-Settings#preset-qualities) witch are pre-configured quality options that you can select or [Custom Qualities](https://github.com/pymedusa/Medusa/wiki/Quality-Settings#custom-qualities) if you want to set your own advanced wanted quality's.  
 
 
 ##Preset Qualities  
@@ -79,7 +79,7 @@ You can set more than one Present quality per show. But be aware that the first 
 * **HD**
     * HD TV or 1080p HD TV or 720p WEB-DL or 1080p WEB-DL or 720p BluRay or 1080p BluRay
 * **Custom**
-    * Custom Quality gives you the Allowed and Preferred menus, outlined under [Custom Qualities](https://github.com/pyMedusa/SickRage/wiki/Quality-Settings#custom-qualities)  
+    * Custom Quality gives you the Allowed and Preferred menus, outlined under [Custom Qualities](https://github.com/pymedusa/Medusa/wiki/Quality-Settings#custom-qualities)  
   
 
 Lets give you some real world examples that you need to consider selecting the quality.
