@@ -28,10 +28,10 @@ Postprocessing fails with SSL: CERTIFICATE_VERIFY_FAILED
 
 ## What versions should i use.?
 
-We advice to use a minimum of OpenSSL version 1.01e. Versions below this dont support TLS1.1 or TLS1.2 that is needed for a site like thepiratebay.  
-Additionally we advice to use Python v 2.7.10 as that includes a recent version that works fine with SSL.
+We advice to use at least OpenSSL v1.01e. Versions below this don't support TLS1.1 or TLS1.2 which is needed for sites like ThePirateBay.  
+Additionally we advice to use Python v2.7.10 or above as that includes a recent version that works fine with SSL.
 
-**Summery :**  
+**Summary :**  
 
 * Python < 2.7.9 needs a working pyOpenSSL to handle SNI and certificate verification. 
 * You have pyOpenSSL > v0.13.1 and do not have the Python cryptography module installed so you have no SNI, and are trying to access a site on shared hosting
@@ -40,18 +40,18 @@ Additionally we advice to use Python v 2.7.10 as that includes a recent version 
 ## How can i see what version i have installed.?
 
 If you browse to the `Help & Info` page (screenshot below) inside Medusa, you can check the field `Python Version:` & `SSL Version:`.
-Those will show you the version currently in use by Medusa/OS.   
+Those will show you the version currently in use by Medusa.   
 
 ![helpinfo](https://cloud.githubusercontent.com/assets/7928052/13013132/70b0840c-d1ae-11e5-8894-f3dd8b95dfe9.png)
 
-## How would i fix an SSL error.?
+## How do I fix an SSL error?
 
-There are multiple way's. But the most obviously is update your OpenSSl & Python versions. Some [Solutions](https://github.com/pyMedusa/SickRage/wiki/SSL-Errors#solutions) you find below.  
+There are multiple ways but the most obviously is update your OpenSSl & Python versions. Some [Solutions](https://github.com/pyMedusa/SickRage/wiki/SSL-Errors#solutions) you find below.  
 
-However you might be in a situation where you have and old device and updating isn't possible. Than there are some work-around's , but we advice to use them as a last resort as they aren't the best practice.
+However you might be in a situation where you have an old device and updating isn't possible. Than there are some workarounds. We advice to use them as a last resort as they aren't the best practice.
 
-* Go to Settings --> General --> Advanced Settings. And disable the function `Verify SSL Certs`. This will prevent the checking if an certificate is valid or not.  
-* Change the URL(s) from `https` to `http`. Most providers have a custom URL field, so just enter the `http` URL there. Same for the notifiers etc. However be aware that you are not using a secure connection then.  
+* Go to Settings --> General --> Advanced Settings and disable the function `Verify SSL Certs`. This will prevent the checking if an certificate is valid or not.  
+* Change the URL(s) from `https` to `http`. Most providers have a custom URL field so just enter the `http` URL there. Same for the notifiers, etc. However be aware that you are not using a secure connection then.  
 
 == 
 ___
@@ -64,7 +64,7 @@ ___
 
 1. Make sure you have OpenSSL 1.0.1e or newer. Check with `openssl version`. Google how to upgrade OpenSSL on your system.
 
-2. Install Python 2.7.10 and remove pyOpenSSL, or Downgrade pyOpenSSL to 0.13.1 or install missing modules.
+2. Install Python 2.7.10 and remove pyOpenSSL, Downgrade pyOpenSSL to 0.13.1 or install missing modules.
 
 a. Downgrade pyOpenSSL (Best/Easiest Solution, should work on all platforms with apt)
 ```
@@ -86,15 +86,10 @@ sudo pip install -U cryptography ndg-httpsclient pyopenssl
 
 ### Notes
 
-* The wget line is because some distributions do not even have setuptools available.
+* The wget line is because some distributions do not have setuptools available.
 * Some platforms have a funky wget, if you have problems with the wget command do this in place of that step: 
 ```
 curl http://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O -L
 sudo python2 ez_setup.py
 ```
 * `urllib3` does not run using `pyopenssl` unless `ndg-httpsclient`, `pyasn1`, and `pyopenssl` modules are installed, it runs with the standard `ssl` built into python. The other packages, and libraries, are dependencies or build dependencies for upgrading some python packages.
-
-Sometimes a user that just migrated from sickbeard asks the question `I never had any issues with sickbeard` Well that's because sickbeard didn't use secure connections at all...  
-
-### Please add any platform specific instructions for completing these tasks below
-
