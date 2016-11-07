@@ -44,7 +44,8 @@ For Linux: python /Script/test.py
 
 Use single back slashes, Medusa/Python will escape them and make them double.  
 Additional scripts can be used, separated by `|`  
-Scripts are called after Medusa's own post-processing.  
+Scripts are called after Medusa's own post-processing.
+Medusa will then wait for a feedback from your script before post-processing anything else.  
 
 Parameters that are passed:
 
