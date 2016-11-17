@@ -50,7 +50,7 @@ Specializes in HD releases
 
 Generic private torrent site
 
-###AlphaRatio##
+###AnimeBytes##
 
 Generic private torrent site
 
