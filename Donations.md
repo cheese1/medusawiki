@@ -5,7 +5,7 @@ The Medusa team consists of **volunteers**, who are offering a lot of their free
 
 However there are more ways to help. If you are familiar with Python, HTML, Javascript, graphics design, or other languages, please give a shout. Also if you have experience moderating and want to help users solving/answering basic questions regarding Medusa, you are more than welcome. 
  
-### Current active team members (in alphabetical order):
+### Current active team members:
 ***
 [fernandog](https://github.com/fernandog)
 ***
@@ -18,9 +18,9 @@ However there are more ways to help. If you are familiar with Python, HTML, Java
 [supergonkas](https://github.com/duramato) - Feel free to donate to the PT [Red Cross](http://www.cruzvermelha.pt/donativos.html) [<img src="http://www.cruzvermelha.pt/favicon.ico" width="32" alt="Red Cross">](http://www.cruzvermelha.pt/donativos.html)    
 ***
 [p0psicles](https://github.com/p0psicles) - Like supergonkas I would appreciate any donation to the [Red Cross](http://www.redcross.org/donations/ways-to-donate) [<img src="http://www.redcross.org/images/MEDIA_CustomProductCatalog/m3440072_footer-promo-Join_the_movement.png" height="32px" alt="Red Cross">](http://www.redcross.org/donations/ways-to-donate) 
+***
+[OmgImAlexis](https://github.com/OmgImAlexis) -  [![PayPal donate button](https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957731%2Fdf1228ce-831b-11e5-9f1b-d5ee712d392d.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MXNTEL7HLGFQA)  
 ### Special thanks to (in alphabetical order):
 ***
 [neoatomic](https://github.com/neoatomic) - [![BitCoin donate button](https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957762%2F313cd946-831c-11e5-91e0-a69ba6fae6dd.png)](https://greenaddress.it/pay/GAua8uEhuZvvTFy1Bdwwon9wpUPB8 "Donate using Bitcoin")  
-***
-[OmgImAlexis](https://github.com/OmgImAlexis) -  [![PayPal donate button](https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957731%2Fdf1228ce-831b-11e5-9f1b-d5ee712d392d.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MXNTEL7HLGFQA)  
 ***
