@@ -5,13 +5,13 @@ Previously update files have been used from thetvdb. We've made changes to this 
 The new update code, will make use of a table, that will keep track on the shows, on a per season basis. This way we can make sure new running seasons will stay checked and updated on short intervals. While long running (older) shows, will 'refresh' on longer intervals.
 
 The new update code will move through the following steps:
-* Get a list of shows from db, with seasons witch should be updated.
+* Get a list of shows from db, with seasons which should be updated.
 * Loop through this list.
 * Get the indexer from which this show is indexed
 * Get the episodes for the season that should be updated
 * If it the running season (the last), check if the show has had a update through the api, and update only last season
 * If it is a previous (backlog) season, just refresh that season.
-* Update 'next_update' for these seasons
+* Update the 'next_update' timestamp for these seasons
 
 ### Calculating the next updates
 The running season, is the last season of a series. It should get a default next_update of now() + 3600 seconds (1 hour update)
@@ -20,6 +20,7 @@ The running season, is the last season of a series. It should get a default next
 The delta will be taken from the airdate compared to now.
 
 The next update is calculated by dividing the delta of the last air date by 200.
+**Maybe this divider should be adjusted. As a show for which a new episodes hasn't aired for a year, could wait longer then 43 hours, for it's next check up.**
 
 | last air date | delta seconds | next update seconds | next update hours | 
 |--------------|---------------|---------------------|-------------------|
