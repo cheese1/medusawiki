@@ -19,8 +19,7 @@ The running season, is the last season of a series. It should get a default next
 ### Calculating previous seasons. For these the airdate of the last episode is taken. The following formula wil be used.
 The delta will be taken from the airdate compared to now.
 
-The next update is calculated by dividing the delta of the last air date by 200.
-**Maybe this divider should be adjusted. As a show for which a new episodes hasn't aired for a year, could wait longer then 43 hours, for it's next check up.**
+The next update is calculated by dividing the delta of the last air date by **100**.
 
 | last air date | delta seconds | next update seconds | next update hours | 
 |--------------|---------------|---------------------|-------------------|
