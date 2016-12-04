@@ -19,12 +19,18 @@ The running season, is the last season of a series. It should get a default next
 ### Calculating previous seasons. For these the airdate of the last episode is taken. The following formula wil be used.
 The delta will be taken from the airdate compared to now.
 
-The next update is calculated by deviding the delta of the last airdate by 200.
+The next update is calculated by dividing the delta of the last air date by 200.
 
-| last airdate | delta seconds | next update seconds | next update hours | 
+| last air date | delta seconds | next update seconds | next update hours | 
 |--------------|---------------|---------------------|-------------------|
 | 7 days       | 604800        | 3024                | 0,84              |
 | 1 month      | 2592000       | 12960               | 3,6               |
 | 1 year       | 31536000      | 157680              | 43,8              |
 | 20 years     | 630720000     | 3153600             | 876               |
 | Devider:     | 200           |                     |                   |
+
+### Using indexer who provide per season updates (TMDB)
+TMDB provides an api which you can query on a showid, which returns a list of seasons that have been updated for the show. When already being updated on a season level, we don't need to calculate the next season update.
+For shows added through an indexer which supports this, we've added the indexers method: 'get_last_updated_seasons()'.
+
+It will not iterate over the indexers, but start with the show list. And will add the show on a season or show level to the corresponding lists.
