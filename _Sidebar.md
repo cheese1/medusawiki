@@ -12,3 +12,7 @@
 [Quality-Settings](https://github.com/pymedusa/Medusa/wiki/Quality-Settings)  
 [Scene exceptions](https://github.com/pymedusa/Medusa/wiki/Scene-exceptions-and-numbering)  
 [SSL Errors](https://github.com/pymedusa/Medusa/wiki/SSL-Errors)  
+
+***
+
+[Developers](https://github.com/pymedusa/Medusa/wiki/API-v2)
