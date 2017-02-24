@@ -10,7 +10,7 @@ On the next search Medusa will use the newly added scene exception name in its s
 
 We have tried to automate this process as much as we could by adding scene exception lists. So for known problematic shows Medusa automatically adds those names.
 However there are still shows that require manual adding the scene exception name. 
-So when you have a show that requires a manual scene exception please submit a Pull Request to one of the 2 scene exception lists ([TVDB](https://github.com/pymedusa/medusa.github.io/blob/master/sb_tvdb_scene_exceptions/exceptions.txt)). This also helps other users that experience this problem.
+So when you have a show that requires a manual scene exception please submit a Pull Request to the respective indexer's scene exception lists ([Scene Exceptions](https://github.com/pymedusa/medusa.github.io/tree/master/static/scene_exceptions)). This also helps other users that experience this problem.
 
 ![name](https://cloud.githubusercontent.com/assets/7928052/13529717/d9ab6c86-e21d-11e5-9e01-8d53d8a7401a.png)
 
