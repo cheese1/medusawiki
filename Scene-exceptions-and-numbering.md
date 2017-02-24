@@ -1,14 +1,14 @@
 ##What are Scene exceptions.?
 
-Scene exceptions are alternative names that are used by the "scene" (release groups and uploaders of shows).
-Sometimes a show is called different by the indexer (TheTVDB) then the torrents/nzb's files.
+Scene exceptions are alternative names that are used by the "Scene" (release groups and uploaders of shows).
+Sometimes a show is called different by the indexers (eg. TheTVDB) than the torrents/nzb's files.
 For example a show is called `Pawn Star$` on the indexer, but the uploaded files are named `Pawn Stars`
 When this is the case Medusa cant detect the torrents/nzb's files and they will be skipped. Then a a scene exception is the solution.
 
 To add a Scene exception go to the Show and click on the edit button. You will see a field called `scene exception`. Add the desired scene name and save the settings. 
 On the next search Medusa will use the newly added scene exception name in its search and should find the show/episodes.
 
-We have try'd to automate this process as much as we could by adding scene exception lists. So for known problematic shows Medusa does automatically add those names.
+We have tried to automate this process as much as we could by adding scene exception lists. So for known problematic shows Medusa automatically adds those names.
 However there are still shows that require manual adding the scene exception name. 
 So when you have a show that requires a manual scene exception please submit a Pull Request to one of the 2 scene exception lists ([TVDB](https://github.com/pymedusa/medusa.github.io/blob/master/sb_tvdb_scene_exceptions/exceptions.txt)). This also helps other users that experience this problem.
 
