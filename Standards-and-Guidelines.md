@@ -1,5 +1,3 @@
-# Standards & Guidelines
-
 ## Standards
 We try to follow the <https://www.python.org/dev/peps/pep-0008/> and <https://www.python.org/dev/peps/pep-0257/> as much as possible, for python code.
 
