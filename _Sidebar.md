@@ -14,5 +14,5 @@
 [SSL Errors](https://github.com/pymedusa/Medusa/wiki/SSL-Errors)  
 
 ***
-
-[Developers](https://github.com/pymedusa/Medusa/wiki/API-v2)
+[Developers - Medusa Standards](https://github.com/pymedusa/Medusa/wiki/standards-and-guidelines)
+[Api v2](https://github.com/pymedusa/Medusa/wiki/API-v2)
