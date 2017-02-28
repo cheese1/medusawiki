@@ -1,10 +1,15 @@
-## Standards
-We try to follow the <https://www.python.org/dev/peps/pep-0008/> and <https://www.python.org/dev/peps/pep-0257/> as much as possible, for python code.
-
-As for HTML and CSS, we try to follow the HTML5 and CSS3 styleguides.
-As for javascript. @omg?
-
 ## Guidelines
+We highly recommend you use an editor plugin to verify you're following our standards before you commit.
+If we find too many issues we may opt to close the PR until you've fixed enough of the errors.
 
-### Logging
-..
+We do provide tests via our `package.json` for the CSS and Javascript as well as pytests for the Python so please use them to make sure you commits are error free.
+
+### Python
+We try to follow the <https://www.python.org/dev/peps/pep-0008/> and <https://www.python.org/dev/peps/pep-0257/> as much as possible.
+
+### Javascript
+We use [loglevel](https://github.com/pimterry/loglevel) for logging. Please do not use `console.log`.
+For linting we use [xo](https://github.com/sindresorhus/xo) with all the defaults.
+
+### CSS
+For linting we use [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard).
