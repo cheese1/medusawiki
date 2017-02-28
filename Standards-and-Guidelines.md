@@ -13,3 +13,20 @@ For linting we use [xo](https://github.com/sindresorhus/xo) with all the default
 
 ### CSS
 For linting we use [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard).
+
+### API
+To access the REST API via js we recommend you use the `api` global we have setup to be accessed on all pages.
+
+For example to update the current theme just patch the theme's name.
+All errors should be caught and passed to `log.error()`. All info should be passed to `log.info()`.
+```
+api.patch('config', {
+    theme: {
+        name: $(this).val()
+    }
+}).then(function(response) {
+    log.info(response);
+}).catch(function(err) {
+    log.error(err);
+});
+```
