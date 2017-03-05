@@ -61,10 +61,12 @@ The HTTP Response Header should contain a link header for the previous and next 
 
 
 ### PUT
+* Idempotent and not Safe
 * Return: `HTTP 200`
 * HTTP Response: resource (json format)
 
 ### DELETE
+* Idempotent and not Safe
 * Return: `HTTP 204 No Content`
 * HTTP Response: No body
 
