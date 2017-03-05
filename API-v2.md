@@ -45,6 +45,15 @@ The HTTP Response Header should contain a link header for the previous and next 
 `Link: <https://api.github.com/user/repos?page=3&per_page=100>; rel="next", <https://api.github.com/user/repos?page=50&per_page=100>; rel="last"`
 
 
+### GET
+* Idempotent and Safe
+* Return: `HTTP 200 OK`
+* HTTP Response: resource (json format)
+* HTTP Response Header: `Etag: "a48092717311c68fe766a46458e0a0a35f3817ba"`
+* Return `HTTP 404 Not Found` if resource doesn't exist
+* Return `HTTP 400 Bad Request` resource identifier is invalid
+
+
 ### POST
 * Return: `HTTP 201 Created`
 * HTTP Response: No body
@@ -66,5 +75,8 @@ The HTTP Response Header should contain a link header for the previous and next 
 ## Other status
 * `400 Bad Request`
 * `404 Not Found (GET, PUT, PATCH)`
+
+### JSON
+All json properties should be camelCase
 
 TODO: ETag, Last-Modified...
