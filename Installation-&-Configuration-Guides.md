@@ -9,12 +9,13 @@ New to Medusa? Then the below guides will help you with the setup, and discover 
 * https://github.com/pymedusa/Medusa/wiki/NZBtoMedia
 
 ###### Reverse Proxy with Nginx on Linux:
-* http://www.htpcguides.com/configure-sickrage-reverse-proxy-nginx/
+* ~~http://www.htpcguides.com/configure-sickrage-reverse-proxy-nginx/~~
+(Until htpcguides adds a Medusa guide please use https://github.com/pymedusa/Medusa/wiki/Reverse-Proxy-setup)
 
 ###### How to migrate Shows library from SickBeard to Medusa?
 * http://www.htpcbeginner.com/sickbeard-to-sickrage-migration/
 
-(Note, Dont use the old config.ini and sickbeard.db to prevent errors.!)
+(Note, Don't use the old config.ini and sickbeard.db to prevent errors.!)
 
 --------------------
 ### Installation Guides
