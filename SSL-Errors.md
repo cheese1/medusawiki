@@ -89,7 +89,7 @@ sudo pip install -U cryptography ndg-httpsclient pyopenssl
 * The wget line is because some distributions do not have setuptools available.
 * Some platforms have a funky wget, if you have problems with the wget command do this in place of that step: 
 ```
-curl http://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O -L
+curl https://raw.githubusercontent.com/pypa/setuptools/bootstrap/ez_setup.py -O -L
 sudo python2 ez_setup.py
 ```
 * `urllib3` does not run using `pyopenssl` unless `ndg-httpsclient`, `pyasn1`, and `pyopenssl` modules are installed, it runs with the standard `ssl` built into python. The other packages, and libraries, are dependencies or build dependencies for upgrading some python packages.
