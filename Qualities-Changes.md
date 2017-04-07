@@ -21,4 +21,4 @@ If you have qualities in the **Preferred** list set, any episode matching a qual
 
 If you ONLY have qualities in the **Allowed** list (Or have a preset selected other than custom) it will also stop on the first match in this list and be considered a "_best_" match, and never be replaced with a better quality.
 
-If you have qualities in BOTH lists, it will accept any quality in the **Allowed** list, and continue looking for a better quality in the **Allowed** list, until it finds one in the **Preferred** list.
+If you have qualities in BOTH lists, it will accept any quality in the **Allowed** list, and continue looking for a better quality in the **Preferred** list, until it finds one. Once Medusa finds a match in the preferred list, it stops looking.
