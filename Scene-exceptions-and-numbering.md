@@ -1,4 +1,4 @@
-##What are Scene exceptions.?
+## What are Scene exceptions.?
 
 Scene exceptions are alternative names that are used by the "Scene" (release groups and uploaders of shows).
 Sometimes a show is called different by the indexers (eg. TheTVDB) than the torrents/nzb's files.
@@ -14,7 +14,7 @@ So when you have a show that requires a manual scene exception please submit a P
 
 ![name](https://cloud.githubusercontent.com/assets/7928052/13529717/d9ab6c86-e21d-11e5-9e01-8d53d8a7401a.png)
 
-##What is Scene numbering?
+## What is Scene numbering?
 
 Sometimes release groups and uploaders use different episode numbers then an indexer like TheTVDB does. When that happens Medusa can have problems downloading the correct episode.
 To get around that problem there is the possibility to add Scene numbers.
