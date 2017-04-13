@@ -11,7 +11,7 @@ As you can see below Medusa supports a massive amount of customization settings,
 
 ![statusmenu](https://cloud.githubusercontent.com/assets/7928052/13013102/4bb15e2e-d1ae-11e5-8668-2ef7e7429228.png)
 
-##Help & Info
+## Help & Info
 
 ![helpinfo](https://cloud.githubusercontent.com/assets/7928052/13013132/70b0840c-d1ae-11e5-8894-f3dd8b95dfe9.png)
 
@@ -35,7 +35,7 @@ Shows with what arguments Medusa has been started.
 This shows your Python version. Medusa needs a minimal version of 2.7 but the more recent the better. Also make sure pyopenssl and cryptography modules are included in your Python version.  
 
 
-##General  
+## General  
 
 #### Misc  
 ![misc](https://cloud.githubusercontent.com/assets/7928052/13013194/b6248ed4-d1ae-11e5-9294-47d533575b86.png)
@@ -166,7 +166,7 @@ only needed if OS is unable to locate git from env
 `Git reset`  
 Removes untracked files and performs a hard reset on git branch automatically to help resolve update and missing files issues.  
 
-##Backup  
+## Backup  
 
 * This sections allows you to create an backup of your Medusa settings. The files include :  
   * `sickbeard.db` That contains all your shows  
@@ -183,7 +183,7 @@ Lets you set the backup folder where Medusa saves your backup.
 `Restore`  
 Lets you browse and select your backup file to be restored.  
 
-##Search Settings  
+## Search Settings  
 
 * This sections allows you to set all Search related settings.  
 
@@ -261,7 +261,7 @@ The password of the Synology account.
 `Downloaded files location`  
 Here you can set a manual download location. If blank the default Download Station folder is used.  
 
-##Search Providers  
+## Search Providers  
 
 * This sections allows you to setup your Search Providers  
 
@@ -333,7 +333,7 @@ Here you need to set the settings that are normally included in a cookie. Exampl
 `search element`  
 ?  
 
-##Subtitles Search  
+## Subtitles Search  
 * This section lets you setup automatic subtitle downloads.  
 
 ![subtitles-search](https://cloud.githubusercontent.com/assets/7928052/13013478/f32b5848-d1af-11e5-8dba-3062af8f28d9.png)
@@ -368,7 +368,7 @@ This allows you to run an script after a subtitle was downloaded.  Can be useful
 
 ![subtitle-accounts](https://cloud.githubusercontent.com/assets/7928052/13013551/34598f6a-d1b0-11e5-9322-cbd1da84e3d0.png)
 
-##Post Processing  
+## Post Processing  
 * In this section you can use post process options that Medusa should preform after a episode is downloaded. For example renaming of the file etc. More information can also be found under [Post Processing](https://github.com/pymedusa/Medusa/wiki/Post-Processing)  
 
 ![postprocessing-1](https://cloud.githubusercontent.com/assets/7928052/13013585/5c1a412a-d1b0-11e5-8d3c-804ff72ffbdb.png)
@@ -427,7 +427,7 @@ Name Anime shows differently than regular shows
 
 ![metadata](https://cloud.githubusercontent.com/assets/7928052/13013593/621d6d2c-d1b0-11e5-86e1-a6862ec70303.png)
 
-##Notifications
+## Notifications
 
 * Medusa lets you send notifications to your favorite home Theater/NAS, Devices or Social media service.
 
@@ -494,7 +494,7 @@ Allows configuration of email notifications on a per show basis.
 Note: If using gmail, and having this error `"ERROR: SMTP AUTH extension not supported by server."` , please enable this https://www.google.com/settings/security/lesssecureapps & try settings : smtp.gmail.com , port 587 , TLS , myemail.email@gmail.com , password
 .
 
-##Anime  
+## Anime  
 
 #### AnimeDB Settings  
 
