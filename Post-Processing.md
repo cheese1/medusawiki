@@ -1,14 +1,14 @@
-##What is Post Processing?
+## What is Post Processing?
 
 Post Processing is a name for a collection of actions that are taken after a file is downloaded. You can think of moving the file, renaming or any other process you prefer.  
 
-##Post Processing explained
+## Post Processing explained
 
 To start Post Processing in Medusa you have 3 possibility's. The fist (default) one is to let Medusa scan/monitor the `TV Download Dir` for newly downloaded episodes by your download client. Once Medusa detects a new file the Post processing starts. The second possibility is [Manual Post Processing](https://github.com/pymedusa/Medusa/wiki/Post-Processing#manual-post-processing). The third method is using a script to inform Medusa that a new episode was downloaded. This is the ideal/preferred way for NAS devices. As this method doesn't need the constant scanning of the `TV Download Dir` it will allow the hard disks to go into sleep. Some might already be familiar with the SABtoSickbeard script that is used in combination with SABNZBz. However not all download clients support the running of those scripts after a download so Medusa can be informed.  
 For more detailed information about an individual setting see the [Main Settings Wiki](https://github.com/pymedusa/Medusa/wiki/Settings-explained#post-processing).
 
 
-##Manual Post Processing
+## Manual Post Processing
 
 Normally Medusa does Auto Post Processing but it gives you also the possibility to Manual Post Process files. This can be handy if you have manually downloaded files and want to instantly process them in Medusa. Simply hit the button Post-Processing at the top-right corner and the following screen will appear.:  
 
@@ -37,7 +37,7 @@ Medusa deletes the files and folders after completion of the manual Post-Process
 Lets you mark the downloaded episode as failed, and lets Medusa search/snatch an alternative file.  
 
 
-##Extra Scripts:  
+## Extra Scripts:  
 Examples:  
 For Windows C:\Python27\pythonw.exe C:\Script\test.py  
 For Linux: python /Script/test.py  
