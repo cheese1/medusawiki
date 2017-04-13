@@ -1,6 +1,6 @@
 ## What are SSL errors.?
 
-SSL errors are connection errors to a secured HTTPS website. Medusa uses this method to ensure your connection is secure and private. However that also means you need to have a recent OpenSSL version installed on your OS. If its outdated you can suffer from SSL connection errors.  
+SSL errors are connection errors to a secured HTTPS website. Medusa uses this method to ensure your connection is secure and private. However that also means you need to have a recent OpenSSL version installed on your OS. If it's outdated you can suffer from SSL connection errors.  
 
 Some examples of SSL errors : 
 
@@ -26,9 +26,9 @@ Postprocessing fails with SSL: CERTIFICATE_VERIFY_FAILED
 ```
 
 
-## What versions should i use.?
+## What versions should I use?
 
-We advice to use at least OpenSSL v1.01e. Versions below this don't support TLS1.1 or TLS1.2 which is needed for sites like ThePirateBay.  
+We advise using at least OpenSSL v1.01e. Versions below this don't support TLS1.1 or TLS1.2 which is needed for sites like ThePirateBay.  
 Additionally we advice to use Python v2.7.10 or above as that includes a recent version that works fine with SSL.
 
 **Summary :**  
@@ -37,7 +37,7 @@ Additionally we advice to use Python v2.7.10 or above as that includes a recent 
 * You have pyOpenSSL > v0.13.1 and do not have the Python cryptography module installed so you have no SNI, and are trying to access a site on shared hosting
 * Your system OpenSSL version is less than 1.0.1e and you are trying to access a site using TLS1.1 or TLS1.2 
 
-## How can i see what version i have installed.?
+## How can I see what version I have installed?
 
 If you browse to the `Help & Info` page (screenshot below) inside Medusa, you can check the field `Python Version:` & `SSL Version:`.
 Those will show you the version currently in use by Medusa.   
@@ -46,7 +46,7 @@ Those will show you the version currently in use by Medusa.
 
 ## How do I fix an SSL error?
 
-There are multiple ways but the most obviously is update your OpenSSl & Python versions. Some [Solutions](https://github.com/pymedusa/Medusa/wiki/SSL-Errors#solutions) you find below.  
+There are multiple ways but the most obvious is update your OpenSSl & Python versions. Some [Solutions](https://github.com/pymedusa/Medusa/wiki/SSL-Errors#solutions) you find below.  
 
 However you might be in a situation where you have an old device and updating isn't possible. Than there are some workarounds. We advice to use them as a last resort as they aren't the best practice.
 
