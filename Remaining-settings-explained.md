@@ -6,7 +6,7 @@
 --------------------
 
 
-##Shows
+## Shows
 
 * Gives you an overview of the shows you have added.  
 
@@ -45,7 +45,7 @@
 `Search:`  Lets you search for an individual show name on the page.  
 
 
-##Schedule  
+## Schedule  
 
 `Layout:`  
 
@@ -71,7 +71,7 @@ Allows you to sort the shows by Show name
 `View Paused:`  
 Allows you to hide or show paused shows in the overview  
 
-##History  
+## History  
 
 ![history](https://cloud.githubusercontent.com/assets/7928052/13014501/7c9935ba-d1b4-11e5-8db2-b80b62fc9edd.png)
 
@@ -90,13 +90,13 @@ The Detailed view shows you the most information of the entry's
 The Compact view shows you the basic information of the entry's, main difference with Detailed is that plain names are removed and only icons are left  
 
 
-##The Manage menu 
+## The Manage menu 
 
 This Pull down menu gives you various Manage options to maintain your shows.
 
 ![manage](https://cloud.githubusercontent.com/assets/7928052/13014747/acf8dade-d1b5-11e5-9df9-d7fe4119b119.png)
 
-##Mass Update
+## Mass Update
 
 * Mass Update is a very powerful tool that allows you to change settings of multiple shows at once. So no more need to go over every single show/episode and change the setting.  
 
@@ -147,13 +147,13 @@ Enable/disable subtitles for the shows.
 
 For more details on the functions them self see the [show settings explanation](https://github.com/pymedusa/Medusa/wiki/Show-settings-explained).
 
-##Backlog overview  
+## Backlog overview  
 
 * The Backlog Overview gives you a overview of what shows are wanted but not successfully downloaded by the Daily search. In case the episode has the color Yellow, Medusa will search that episode in a higher quality.    
 ![backlog-overview](https://cloud.githubusercontent.com/assets/7928052/13014505/7c9e80f6-d1b4-11e5-9171-11878ebf70d9.png)
 
 
-##Manage Searches  
+## Manage Searches  
 
 * This page will allow you to force a :  
   * Daily search  
@@ -162,7 +162,7 @@ For more details on the functions them self see the [show settings explanation](
 
 ![manage-searches](https://cloud.githubusercontent.com/assets/7928052/13014509/7cb0bdd4-d1b4-11e5-9010-06460c83c695.png)
 
-##Episodes Status Management  
+## Episodes Status Management  
 
 * Lets you change the Episode status of a certain type to another.  
 
@@ -175,7 +175,7 @@ First select the episodes that you want to change. For example you want to set a
 Now you see an new screen witch is almost identical, You now you have to select the `skipped` shows/episodes and set the new status that you want. In our example that is `Wanted` so select `Wanted` and click on Go. Now all the `Skipped` shows that you had selected are set to wanted. 
 
 
-##Failed Downloads  
+## Failed Downloads  
 
 * Allows you to see the Failed Downloads list. 
 
@@ -184,7 +184,7 @@ Now you see an new screen witch is almost identical, You now you have to select 
 This pages shows you an overview of all the NZB/Torents that are marked as Failed. In case an NZB/Torrent was wrongly placed in the list you have the possibility to remove it. From time to time you get a bad NZB/Torrent. To prevent Medusa from downloading that same file again you have to add it to the Failed Download list. (failed.db) Otherwise you run the risk that Medusa picks the same file again. If you use NZBtoMedia (nzbtosickbeard for example) this is done automatically. With other methods this is not always the case. When that happens you can go to your show and select the episode and sett he episode status to failed. Or you can click on the search glass at the end of the episode line for a manual search. You will get a pop-up screen asking if Medusa should mark the episode as Failed.  
 
 
-##Missed Subtitle Management  
+## Missed Subtitle Management  
 
 * Lets you search for missing subtitles of your shows.  
 
@@ -215,7 +215,7 @@ Shows the page with the Changelog. This lets you see the changes that where made
 
 **View Log**  
 
-##Logs & Errors Menu
+## Logs & Errors Menu
 
 * Allows you to see the log file and errors
 
