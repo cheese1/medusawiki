@@ -22,7 +22,7 @@
 * [What is a network time zone warning?](https://github.com/pymedusa/Medusa/wiki/FAQ's-and-Fixes#what-is-a-network-time-zone-warning)  
 * [Unable to sent torrent to synology download station](https://github.com/pymedusa/Medusa/wiki/FAQ's-and-Fixes#unable-to-sent-torrent-to-synology-download-station)  
 
-##Where are the LOG files located?
+## Where are the LOG files located?
 You can find the log files path in _Config->Help & Info_, look for *SR Log Dir*.
 
 *Note: Synology users can use WinSCP to gain access/browse to the root where the Medusa log is located: `/volume1/@appstore/medusa/var/Logs/application.log`*  
