@@ -30,7 +30,7 @@ Otherwise:
  
     ```bash
     sudo mkdir /opt/medusa && sudo chown medusa:medusa /opt/medusa
-    sudo -u medusa git clone https://github.com/Medusa/Medusa.git /opt/medusa
+    sudo -u medusa git clone https://github.com/pymedusa/Medusa.git /opt/medusa
     ```
  
  
