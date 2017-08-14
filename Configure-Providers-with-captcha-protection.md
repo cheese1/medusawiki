@@ -24,6 +24,7 @@ Click on the Green lock (followed with the text 'secure'), as shown in the scree
 
 For the exmaple torrentday we navigate to the domain www.torrentday.com. For other providers, you'll have to browse through the tree, to locate your required cookie.
 Here you'll have to look for the required cookie, and copy the value from `content`. Repeat this for all the required cookies, as retrieved from step 1.
+
 [[images/provider_options_get_cookie_names_3.png]]
 
 3. configuring the provider with the required cookies
@@ -31,6 +32,7 @@ The last step is the easiest. You should now have a list of cookies and the corr
 As shown in the last screenshot, we've found the value `3421003` (don't use this value, as this is just an example) for the cookie `uid`. You should also have found a value for the cookie `pass`.
 
 We should store the values in the following format: `uid=value;pass=value`.
+
 [[images/provider_options_get_cookie_names_4.png]]
 
 A good first test would be to run a manual search on a series, for which you know your provider should give results.
