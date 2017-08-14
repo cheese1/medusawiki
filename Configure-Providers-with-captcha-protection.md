@@ -7,6 +7,9 @@ As a workaround for these providers, you can configure the provider with the coo
 ## Step by step
 
 1. finding out which cookies you need for your provider
+I'm assuming you have already enabled your captcha protected provider, have the Search Providers page in front of you with the provider options tab opened.
+
+[[images/provider_options_get_cookie_names.png]]
 
 2. retrieving the cookies
 
