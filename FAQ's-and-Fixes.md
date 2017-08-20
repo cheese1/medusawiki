@@ -31,23 +31,23 @@ You can find the log files path in _Config->Help & Info_, look for *SR Log Dir*.
 Go to settings (gearwheels) ---> General ---> Advanced Settings. Enable the setting `Enable debug`. Or set in manually in your config.ini. The line is called `debug = 0` replace the 0 with 1 and save. (Make sure Medusa is not running!)
 If you like to upload the log you can use [pastebin] (http://pastebin.org) or an equivalent site.  
 
-##Does Medusa support NAS devices?
+## Does Medusa support NAS devices?
 Yes. There are pre-built NAS versions of Medusa:
 * Synology, QNAP, Asustor, Thecus and many others.  
 See the [Medusa installation packages](https://github.com/pymedusa/Medusa/wiki/Medusa-installation-packages) section.  
 
 
-##(scene exceptions) Releases have a different show name than in Medusa, and are not snatched?
+## (scene exceptions) Releases have a different show name than in Medusa, and are not snatched?
 If you encounter torrents/nzbs that use different show names than the one supplied from TheTVDb or TVRage, you can add a Scene Exception to your show [Go to Show, Edit Show] with the name that the releases are using. 
 An example is when you have two shows with the same name. To differentiate between the two, uploaders generally will add the premiere year of the show. i.e. _Revolution_, i.e. _Revolution (2012)_
 For more information see the [Scene exceptions and numbering](https://github.com/pymedusa/Medusa/wiki/Scene-exceptions-and-numbering) section.  
 
-##Error while searching ..., skipping: 'NoneType' object is not iterable
+## Error while searching ..., skipping: 'NoneType' object is not iterable
 Close Medusa, then delete _cache.db_ in your Medusa directory. This may solve the problem. 
 
 If you still have the same issues, search the repository for the error message (without the specific provider name) and if there's an open issue, copy your log (at Debug level). If no such issue exists, open a new one. 
 
-##Reverse Proxy is not working.
+## Reverse Proxy is not working.
 
 Make the following changes to your config.ini file:
 * _web_host=0.0.0.0_
@@ -84,7 +84,7 @@ git pull
 Switch to the [NZBtoMedia](https://github.com/pymedusa/Medusa/wiki/NZBtoMedia) scripts. The package contains a script called NZBtoSickbeard. This will provide full and automatic failed download handling. Installation is almost identical as the SABtoSickbeard script.  
 
 
-##Error: Rar Not Supported: No suitable RAR unpacker installed
+## Error: Rar Not Supported: No suitable RAR unpacker installed
 Medusa has the ability to unpack RAR-archived releases but require the external `unrar` command on Linux, Mac, FreeBSD and other Unix OS. In Windows, it use unrar.dll(x86) or unrar64.dll(x86_64) which are included in Medusa.
 
 If you get this error, you need to make sure unrar is installed and available into PATH.
@@ -123,7 +123,7 @@ After an episode is downloaded you can automatically modify/change/work on the f
 ## How do the quality settings for a show work?
 One of the most important things in Medusa are the Quality Settings. The Quality Settings allow you to instruct Medusa what the quality should be and if it should be snatched, or left alone. For a more detailed explanation see the [Quality Settings](https://github.com/pymedusa/Medusa/wiki/Quality-Settings) section.  
 
-##Newly aired shows are not downloading and set to skipped/ignored?  
+## Newly aired shows are not downloading and set to skipped/ignored?  
 This is due to a [fix](https://github.com/pymedusa/Medusa/pull/2078) for a very old bug in Medusa recently. (July 2015)  
 
 Previously, when you added a show you had the option for __Default Episode Status__ to set the status for episodes that had aired in the past, and all new episodes were automatically set to wanted regardless of your setting, which could be seen from the show page. Now, we have 2 settings when adding a show, Default Episode Status for past episodes, and a Default Episode Status for future episodes. If your shows were added before this change, then your Default Episode Status for future episodes is still set to whatever you added the show with.
@@ -219,4 +219,3 @@ First check it the connection test works in the search settings. If that does wo
 
 When all fails than you could also use the black-hole method as a work around. Medusa will store the nzb/torrent in a folder of your choosing.
 Then simply set DS to monitor that folder for nzbs and torrents. As soon as one is found the download will start. 
-
