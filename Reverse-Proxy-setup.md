@@ -47,7 +47,6 @@ SSLProxyVerify none
 SSLProxyCheckPeerCN off
 SSLProxyCheckPeerName off
 SSLProxyCheckPeerExpire off
-LogLevel debug
 ProxyRequests Off
 <Proxy *>
         AddDefaultCharset Off
