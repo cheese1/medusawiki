@@ -34,3 +34,29 @@ server {
     }
 }
 ```
+
+# Apache
+In medusa config.ini make sure `enable_https = 1` and `handle_reverse_proxy = 1`. 
+```
+LoadModule proxy_module /usr/lib/apache2/modules/mod_proxy.so
+LoadModule proxy_http_module /usr/lib/apache2/modules/mod_proxy_http.so
+LoadModule proxy_wstunnel_module /usr/lib/apache2/modules/mod_proxy_wstunnel.so
+LoadModule ssl_module modules/mod_ssl.so
+SSLProxyEngine on
+SSLProxyVerify none
+SSLProxyCheckPeerCN off
+SSLProxyCheckPeerName off
+SSLProxyCheckPeerExpire off
+LogLevel debug
+ProxyRequests Off
+<Proxy *>
+        AddDefaultCharset Off
+        Order deny,allow
+        Allow from all
+</Proxy>
+ProxyPass /medusa/ws wss://127.0.0.1:8081/medusa/ws keepalive=On timeout=600 retry=1 acquire=3000
+ProxyPassReverse /medusa/ws wss://127.0.0.1:8081/medusa/ws
+ProxyPass /medusa https://127.0.0.1:8081/medusa keepalive=On timeout=600 retry=1 acquire=3000
+ProxyPassReverse /medusa https://127.0.0.1:8081/medusa
+ProxyPassReverseCookieDomain 127.0.0.1 %{HTTP:Host}
+```
