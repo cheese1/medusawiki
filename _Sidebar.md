@@ -11,6 +11,7 @@
 [Post-Processing](https://github.com/pymedusa/Medusa/wiki/Post-Processing)  
 [Quality-Settings](https://github.com/pymedusa/Medusa/wiki/Quality-Settings)  
 [Scene exceptions](https://github.com/pymedusa/Medusa/wiki/Scene-exceptions-and-numbering)  
+[Search providers](https://github.com/pymedusa/Medusa/wiki/Medusa-Search-Providers)  
 [SSL Errors](https://github.com/pymedusa/Medusa/wiki/SSL-Errors)  
 
 ***
