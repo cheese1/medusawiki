@@ -98,7 +98,7 @@ Generic french semi-private torrent site
 
 Generic french private torrent site
 
-### Shazbat#
+### Shazbat ###
 
 Generic private torrent site
 
