@@ -1,4 +1,4 @@
-### Usenet  ###
+## Usenet  ##
 
 ### Omgwtfnzbs! ### 
 
@@ -32,7 +32,7 @@ NZBs Indexer
 
 NZBs indexer
 
- ###Torrents ###
+## Torrents ##
 
 ### Costum Rss Feeds ### 
 
@@ -64,7 +64,7 @@ Generic private torrent site
 
 ### BitCannon ###
 
-Its an open source torrent index archiving, browsing, and backup tool
+It's an open source torrent index archiving, browsing, and backup tool
 
 ### BroadcastTheNet (BTN) ###
 
