@@ -90,6 +90,14 @@ Italian private torrent site ,specializes in Muxed (Dubbed) relases
 
 Generic french private torrent site
 
+###YggTorrent##
+
+Generic french semi-private torrent site
+
+###Elite-Tracker##
+
+Generic french private torrent site
+
 ###Shazbat#
 
 Generic private torrent site
