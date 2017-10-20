@@ -1,199 +1,183 @@
-##Usenet##
+### Usenet  ###
 
-###Omgwtfnzbs!###
+### Omgwtfnzbs! ### 
 
 Website: https://omgwtfnzbs.org/  
 
-###Wombles###
+### Wombles ### 
 
 Wombles Index is a free RSS feed that reports recent public releases. Wombles does not support (backlog) searches and thus can only be used to grab new releases as they are posted.
 
-###NZBs.org###
+### NZBs.org ### 
 
 NZBs indexer
 
-###AnimeNZB##
+### AnimeNZB ###
 
 NZB indexer specialized in 
 
-###BinSearch##
+### BinSearch ###
 
 NZB Search Engine
 
-###NZB.cat##
+### NZB.cat ###
 
 NZBs Indexer
 
-###NZBs Geek##
+### NZBs Geek ###
 
 NZBs Indexer
 
-###Usenet-Crawler##
+### Usenet-Crawler ###
 
 NZBs indexer
 
-##Torrents##
+ ###Torrents ###
 
-###Costum Rss Feeds###
+### Costum Rss Feeds ### 
 
 Generic torrent RSS feed parser.
 
-###HouwdDaws##
+### HouwdDaws ###
 
 Nordic Torrent Community
 
-###HDBits##
+### HDBits ###
 
 Specializes in HD releases
 
-###BitSoup##
+### BitSoup ###
 
 Generic private torrent site
 
-###AnimeBytes##
+### AnimeBytes ###
 
 Generic private torrent site
 
-###AlphaRatio##
+### AlphaRatio ###
 
 Generic private torrent site
 
-###SceneTime##
+### SceneTime ###
 
 Generic private torrent site
 
-###BitCannon##
+### BitCannon ###
 
 Its an open source torrent index archiving, browsing, and backup tool
 
-###BroadcastTheNet (BTN)##
+### BroadcastTheNet (BTN) ###
 
 Specializes in televizion releases
 
-###RARBG##
+### RARBG ###
 
 Bulgarian torrent site with their own release group "RARBG"
 
-###TorrentBytes##
+### TorrentBytes ###
 
 Generic private torrent site
 
-###Speed.cd##
+### Speed.cd ###
 
 Generic private torrent site
 
-###TNTVillage##
+### TNTVillage ###
 
 Italian private torrent site ,specializes in Muxed (Dubbed) relases
 
-###Xthor##
+### Xthor ###
 
 Generic french private torrent site
 
-###YggTorrent##
+### YggTorrent ###
 
 Generic french semi-private torrent site
 
-###Elite-Tracker##
+### Elite-Tracker ###
 
 Generic french private torrent site
 
-###Shazbat#
+### Shazbat#
 
 Generic private torrent site
 
-###TorrentProject##
+### TorrentProject ###
 
 DHT and meta search engine
 
-###IPTorrents##
+### IPTorrents ###
 
 Generic private torrent site
 
-###Strike##
+### Strike ###
 
 DHT and met search engine
 
-###ExtraTorrent##
+### ExtraTorrent ###
 
 Public torrent site and releaser of [ettv] releases
 
-###MoreThanTV##
+### MoreThanTV ###
 
 Private torrent site specialized in televizion relases
 
-###TitansOfTV##
+### TitansOfTV ###
 
 Generic private torrent site
 
-###NyaaTorrents##
+### NyaaTorrents ###
 
 Torrent site dedicated to anime
 
-###TorrentDay##
+### TorrentDay ###
 
 Generic private torrent site
 
-###BTDigg##
+### BTDigg ###
 
 First DHT Search engine
 
-###CPasbien##
+### Torrent9 ###
 
-Generic frech torrent site
+Generic french torrent site
 
-###SceneAcess##
+### SceneAccess ###
 
 Generic private torrent site
 
-###Libertalia##
-
-Generic french private torrent site
-
-###TokyoToshokan##
+### TokyoToshokan ###
 
 Torrent site dedicated to 
 
-###HDTorrents##
+### HDTorrents ###
 
 Private torrent site dedicated to HD releases
 
-###ThePirateBay##
+### ThePirateBay ###
 
 "The galaxy's most resilient BitTorrent site"
 
-###TVChaosUK##
+### TVChaosUK ###
 
 Generic private torrent site
 
-###BlueTigers##
-
-Generic french private torrent site
-
-###FNT##
-
-Generic french private torrent site
-
-###FreshOnTV##
+### FreshOnTV ###
 
 Private torrent site dedicated to TV
 
-###KickAssTorrents##
+### KickAssTorrents ###
 
 Public torrent site
 
-###NextGen##
+### NextGen ###
 
 Generic private torrent site
 
-###T411##
-
-Generic french private torrent site
-
-###TorrentLeech##
+### TorrentLeech ###
 
 Generic private torrent site ,that only has scene releases
 
-###TransmitTheNet##
+### TransmitTheNet ###
 
 Generic private torrent site
