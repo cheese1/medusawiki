@@ -16,6 +16,7 @@ New to Medusa? Then the below guides will help you with the setup, and discover 
 * http://www.htpcbeginner.com/sickbeard-to-sickrage-migration/
 
 (Note, Don't use the old config.ini and sickbeard.db to prevent errors.!)
+* When upgrading be sure to delete collections.py and collections.pyc from medusa/helper as this will make starting not possible on some systems.
 
 --------------------
 ### Installation Guides
