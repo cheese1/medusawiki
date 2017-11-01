@@ -35,7 +35,7 @@ The installation assumes that you're not using the root user to install/run medu
 5. Copy init file to system init
 
     ```bash
-    sudo cp /usr/share/medusa/init.fedora /etc/init.d/medusa
+    sudo cp /usr/share/medusa/runscripts/init.fedora /etc/init.d/medusa
     ```
 
 6. Make init file executable
