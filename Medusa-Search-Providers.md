@@ -98,6 +98,14 @@ Generic french semi-private torrent site
 
 Generic french private torrent site
 
+### ABNormal ###
+
+Generic french private torrent site
+
+### ArcheTorrent ###
+
+Generic french private torrent site
+
 ### Shazbat ###
 
 Generic private torrent site
