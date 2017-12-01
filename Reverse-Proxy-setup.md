@@ -59,3 +59,36 @@ ProxyPass /medusa https://127.0.0.1:8081/medusa keepalive=On timeout=600 retry=1
 ProxyPassReverse /medusa https://127.0.0.1:8081/medusa
 ProxyPassReverseCookieDomain 127.0.0.1 %{HTTP:Host}
 ```
+
+# Microsoft IIS Application Request Routing
+This explanation assumes that ARR in IIS fully configured and working.
+
+Make sure that WebSocket Protocol is added as a feature to IIS.
+![](https://i.imgur.com/h62mXUS.png)
+
+Create the following Server Variables in IIS:
+1. HTTP_X_FORWARDED_HOST
+2. HTTP_X_FORWARDED_PROTO
+3. HTTP_X_FORWARDED_SCHEMA
+
+Edit the web.config of the the Medusa site to contain the following lines and change localhost with the ip of your Medusa server
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <rewrite>
+            <rules>
+                <rule name="Medusa Reverse Proxy" enabled="true" patternSyntax="Wildcard" stopProcessing="true">
+                    <match url="*" />
+                    <action type="Rewrite" url="http://LOCALHOST:8081/{R:1}" />
+                    <serverVariables>
+                        <set name="HTTP_X_FORWARDED_HOST" value="{HTTP_HOST}" />
+                        <set name="HTTP_X_FORWARDED_SCHEMA" value="https" />
+                        <set name="HTTP_X_FORWARDED_PROTO" value="https" />
+                    </serverVariables>
+                </rule>
+            </rules>
+        </rewrite>
+    </system.webServer>
+</configuration>
+```
