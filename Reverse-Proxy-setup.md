@@ -36,28 +36,48 @@ server {
 ```
 
 # Apache
-In medusa config.ini make sure `enable_https = 1` and `handle_reverse_proxy = 1`. 
+In medusa config.ini make sure `handle_reverse_proxy = 1`.
+Your not forced to configure https in medusa, but if you want to, change: `enable_https = 1`.
+If you do, then also make sure you change `http://localhost:8081/medusa` with `https://localhost:8081/medusa` and `ws://127.0.0.1:8081/medusa/ws` with `wss://127.0.0.1:8081/medusa/ws`.
 ```
-LoadModule proxy_module /usr/lib/apache2/modules/mod_proxy.so
-LoadModule proxy_http_module /usr/lib/apache2/modules/mod_proxy_http.so
-LoadModule proxy_wstunnel_module /usr/lib/apache2/modules/mod_proxy_wstunnel.so
-LoadModule ssl_module modules/mod_ssl.so
-SSLProxyEngine on
-SSLProxyVerify none
-SSLProxyCheckPeerCN off
-SSLProxyCheckPeerName off
-SSLProxyCheckPeerExpire off
-ProxyRequests Off
-<Proxy *>
-        AddDefaultCharset Off
-        Order deny,allow
-        Allow from all
-</Proxy>
-ProxyPass /medusa/ws wss://127.0.0.1:8081/medusa/ws keepalive=On timeout=600 retry=1 acquire=3000
-ProxyPassReverse /medusa/ws wss://127.0.0.1:8081/medusa/ws
-ProxyPass /medusa https://127.0.0.1:8081/medusa keepalive=On timeout=600 retry=1 acquire=3000
-ProxyPassReverse /medusa https://127.0.0.1:8081/medusa
-ProxyPassReverseCookieDomain 127.0.0.1 %{HTTP:Host}
+<VirtualHost *:443>
+    LoadModule proxy_module /usr/lib/apache2/modules/mod_proxy.so
+    LoadModule proxy_http_module /usr/lib/apache2/modules/mod_proxy_http.so
+    LoadModule proxy_wstunnel_module /usr/lib/apache2/modules/mod_proxy_wstunnel.so
+    LoadModule ssl_module modules/mod_ssl.so
+    SSLProxyEngine on
+    SSLProxyVerify none
+    SSLProxyCheckPeerCN off
+    SSLProxyCheckPeerName off
+    SSLProxyCheckPeerExpire off
+    ProxyRequests Off
+
+    # make sure we keep communicating over https
+    RequestHeader set X-Forwarded-Proto "https" env=HTTPS
+
+    ProxyRequests On
+    ProxyPreserveHost Off
+    ServerName your_server_name
+
+    SSLEngine on
+    SSLCertificateFile /etc/apache2/certs/your_cert.crt
+    SSLCertificateKeyFile /etc/apache2/certs/your_cert.key
+
+    # Medusa proxy config
+    ProxyPass /medusa/ws ws://127.0.0.1:8081/medusa/ws keepalive=On timeout=600 retry=1 acquire=3000
+
+    # websockets
+    ProxyPassReverse /medusa/ws ws://127.0.0.1:8081/medusa/ws
+    ProxyPassReverseCookieDomain 127.0.0.1 %{HTTP:Host}
+
+    # webserver
+    ProxyPass /medusa http://localhost:8081/medusa keepalive=On timeout=600 retry=1 acquire=3000
+    ProxyPassReverse /medusa http://localhost:8081/medusa
+
+	# just some logging
+    CustomLog /var/log/apache2/proxy-access.log combined
+    ErrorLog /var/log/apache2/proxy-error.log
+</VirtualHost>
 ```
 
 # Microsoft IIS Application Request Routing
