@@ -2,7 +2,7 @@
 
 Luckily this is very easy and can be preformed with a few simple steps.  
 
-Summery. :  
+Summary. :  
 
 1) Go into Medusa and make a backup.  
 2) Go to the Synology Package Center and remove Medusa.  
@@ -10,9 +10,9 @@ Summery. :
 `git://github.com/pymedusa/Medusa.git`  
 4) Restore your backup, and restart Medusa.  
 
-Thats it. :+1:  
+That's it. :+1:  
 
-Note: By default the synocommunity sickbeard-custom package uses port 8083, and Synocommunity's Medusa package uses port 8899. So if you restore your backup between the two the port will also be restored back. Therefor make sure you open the Medusa page with the correct port.
+Note: By default the synocommunity sickbeard-custom package uses port 8083, and Synocommunity's Medusa package uses port 8899. So if you restore your backup between the two the port will also be restored back. Therefore make sure you open the Medusa page with the correct port.
 
 
 ## Explained with illustrations.  
@@ -29,14 +29,14 @@ Login to Synology's DSM and go into the Package Center and open the Medusa Packa
 =
 
 
-On the conformation window pres `YES`.  
+On the confirmation window press `YES`.  
 
 ![3](https://cloud.githubusercontent.com/assets/7928052/11318353/73f94810-904f-11e5-845b-71c7bc851f7c.png)
 =
 
 ###### Install Medusa  
 
-Now that Medusa is removed we need to (re)install it again. Go to the community overview of Packages, find Sickbeard-custom and click on `Install`.  
+Now that Medusa is removed we need to (re)install it. Go to the community overview of Packages, find Sickbeard-custom and click on `Install`.  
 
 ![1](https://cloud.githubusercontent.com/assets/7928052/12465056/88f5befe-bfcc-11e5-9c59-f44ad547c768.png)
 =
@@ -63,7 +63,7 @@ Last thing you need to do is a restart of Medusa so the changes take effect.
 =
 
 
-Thats all, you are now running on the new Repository. :)  
+That's all, you are now running on the new Repository. :)  
 
 In some cases you can get a cache warning after restoring the backup. You can ignore those.  
 
