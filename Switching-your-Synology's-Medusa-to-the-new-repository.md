@@ -1,8 +1,6 @@
-===
+Luckily this is very easy and can be performed with a few simple steps.  
 
-Luckily this is very easy and can be preformed with a few simple steps.  
-
-Summary. :  
+Summary:  
 
 1) Go into Medusa and make a backup.  
 2) Go to the Synology Package Center and remove Medusa.  
