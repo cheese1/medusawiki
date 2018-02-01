@@ -1,4 +1,4 @@
-As of februari 2018 Medusa utilizes a new frontend build architecture. This enables us to utilize multiple atomic themes. As long as each theme follows a specific structure, it can be used in medusa and users could add their own.
+As of february 2018 Medusa utilizes a new frontend build architecture. This enables us to utilize multiple atomic themes. As long as each theme follows a specific structure, it can be used in medusa and users could add their own.
 In this document we'll explain how to:
 * make changes to existing themes;
 * describe the theme's build architecture.
