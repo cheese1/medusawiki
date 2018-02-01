@@ -5,6 +5,7 @@ In this document we'll explain how to:
 
 # Make changes to existing themes
 If your starting with a fresh checkout of Medusa. You'll end up with the following directory structure:
+
 **distributable**:
 ```.
 themes/[theme name]
@@ -25,6 +26,7 @@ themes/[theme name]
 │   └── build.min.map
 └─ index.html (SPA)
 ```
+
 **source**:
 ```
 themes_default/[theme name]
