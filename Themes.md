@@ -33,7 +33,7 @@ This will start the following:
 
 With these actions other actions are also performed, like minimizing js, adding source maps, and compress images.
 
-After all tasks have been finished, you'll end up with a build theme, and a watcher has been started. This will watch all source files and compare them to it's source. Whenever it detects a change, it will only run the build task that is configured to run with those watched files.
+After all tasks have been finished, you'll end up with a built theme, and a watcher has been started. This will watch all source files and compare them to its source. Whenever it detects a change, it will only run the build task that is configured to run with those watched files.
 For changes to mako templates you'll need to restart medusa. Others should become directly visible.
 
 ## Build the dark, light and legacy theme
