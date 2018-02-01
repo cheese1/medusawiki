@@ -38,11 +38,11 @@ For changes to mako templates you'll need to restart medusa. Others should becom
 
 ## Build the dark, light and legacy theme
 **from ./themes-default/slim**
-dark: `gulp build --csstheme dark`
-light: `gulp build --csstheme dark`
+* dark: `gulp build --csstheme dark`
+* light: `gulp build --csstheme dark`
 
 **from ./themes-default/legacy**
-legacy: `gulp build --csstheme dark`
+* legacy: `gulp build --csstheme dark`
 
 # theme's build architecture
 
