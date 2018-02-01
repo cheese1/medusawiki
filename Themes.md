@@ -96,7 +96,3 @@ At Medusa startup medusa reads the ./themes/ folder for all available themes, by
 As a minimum it will require the following attributes:
 * name
 * version
-
-## Dark and light sub-theme
-Currently we're utilizing one 'mako' templated frontend, with a css for a light and dark theme.
-I'd like to add a feature where it's possible to select a complete different frontend (html/mako, css and js) but reuse the existing endpoints. As discussed with @OmgImAlexis this could be realized by changing the webroot data folder to the theme's path. The routes will always stay the same.
