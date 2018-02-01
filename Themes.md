@@ -24,7 +24,7 @@ themes/[theme name]
 │   ├── build.min.js
 │   └── build.min.map
 └─ index.html (SPA)
-
+```
 **source**:
 ```
 themes_default/[theme name]
