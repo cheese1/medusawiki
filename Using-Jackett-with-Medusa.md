@@ -1,2 +1,2 @@
 --------------------
-Each Jackett provider must be configured separately in Medusa, using the `Custom Jackett Providers` settings, even though the provider added is a torrent website.
+Each Jackett provider must be configured separately in Medusa, using the `Custom Jackett Providers` setting. The setting will be available if `Torrent Search` is enabled in `Search Settings`.
