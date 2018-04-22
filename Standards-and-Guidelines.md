@@ -30,3 +30,6 @@ api.patch('config', {
     log.error(err);
 });
 ```
+
+### Themes
+More info on building themes [here](https://github.com/pymedusa/Medusa/wiki/Themes)
