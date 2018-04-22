@@ -41,6 +41,8 @@ For changes to mako templates you'll need to restart medusa. Others should becom
 * dark: `gulp build --csstheme dark`
 * light: `gulp build --csstheme light`
 
+Alternatively, you can run: `gulp sync`, which will build all themes configured in the slim defatul-theme package.json.
+
 **from ./themes-default/legacy**
 * legacy: `gulp build --csstheme dark`
 
