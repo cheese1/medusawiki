@@ -19,7 +19,8 @@ docker create \
   lsioarmhf/medusa
 ```
 
-further detail: https://hub.docker.com/r/lsioarmhf/medusa/
+further detail about docker: https://hub.docker.com/r/lsioarmhf/medusa/<BR>
+or https://docs.docker.com/get-started/
 
 ### Config Nginx
 
