@@ -10,9 +10,9 @@
 Usage
 docker create \
   --name=medusa \
--v <path to config>:/config \
--v <path to downloads>:/downloads \
--v <path to tv-shows>:/tv \
+-v /srv/medusa/config:/config \
+-v /srv/medusa/downloads:/downloads \
+-v /srv/medusa/tv-shows:/tv \
 -e PGID=<gid> -e PUID=<uid>  \
 -e TZ=<timezone> \
 -p 8081:8081 \
@@ -24,7 +24,7 @@ or https://docs.docker.com/get-started/
 
 ### Config Nginx
 
-**add "medusa"** in /medusa/config/config.ini 
+**modify "web_root = "medusa""** in **/srv/medusa/config/config.ini**
 
 ```
 [General]
