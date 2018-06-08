@@ -78,7 +78,7 @@ https://example.com/medusa/
 ...redirect to https://example.com/medusa/home/
 ```
 
-References:
+References:<BR>
 https://hub.docker.com/r/lsioarmhf/medusa/<BR>
 https://github.com/pymedusa/Medusa/issues/3041<BR>
 https://github.com/pymedusa/Medusa/wiki/Reverse-Proxy-setup
