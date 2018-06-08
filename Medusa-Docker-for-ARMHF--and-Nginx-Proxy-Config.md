@@ -79,6 +79,7 @@ https://example.com/medusa/
 ```
 
 References:
+https://hub.docker.com/r/lsioarmhf/medusa/
 
 https://github.com/pymedusa/Medusa/issues/3041
 
