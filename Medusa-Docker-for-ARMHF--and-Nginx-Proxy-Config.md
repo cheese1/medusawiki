@@ -79,8 +79,6 @@ https://example.com/medusa/
 ```
 
 References:
-https://hub.docker.com/r/lsioarmhf/medusa/
-
-https://github.com/pymedusa/Medusa/issues/3041
-
+https://hub.docker.com/r/lsioarmhf/medusa/<BR>
+https://github.com/pymedusa/Medusa/issues/3041<BR>
 https://github.com/pymedusa/Medusa/wiki/Reverse-Proxy-setup
