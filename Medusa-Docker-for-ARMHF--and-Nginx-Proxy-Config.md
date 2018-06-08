@@ -72,10 +72,14 @@ server {
 }
 ```
 
-**Access Medusa**
+**Access Medusa on Web-browser**
 ```
 https://example.com/medusa/
 ...redirect to https://example.com/medusa/home/
 ```
 
+References:
 
+https://github.com/pymedusa/Medusa/issues/3041
+
+https://github.com/pymedusa/Medusa/wiki/Reverse-Proxy-setup
