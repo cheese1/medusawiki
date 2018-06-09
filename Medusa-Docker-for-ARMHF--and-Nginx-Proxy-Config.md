@@ -52,6 +52,9 @@ server {
     ssl_session_cache shared:SSL:10m;
     
     location ^~ /medusa {
+            #add this line to fix websocket errors; it allow every thing
+            default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;
+
             proxy_pass http://localhost:8081;
 
             proxy_set_header Host $host;
@@ -71,17 +74,6 @@ server {
     }
 }
 ```
-
-### If Websocket error as
-
-```
-Refused to connect to 'wss://example.com/medusa/ws/ui' because it violates the following Content Security Policy directive: "default-src 'self' 'unsafe-inline' 'unsafe-eval'". Note that 'connect-src' was not explicitly set, so 'default-src' is used as a fallback.
-```
-
-comment out this line in **/etc/nginx/openmediavault-webgui.d/security.conf**:
-
-`#add_header Content-Security-Policy "default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src 'self' data:;";`
-
 
 **Access Medusa on Web-browser**
 ```
