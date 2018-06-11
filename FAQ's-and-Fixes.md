@@ -72,11 +72,12 @@ You can enable the `Git Reset` setting under general --> advanced settings.
 Or you can do a manual Git reset so that your installation is refreshed.
 
 ````
-git remote add upstream https://github.com/pymedusa/Medusa.git
-git fetch upstream
+git remote remove origin
+git remote add origin https://github.com/pymedusa/Medusa.git
+git fetch origin --prune
 git checkout master
-git branch -u upstream/master
-git reset --hard upstream/master
+git branch -u origin/master
+git reset --hard origin/master
 git pull
 ````
 
