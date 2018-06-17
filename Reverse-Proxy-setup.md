@@ -70,6 +70,17 @@ If you do, then also make sure you change `http://localhost:8081/medusa` with `h
     ProxyPassReverse /medusa/ws ws://127.0.0.1:8081/medusa/ws
     ProxyPassReverseCookieDomain 127.0.0.1 %{HTTP:Host}
 
+***
+    # if you receive an error 400 (seen using at least Server version: Apache/2.4.33), use this rather than the ProxyPass and ProxyPassReverse statements above for the ws: urls
+
+    RewriteEngine On
+
+    # When Upgrade:websocket header is present, redirect to ws
+    # Using NC flag (case-insensitive) as some browsers will pass Websocket
+    RewriteCond %{HTTP:Upgrade} =websocket [NC]
+    RewriteRule ^/ws/(.*)    ws://127.0.0.1:5051/ws/$1 [P,L]
+***
+
     # webserver
     ProxyPass /medusa http://localhost:8081/medusa keepalive=On timeout=600 retry=1 acquire=3000
     ProxyPassReverse /medusa http://localhost:8081/medusa
