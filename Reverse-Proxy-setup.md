@@ -39,6 +39,9 @@ server {
 In medusa config.ini make sure `handle_reverse_proxy = 1`.
 Your not forced to configure https in medusa, but if you want to, change: `enable_https = 1`.
 If you do, then also make sure you change `http://localhost:8081/medusa` with `https://localhost:8081/medusa` and `ws://127.0.0.1:8081/medusa/ws` with `wss://127.0.0.1:8081/medusa/ws`.
+
+If you receive an error 400 (seen using at least Server version: Apache/2.4.33), uncomment RewriteEngine, RewriteCond,
+RewriteRule below, and comment out the ProxyPass and ProxyPassReverse statements for the ws(s): urls
 ```
 <VirtualHost *:443>
     LoadModule proxy_module /usr/lib/apache2/modules/mod_proxy.so
@@ -70,7 +73,9 @@ If you do, then also make sure you change `http://localhost:8081/medusa` with `h
     ProxyPassReverse /medusa/ws ws://127.0.0.1:8081/medusa/ws
     ProxyPassReverseCookieDomain 127.0.0.1 %{HTTP:Host}
 
-    # if you receive an error 400 (seen using at least Server version: Apache/2.4.33), uncomment RewriteEngine, RewriteCond, RewriteRule below, and comment out the ProxyPass and ProxyPassReverse statements above for the ws: urls
+    # if you receive an error 400 (seen using at least Server version: Apache/2.4.33), 
+    # uncomment RewriteEngine, RewriteCond, RewriteRule below, and comment out the ProxyPass and 
+    # ProxyPassReverse statements above for the ws: urls
 
     #RewriteEngine On
 
