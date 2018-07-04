@@ -16,9 +16,7 @@ Well, if you had your qualities set up in an odd custom configuration, Medusa mi
 
 The solution is simply to change the quality settings for your shows.
 
-#### Here is how it works  
-If you have qualities in the **Preferred** list set, any episode matching a quality in this list will not be replaced with a better quality. AKA it is a "_best_" match and is final.
-
+#### Here is how it works
 If you ONLY have qualities in the **Allowed** list (Or have a preset selected other than custom) it will also stop on the first match in this list and be considered a "_best_" match, and never be replaced with a better quality.
 
 If you have qualities in BOTH lists, it will accept any quality in the **Allowed** list, and continue looking for a better quality in the **Preferred** list, until it finds one. Once Medusa finds a match in the preferred list, it stops looking.
