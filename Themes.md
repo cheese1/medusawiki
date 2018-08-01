@@ -28,6 +28,9 @@ yarn dev
 ```
 
 When you are done, please use the following command the bundle the application for **production** mode:
+```
+yarn webpack-build
+```
 
 Both commands will automatically copy the relevant files to the each theme's directory (`./themes/dark` and `./themes/light`).  
 
