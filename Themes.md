@@ -40,19 +40,20 @@ In order to build the rest of the theme, run the following command:
 yarn gulp sync
 ```
 This will start the following:
-* Copy all css files from ./static/css -> themes/{theme}/assets/css
-* Copy all js files from ./static/js -> themes/{theme}/assets/js
-* Copy all fonts from ./static/fonts -> themes/{theme}/assets/fonts
-* Copy all images from ./static/images -> themes/{theme}/assets/img
-* Copy all mako templates from ./views -> themes/{theme}/templates
-* Copy index.html from ./ -> themes/{theme}/
+* Copy all css files from `./static/css` -> `themes/{theme}/assets/css`
+* Copy all js files from `./static/js` -> `themes/{theme}/assets/js`
+* Copy all fonts from `./static/fonts` -> `themes/{theme}/assets/fonts`
+* Copy all images from `./static/images` -> `themes/{theme}/assets/img`
+* Copy all mako templates from `./views` -> `themes/{theme}/templates`
+* Copy index.html from `./` -> `themes/{theme}/`
 
+Where `{theme}` is the theme name (`dark` or `light`).  
 With these actions other actions are also performed, like minimizing js, adding source maps, and compress images.
 
 After all tasks have been finished, you'll end up with a built theme.
 
 ## Build the dark or light theme
-You may build a specific theme using:
+You may build a specific theme using:  
 **from ./themes-default/slim**
 * dark: `yarn gulp build --csstheme dark`
 * light: `yarn gulp build --csstheme light`
