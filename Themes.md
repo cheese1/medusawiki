@@ -27,7 +27,7 @@ You may use the following command to bundle the application for **development** 
 yarn dev
 ```
 
-When you are done, please use the following command the bundle the application for **production** mode:
+When you are done, please use the following command to bundle the application for **production** mode:
 ```
 yarn webpack-build
 ```
