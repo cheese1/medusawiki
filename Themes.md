@@ -27,28 +27,31 @@ You may use the following command to bundle the application for **development** 
 yarn dev
 ```
 
-When you are done, please use the following command to bundle the application for **production** mode:
+When building for the `master` branch, please use the following command to bundle the application for **production** mode:
 ```
 yarn webpack-build
 ```
 
 Both commands will automatically copy the relevant files to the each theme's directory (`./themes/dark` and `./themes/light`).  
 
-Gulp is currently still used for most of the theme build.
+Gulp is currently still used for some of the theme build and it's being deprecated.  
 In order to build the rest of the theme, run the following command:
 ```
 yarn gulp sync
 ```
 This will start the following:
 * Copy all css files from `./static/css` -> `themes/{theme}/assets/css`
-* Copy all js files from `./static/js` -> `themes/{theme}/assets/js`
-* Copy all fonts from `./static/fonts` -> `themes/{theme}/assets/fonts`
+* **[\*\*]** ~Copy all js files from `./static/js` -> `themes/{theme}/assets/js`~
+* **[\*\*]** ~Copy all fonts from `./static/fonts` -> `themes/{theme}/assets/fonts`~
 * Copy all images from `./static/images` -> `themes/{theme}/assets/img`
-* Copy all mako templates from `./views` -> `themes/{theme}/templates`
+* **[\*\*]** ~Copy all mako templates from `./views` -> `themes/{theme}/templates`~
 * Copy index.html from `./` -> `themes/{theme}/`
+* Update theme metadata in `themes/{theme}/package.json`
+
+**[\*\*] - Handled by Webpack**
 
 Where `{theme}` is the theme name (`dark` or `light`).  
-With these actions other actions are also performed, like minimizing js, adding source maps, and compress images.
+With these actions other actions are also performed, like ~minimizing js, adding source maps, and~ compressing images.
 
 After all tasks have been finished, you'll end up with a built theme.
 
@@ -80,16 +83,16 @@ themes/[theme name]
 
 **source**:
 ```
-themes_default/[theme name]
+themes-default/[theme name]
+├── src
+│   └── app.js
+│   └── index.js
 ├── static
 │   ├── css
 │   │   └── main.css
-│   ├── img
+│   ├── images
 │   │   └── logo.png
-│   └── fonts
 │   └── js
-│       └── app.js
-│       └── index.js
 ├── package.json
 └── views
 │   └─ index.mako
