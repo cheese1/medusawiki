@@ -29,29 +29,26 @@ yarn dev
 
 When building for the `master` branch, please use the following command to bundle the application for **production** mode:
 ```
-yarn webpack-build
+yarn build
 ```
 
-Both commands will automatically copy the relevant files to the each theme's directory (`./themes/dark` and `./themes/light`).  
-
-Gulp is currently still used for some of the theme build and it's being deprecated.  
-In order to build the rest of the theme, run the following command:
-```
-yarn gulp sync
-```
-This will start the following:
+Both commands will automatically copy the relevant files to the each theme's directory.  
 * Copy all css files from `./static/css` -> `themes/{theme}/assets/css`
-* **[\*\*]** ~Copy all js files from `./static/js` -> `themes/{theme}/assets/js`~
-* **[\*\*]** ~Copy all fonts from `./static/fonts` -> `themes/{theme}/assets/fonts`~
-* Copy all images from `./static/images` -> `themes/{theme}/assets/img`
-* **[\*\*]** ~Copy all mako templates from `./views` -> `themes/{theme}/templates`~
+* Copy all js files from `./static/js` -> `themes/{theme}/assets/js`~
+* Copy all fonts from `./static/fonts` -> `themes/{theme}/assets/fonts`
+* [See `gulp` section below] ~Copy all images from `./static/images` -> `themes/{theme}/assets/img`~
+* Copy all mako templates from `./views` -> `themes/{theme}/templates`
 * Copy index.html from `./` -> `themes/{theme}/`
 * Update theme metadata in `themes/{theme}/package.json`
 
-**[\*\*] - Handled by Webpack**
+Where `{theme}` is the theme name (`dark` or `light`).
 
-Where `{theme}` is the theme name (`dark` or `light`).  
-With these actions other actions are also performed, like ~minimizing js, adding source maps, and~ compressing images.
+Gulp is temporarily used for copying and compressing images.  
+If you're adding a new image to `./static/images` or modifying an existing image, run the following command:
+```
+yarn gulp sync
+```
+This will copy all images from `./static/images` -> `themes/{theme}/assets/img` and compress the new and changed images.
 
 After all tasks have been finished, you'll end up with a built theme.
 
