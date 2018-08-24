@@ -34,9 +34,10 @@ yarn build
 
 Both commands will automatically copy the relevant files to the each theme's directory.  
 * Copy all css files from `./static/css` -> `themes/{theme}/assets/css`
-* Copy all js files from `./static/js` -> `themes/{theme}/assets/js`~
+* Copy all js files from `./static/js` -> `themes/{theme}/assets/js`
 * Copy all fonts from `./static/fonts` -> `themes/{theme}/assets/fonts`
-* [See `gulp` section below] ~Copy all images from `./static/images` -> `themes/{theme}/assets/img`~
+* ~Copy all images from `./static/images` -> `themes/{theme}/assets/img`~  
+  [See `gulp` section below]
 * Copy all mako templates from `./views` -> `themes/{theme}/templates`
 * Copy index.html from `./` -> `themes/{theme}/`
 * Update theme metadata in `themes/{theme}/package.json`
