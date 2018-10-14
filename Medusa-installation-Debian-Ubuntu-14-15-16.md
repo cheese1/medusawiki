@@ -15,7 +15,7 @@ Otherwise:
     This will give you unrar-free (guess), and git to pull the repo
  
    ```bash
-   sudo apt-get update && sudo apt-get install unrar-free git-core openssl libssl-dev python2.7
+   sudo apt-get update && sudo apt-get install unrar-free git-core openssl libssl-dev python2.7 ffmpeg mediainfo
    ```
  
 2. Create medusa user and group
