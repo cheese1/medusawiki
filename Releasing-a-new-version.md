@@ -1,4 +1,5 @@
 ## Checklist for releasing a new version
+
 - [ ] Create a branch, **based on `develop`**, named: `release/release-X.Y.Z` - replacing `X.Y.Z` with the version being released (for example, `release/release-0.2.11`). The branch must start with the `release/` prefix, anything after that is acceptable.
 - [ ] In the `themes-default/slim` folder, run `yarn install --prod false --check-files && yarn build` to build the themes for production.
 - [ ] Bump the application version in `medusa/common.py` (look for the `VERSION` variable).
@@ -11,10 +12,12 @@
 	- **Target:** `master`
 	- **Release title:** `Release X.Y.Z` (for example, `Release 0.2.11`)
 	- **Description:** Copy the changelog from `CHANGELOG.md`, without the version title.
-- [ ] Get PR approved and merged.
+- [ ] Get PR approved and merged - **don't** squash-merge, use merge-commit.
 - [ ] Publish the drafted release [from the releases page](https://github.com/pymedusa/Medusa/releases).
 
+
 ### After releasing - Syncing `develop` with `master`
+
 - [ ] Create a branch **based on the new `master`**.
 - [ ] In the `themes-default/slim` folder, run `yarn dev` to build the themes for development.
 - [ ] Update the `CHANGELOG.md` file - Add an `Unreleased` section to the top of the file:
@@ -33,4 +36,5 @@
 [...]
 ```
 - [ ] Open the PR from the sync branch onto the `develop` branch.
-- [ ] Get PR approved and merged, then resume normal development.
+- [ ] Get PR approved and merged - **don't** squash-merge, use merge-commit.
+- [ ] Resume normal development.
