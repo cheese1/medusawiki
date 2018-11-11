@@ -1,7 +1,7 @@
 ## Checklist for releasing a new version
 
 - [ ] Create a branch, **based on `develop`**, named: `release/release-X.Y.Z` - replacing `X.Y.Z` with the version being released (for example, `release/release-0.2.11`). The branch must start with the `release/` prefix, anything after that is acceptable.
-- [ ] In the `themes-default/slim` folder, run `yarn install --prod false --check-files && yarn build` to build the themes for production.
+- [ ] In the `themes-default/slim` folder, run `yarn install --prod false --force && yarn build` to build the themes for production.
 - [ ] Bump the application version in `medusa/common.py` (look for the `VERSION` variable).
 - [ ] Update the `CHANGELOG.md` file:
 	- Change the `Unreleased` title to the new version with the UTC date of the release (for example, `## 0.2.11 (2018-10-29)`).
