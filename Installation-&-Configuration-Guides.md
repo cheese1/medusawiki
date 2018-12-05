@@ -15,7 +15,8 @@ New to Medusa? Then the below guides will help you with the setup, and discover 
 ###### How to migrate Shows library from SickBeard to Medusa?
 * http://www.htpcbeginner.com/sickbeard-to-sickrage-migration/
 
-(Note, Don't use the old config.ini and sickbeard.db to prevent errors.!)
+(Note, Don't use the old config.ini and sickbeard.db to prevent errors!)
+
 * When upgrading be sure to delete collections.py and collections.pyc from medusa/helper as this will make starting not possible on some systems.
 
 --------------------
@@ -30,18 +31,15 @@ For some of these guides you will need to provide a github url. If this is asked
 ###### Debian/Ubuntu 14.04 with Upstart:
 * http://www.htpcguides.com/install-sickrage-ubuntu-14-04/
 
-###### Debian/Ubuntu 15.x with systemd:
+###### Debian/Ubuntu 15.x (and later) with systemd:
 Our Guide
 * https://github.com/pymedusa/Medusa/wiki/Medusa-installation-Ubuntu-15
 
-HTPCGuide's Guide
+###### HTPCGuide's Guide
 * http://www.htpcguides.com/install-sickrage-ubuntu-vivid-vervet-15-x-and-later
 
 ###### Install Medusa on Ubuntu in a few simple steps  
 * http://www.htpcbeginner.com/install-sickrage-on-ubuntu/  
-
-###### uninstall Medusa Ubuntu Linux
-* http://www.htpcbeginner.com/uninstall-sickrage-ubuntu-linux/
 
 ###### Centos 6
 * https://github.com/pymedusa/Medusa/wiki/Medusa-installation-CENTOS-6
@@ -58,11 +56,12 @@ HTPCGuide's Guide
 ###### Feral Hosting  
 * https://www.feralhosting.com/faq/view?question=281  
 
+###### Uninstall Medusa on Ubuntu
+* http://www.htpcbeginner.com/uninstall-sickrage-ubuntu-linux/
 
 ## IMPORTANT NOTE!  
 Some guides are not yet updated with the new Medusa Repository URL.  
 Make sure you use `https://github.com/pyMedusa/Medusa.git`  
-
 
 ###### NAS4Free  
 * ~~http://forums.nas4free.org/viewtopic.php?t=8533~~  
