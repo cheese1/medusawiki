@@ -1,8 +1,8 @@
-##Episode Status
+## Episode Status
 
 The Episode status lets you view the current status of an episode. For example is it already downloaded.? still Wanted? or Snatched.? etc. What the Episode Status is effects what actions Medusa will take for the future of the episode.  
 
-##Status Types
+## Status Types
 
 There are Many different Status Types that are used for at what state/stage the particular episode is in. Below you find an explanation of those Status types. :  
 
