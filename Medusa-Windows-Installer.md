@@ -13,7 +13,7 @@ The installer uses a service (account) to run Medusa automatically on startup. T
 Or edit the service to run with another [account](https://technet.microsoft.com/en-us/library/cc755249.aspx) that has the network drive mappings setup.
 You can manually change the account from the command prompt (administrative rights) with the below commands. :  
 ```
-sc config "SickRage" obj= "username" password= "password"
+sc config "Medusa" obj= "username" password= "password"
 sc restart Medusa
 ```  
 
