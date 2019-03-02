@@ -52,20 +52,17 @@ For Init Systems
 For Upstart Systems
 
 4. Copy init.d service
- 
     ```bash
     sudo cp -v /opt/medusa/runscripts/init.upstart /etc/init/medusa.conf
     ```
 
 5. Make sure your new service has correct permissions
- 
     ```bash
     sudo chown root:root /etc/init/medusa.conf
     sudo chmod 644 /etc/init/medusa.conf
     ```
 
 6. Update and start your new service
-   
     ```bash
     sudo service medusa start
     ```
@@ -73,23 +70,26 @@ For Upstart Systems
 For Systemd Systems
 
 4. Copy systemd service
- 
     ```bash
     sudo cp -v /opt/medusa/runscripts/init.systemd /etc/systemd/system/medusa.service
     ```
  
 5. Make sure your new service has correct permissions
- 
     ```bash
     sudo chown root:root /etc/systemd/system/medusa.service
     sudo chmod 644 /etc/systemd/system/medusa.service
     ```
  
 6. Enable, start, and then check the status of your new service
-   
     ```bash
     sudo systemctl enable medusa
     sudo systemctl start medusa
     sudo systemctl status medusa
+    ```
+
+7. Add Medusa to startup (optional)
+    ```
+    sudo systemctl enable medusa.service
+    ```
 
 All done, verify that Medusa is accessible at: http://localhost:8081
