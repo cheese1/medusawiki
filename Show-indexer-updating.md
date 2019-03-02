@@ -27,7 +27,7 @@ The next update is calculated by dividing the delta of the last air date by **10
 | 1 month      | 2592000       | 12960               | 3,6               |
 | 1 year       | 31536000      | 157680              | 43,8              |
 | 20 years     | 630720000     | 3153600             | 876               |
-| Divider:     | 100           |                     |                   |
+| Divider:     | 200           |                     |                   |
 
 ### Using indexer who provide per season updates (TMDB)
 TMDB provides an api which you can query on a showid, which returns a list of seasons that have been updated for the show. When already being updated on a season level, we don't need to calculate the next season update.
