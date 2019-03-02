@@ -2,6 +2,10 @@
 
 New to Medusa? Then the below guides will help you with the setup, and discover all its cool features.
 
+## IMPORTANT NOTE!  
+Some guides are not yet updated with the new Medusa Repository URL.  
+Make sure you use `https://github.com/pyMedusa/Medusa.git`
+
 ###### Configuration guides for Medusa:
 * http://www.htpcguides.com/configure-sickrage-usenet-torrent-tv/
 
@@ -57,7 +61,3 @@ Our Guide
 
 ###### Uninstall Medusa on Ubuntu
 * http://www.htpcbeginner.com/uninstall-sickrage-ubuntu-linux/
-
-## IMPORTANT NOTE!  
-Some guides are not yet updated with the new Medusa Repository URL.  
-Make sure you use `https://github.com/pyMedusa/Medusa.git`
