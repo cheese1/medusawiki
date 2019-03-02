@@ -18,7 +18,7 @@ Make sure you use `https://github.com/pyMedusa/Medusa.git`
 ###### How to migrate Shows library from SickBeard to Medusa?
 * http://www.htpcbeginner.com/sickbeard-to-sickrage-migration/
 
-(Note, Don't use the old config.ini and sickbeard.db to prevent errors!)
+(Note, don't use the old config.ini and sickbeard.db to prevent errors!)
 
 * When upgrading be sure to delete collections.py and collections.pyc from medusa/helper as this will make starting not possible on some systems.
 
