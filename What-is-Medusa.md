@@ -38,9 +38,7 @@ Medusa contains a ton of cool features. Some of those are:
  - Real SSL certificate validation
 
 #### Dependencies  
-To run Medusa we recommend [Python 2.7.10 or 11](https://www.python.org/downloads/release/python-2711/), and a minimum of [OpenSSL v.1.01e](https://www.openssl.org/source/). [GIT](https://git-scm.com/) is required for Medusa's update process. 
-
-The minimum requirements are Python 2.7.x with the latest modules of [PyOpenSSL](https://pypi.python.org/pypi/pyOpenSSL), and [cryptography](https://pypi.python.org/pypi/cryptography). (Cheetah isn't required anymore.)  
+To run Medusa we recommend the latest [Python 2.7.x](https://www.python.org/downloads/) release, and a minimum of [OpenSSL v.1.01e](https://www.openssl.org/source/). [git](https://git-scm.com/) is required for Medusa's update process. 
 
 #### Support
 In case the [Wiki](https://github.com/pymedusa/Medusa/wiki) doesn't have the answer to your question, you could check us out on irc.
@@ -48,7 +46,7 @@ In case the [Wiki](https://github.com/pymedusa/Medusa/wiki) doesn't have the ans
 We are on freenode in #pymedusa. [WebIRC kiwiirc.com](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#pymedusa)
 
 #### Bugs/Issues
-In case you have found a bug and verified that it indeed is a bug, than please report it to our [issue tracker](https://github.com/pymedusa/Medusa/issues) so that the Developers can investigate.  
+In case you have found a bug and verified that it indeed is a bug, then please report it to our [issue tracker](https://github.com/pymedusa/Medusa/issues) so that the Developers can investigate.  
 Note, make sure you follow the [guidelines](https://github.com/pymedusa/Medusa/issues#submitting-a-bugissue-ticket) for posting a bug.  
 
 ---
