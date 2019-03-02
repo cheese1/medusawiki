@@ -10,7 +10,7 @@ The installation assumes that you're not using the root user to install/run medu
    sudo apt-get update && sudo apt-get install unrar-free git-core openssl libssl-dev python2.7 ffmpeg mediainfo
    ```
 
-2. Create medusa user and group
+2. Create medusa user and group.
     This makes sure that medusa is isolated and is best practice for security
    
     ```bash
