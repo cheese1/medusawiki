@@ -33,7 +33,7 @@ For some of these guides you will need to provide a github url. If this is asked
 
 ###### Debian/Ubuntu 15.x (and later) with systemd:
 Our Guide
-* https://github.com/pymedusa/Medusa/wiki/Medusa-installation-Ubuntu-15
+* https://github.com/pymedusa/Medusa/wiki/Medusa-installation-Debian-Ubuntu-14-15-16
 
 ###### HTPCGuide's Guide
 * http://www.htpcguides.com/install-sickrage-ubuntu-vivid-vervet-15-x-and-later
