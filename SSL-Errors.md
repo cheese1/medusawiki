@@ -1,4 +1,4 @@
-## What are SSL errors.?
+## What are SSL errors?
 
 SSL errors are connection errors to a secured HTTPS website. Medusa uses this method to ensure your connection is secure and private. However that also means you need to have a recent OpenSSL version installed on your OS. If it's outdated you can suffer from SSL connection errors.  
 
@@ -53,7 +53,6 @@ However you might be in a situation where you have an old device and updating is
 * Go to Settings --> General --> Advanced Settings and disable the function `Verify SSL Certs`. This will prevent the checking if an certificate is valid or not.  
 * Change the URL(s) from `https` to `http`. Most providers have a custom URL field so just enter the `http` URL there. Same for the notifiers, etc. However be aware that you are not using a secure connection then.  
 
-== 
 ___
 
 
