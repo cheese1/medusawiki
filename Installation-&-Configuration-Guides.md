@@ -61,15 +61,4 @@ Our Guide
 
 ## IMPORTANT NOTE!  
 Some guides are not yet updated with the new Medusa Repository URL.  
-Make sure you use `https://github.com/pyMedusa/Medusa.git`  
-
-###### NAS4Free  
-* ~~http://forums.nas4free.org/viewtopic.php?t=8533~~  
-(Note: Make sure you use the new URL! https://github.com/pyMedusa/Medusa.git )  
-
-###### Drobo
-* ~~http://www.drobospace.com/forums/showthread.php?tid=142812~~  
-(Note: Make sure you use the new URL! https://github.com/pyMedusa/Medusa.git )  
-
-------------
-**We like to thank all who contributed to the guides, but especially we want to thank http://www.htpcguides.com for providing us with many of those quality guides.**
+Make sure you use `https://github.com/pyMedusa/Medusa.git`
