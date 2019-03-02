@@ -25,7 +25,7 @@ The installation assumes that you're not using the root user to install/run medu
     sudo -u medusa git clone https://github.com/pymedusa/Medusa.git /opt/medusa
     ```
 
-For Init Systems
+**For Init Systems**
 	
 4. Copy init.d service
  
@@ -47,7 +47,7 @@ For Init Systems
 	sudo service medusa start
     ```
 	
-For Upstart Systems
+**For Upstart Systems**
 
 4. Copy init.d service
     ```bash
@@ -65,7 +65,7 @@ For Upstart Systems
     sudo service medusa start
     ```
 
-For Systemd Systems
+**For Systemd Systems**
 
 4. Copy systemd service
     ```bash
