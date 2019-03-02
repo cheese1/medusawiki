@@ -22,7 +22,7 @@ New to Medusa? Then the below guides will help you with the setup, and discover 
 ### Installation Guides
 
 Medusa can be installed on many different systems. Below you will find guides for many of those.
-For some of these guides you will need to provide a github url. If this is asked, please you the correct url: https://github.com/pyMedusa/Medusa.git.
+For some of these guides you will need to provide a GitHub URL. If this is asked, please use the correct URL: https://github.com/pymedusa/Medusa.git
 
 ###### Windows:
 * https://github.com/pymedusa/MedusaInstaller/releases
