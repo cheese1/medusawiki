@@ -1,5 +1,5 @@
-## Ubuntu 14.x 15.x 16.x
-The following instructions are for installing Medusa on Ubuntu 14.x 15.x 16.x
+## Ubuntu 14.x - 18.x
+The following instructions are for installing Medusa on Ubuntu 14.x - 18.x
  
 The installation is applicable to the upcoming 16.04 LTS as it is the same systemd setup as 15.x. The provided script can distinguish the difference between systemd/init/upstart for you. 
  
