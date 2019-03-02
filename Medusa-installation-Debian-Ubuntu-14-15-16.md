@@ -3,27 +3,21 @@ The following instructions are for installing Medusa on Ubuntu 14.x 15.x 16.x
  
 The installation is applicable to the upcoming 16.04 LTS as it is the same systemd setup as 15.x. The provided script can distinguish the difference between systemd/init/upstart for you. 
  
-The installation assumes that you're not using the root user to install/run medusa - the entries for **user:group** throughout the document will be set as medusa:medusa and you will have to modify if if you want it to match your user configuration.
- 
-If you trust us and would like us to just do it for you just paste this:
+The installation assumes that you're not using the root user to install/run medusa - the entries for **user:group** throughout the document will be set as medusa:medusa and you will have to modify if you want it to match your user configuration.
 
-	curl https://raw.githubusercontent.com/SickRage/medusa-issues/master/INSTALLSCRIPTS/debian-ubuntu-init.sh | sudo bash
-	
-Otherwise:
- 
 1. Update repositories and install Medusa dependencies
-    This will give you unrar-free (guess), and git to pull the repo
+    This will give you unrar-free, and git to pull the repo
  
    ```bash
    sudo apt-get update && sudo apt-get install unrar-free git-core openssl libssl-dev python2.7 ffmpeg mediainfo
    ```
- 
+
 2. Create medusa user and group
     This makes sure that medusa is isolated and is best practice for security
    
     ```bash
     sudo addgroup --system medusa
-    sudo adduser --disabled-password --system --home /var/lib/medusa --gecos "SickRage" --ingroup medusa medusa
+    sudo adduser --disabled-password --system --home /var/lib/medusa --gecos "Medusa" --ingroup medusa medusa
     ```
    
 3. Clone Medusa git repo
