@@ -39,7 +39,7 @@ Click on `Next >` to processed with the installation.
 
 ![2](https://cloud.githubusercontent.com/assets/7928052/9738296/1573a828-564b-11e5-9f2e-09a320ad02ee.png)
 
-The next window lets you select the destination folder where you want Medusa to be installed. the default is `C:\SickRage`  
+The next window lets you select the destination folder where you want Medusa to be installed. the default is `C:\Medusa`  
 Use `Browse...` if you would like to change that location. Or enter the destination manually in the text-field.  
 Click on `Next >` to to proceed with the installation.  
 
