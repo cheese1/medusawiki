@@ -7,18 +7,38 @@ The installation should also be applicable to RHEL 6 and Fedora (12, 13, or 14) 
 
 The installation assumes that you're not using the root user to install/run medusa - the entries for **user:group** throughout the document will have to be modified to match your user configuration.
 
-1. Install rpmFusion non-free repository 
-    The repository is needed for unrar installation
-
-   ```bash
-   sudo rpm -ivh http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm
+1. Install IUS Community Project repository
+    The repository is needed for recent Python versions
+   
+   For **CentOS 6**:
+   ```
+   sudo yum install https://centos6.iuscommunity.org/ius-release.rpm
+   ```
+   For **Centos 7**:
+   ```
+   sudo yum install https://centos7.iuscommunity.org/ius-release.rpm
    ```
 
 2. Install prerequisites
 
-   ```bash
-    sudo yum install python-cheetah unrar wget git 
+   ```
+    sudo yum install python36u wget git
     ```
+   Install unrar:
+   64bit
+   ```
+   wget https://www.rarlab.com/rar/rarlinux-x64-5.7.0.tar.gz
+   tar -zxvf rarlinux-x64-5.7.0.tar.gz
+   cd rar
+   sudo cp -v rar unrar /usr/local/bin/
+   ```
+   32bit
+   ```
+   wget https://www.rarlab.com/rar/rarlinux-5.7.0.tar.gz
+   tar -zxvf rarlinux-5.7.0.tar.gz
+   cd rar
+   sudo cp -v rar unrar /usr/local/bin/
+   ```
 
 3. Clone medusa git repo
 
@@ -93,6 +113,4 @@ The installation assumes that you're not using the root user to install/run medu
     sudo service medusa start
     ```
 
-All done, verify that Medusa is accessible at gui address, eg: http://mymachine:8080/medusa
-
-Celebrate with some impromptu dancing!!
+All done, verify that Medusa is accessible at gui address, eg: http://mymachine:8081/medusa
