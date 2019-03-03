@@ -30,15 +30,13 @@ The installation assumes that you're not using the root user to install/run medu
    ```
    wget https://www.rarlab.com/rar/rarlinux-x64-5.7.0.tar.gz
    tar -zxvf rarlinux-x64-5.7.0.tar.gz
-   cd rar
-   sudo cp -v rar unrar /usr/local/bin/
+   sudo cp -v rar/rar rar/unrar /usr/local/bin/
    ```
    32bit
    ```
    wget https://www.rarlab.com/rar/rarlinux-5.7.0.tar.gz
    tar -zxvf rarlinux-5.7.0.tar.gz
-   cd rar
-   sudo cp -v rar unrar /usr/local/bin/
+   sudo cp -v rar/rar rar/unrar /usr/local/bin/
    ```
 
 3. Clone medusa git repo
