@@ -25,6 +25,7 @@ The installation assumes that you're not using the root user to install/run medu
     sudo yum install python36u wget git
     ```
    Install unrar:
+
    64bit
    ```
    wget https://www.rarlab.com/rar/rarlinux-x64-5.7.0.tar.gz
