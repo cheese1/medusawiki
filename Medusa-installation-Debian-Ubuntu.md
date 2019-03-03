@@ -22,7 +22,8 @@ The installation assumes that you're not using the root user to install/run medu
  
     ```bash
     sudo mkdir /opt/medusa && sudo chown medusa:medusa /opt/medusa
-    sudo -u medusa git clone https://github.com/pymedusa/Medusa.git /opt/medusa
+    sudo git clone https://github.com/pymedusa/Medusa.git /opt/medusa
+    sudo chown -R medusa:medusa /opt/medusa
     ```
 
 **For Init Systems**
