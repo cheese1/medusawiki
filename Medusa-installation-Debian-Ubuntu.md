@@ -1,4 +1,4 @@
-## Ubuntu 14.x - 18.x | Debian 7 - 9
+## Ubuntu 14.x - 18.x | Debian 7.0 - 9
 The following instructions are for installing Medusa on Ubuntu 14.x - 18.x and Debian 7.0 - 9.
 
 The installation assumes that you're not using the root user to install/run Medusa. The entries for **user:group** throughout the document will be set as **medusa:media** and you will have to modify it if you want it to match your user configuration.
