@@ -1,7 +1,7 @@
 [Wiki Home](https://github.com/pymedusa/Medusa/wiki)  
 [What is Medusa?](https://github.com/pymedusa/Medusa/wiki/What-is-Medusa)  
 [Guides](https://github.com/pymedusa/Medusa/wiki/Installation-&-Configuration-Guides)  
-[FAQ's and Fixes](https://github.com/pymedusa/Medusa/wiki/FAQ%27s-and-Fixes)  
+[FAQs and Fixes](https://github.com/pymedusa/Medusa/wiki/FAQ%27s-and-Fixes)  
 [Main settings explained](https://github.com/pymedusa/Medusa/wiki/Settings-explained)  
 [Show settings explained](https://github.com/pymedusa/Medusa/wiki/Show-settings-explained)  
 [Remaining settings expla](https://github.com/pymedusa/Medusa/wiki/Remaining-settings-explained)  
