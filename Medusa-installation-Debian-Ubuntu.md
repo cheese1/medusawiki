@@ -1,7 +1,7 @@
 ## Ubuntu 14.x - 18.x
 The following instructions are for installing Medusa on Ubuntu 14.x - 18.x
 
-The installation assumes that you're not using the root user to install/run medusa - the entries for **user:group** throughout the document will be set as **medusa:media** and you will have to modify it if you want it to match your user configuration.
+The installation assumes that you're not using the root user to install/run Medusa. The entries for **user:group** throughout the document will be set as **medusa:media** and you will have to modify it if you want it to match your user configuration.
 
 1. Update repositories and install dependencies.
     This will give you unrar-free and git to pull the repo
