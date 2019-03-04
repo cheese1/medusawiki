@@ -39,17 +39,49 @@ The installation assumes that you're not using the root user to install/run medu
    sudo cp -v rar/rar rar/unrar /usr/local/bin/
    ```
 
-3. Clone medusa git repo
+3. Add new group and user
+   ```
+   sudo groupadd media
+   sudo useradd -g media medusa
+   ```
+
+4. Clone medusa git repo
 
     ```bash
     sudo git clone https://github.com/pymedusa/Medusa.git /usr/share/medusa
     ```
 
-4. Set correct ownership
+5. Set correct ownership
 
     ```bash
-    chown -R user:group /usr/share/medusa
+    chown -R medusa:media /usr/share/medusa
     ```
+
+**For systemd (CentOS 7)**
+
+5. Copy systemd service
+   ```
+   sudo cp -v /usr/share/medusa/runscripts/init.systemd /etc/systemd/system/medusa.service
+   ```
+   Make sure your new service has correct permissions
+    ```bash
+    sudo chown root:root /etc/systemd/system/medusa.service
+    sudo chmod 644 /etc/systemd/system/medusa.service
+    ```
+ 
+6. Enable, start, and then check the status of your new service
+    ```bash
+    sudo systemctl enable medusa
+    sudo systemctl start medusa
+    sudo systemctl status medusa
+    ```
+
+7. Add Medusa to startup (optional)
+    ```
+    sudo systemctl enable medusa.service
+    ```
+
+**For Init Systems**
 
 5. Copy init file to system init
 
@@ -112,4 +144,4 @@ The installation assumes that you're not using the root user to install/run medu
     sudo service medusa start
     ```
 
-All done, verify that Medusa is accessible at gui address, eg: http://mymachine:8081/medusa
+All done, verify that Medusa is accessible at gui address, eg: http://your_ip:8081
