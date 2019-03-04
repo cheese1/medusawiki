@@ -91,4 +91,4 @@ The installation assumes that you're not using the root user to install/run medu
     sudo systemctl enable medusa.service
     ```
 
-All done, verify that Medusa is accessible at: http://localhost:8081
+All done, verify that Medusa is accessible at: http://your_ip:8081
