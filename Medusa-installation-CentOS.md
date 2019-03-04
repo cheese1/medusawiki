@@ -6,7 +6,7 @@ They should also be applicable to RHEL and Fedora with minimal changes.
 
 The installation assumes that you're not using the root user to install/run Medusa. The entries for **user:group** throughout the document will be set as **medusa:media** and you will have to modify it if you want it to match your user configuration.
 
-1. Install IUS Community Project repository.
+1. Install [IUS Community Project](https://ius.io/) repository.
     The repository is needed for recent Python versions.
    
    For **CentOS 6**:
