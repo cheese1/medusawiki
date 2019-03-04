@@ -18,7 +18,7 @@ The installation assumes that you're not using the root user to install/run Medu
    sudo yum install https://centos7.iuscommunity.org/ius-release.rpm
    ```
 
-2. Install dependencies:
+2. Install dependencies
 
    ```
    sudo yum install python36u wget git
@@ -44,7 +44,7 @@ The installation assumes that you're not using the root user to install/run Medu
    sudo useradd -g media medusa
    ```
 
-4. Clone medusa git repo
+4. Clone Medusa git repo
 
     ```bash
     sudo git clone https://github.com/pymedusa/Medusa.git /usr/share/medusa
@@ -131,7 +131,7 @@ The installation assumes that you're not using the root user to install/run Medu
     sudo chkconfig --add medusa
     ```
 
-10. Configure medusa service to start on system startup
+10. Configure medusa service to start on system startup (optional)
     
     ```bash
     sudo chkconfig medusa on
@@ -143,4 +143,4 @@ The installation assumes that you're not using the root user to install/run Medu
     sudo service medusa start
     ```
 
-All done, verify that Medusa is accessible at gui address, eg: http://your_ip:8081
+All done, verify that Medusa is accessible at: http://your_ip:8081
