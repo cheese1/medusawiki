@@ -13,7 +13,7 @@ The installation assumes that you're not using the root user to install/run Medu
    ```
    sudo yum install https://centos6.iuscommunity.org/ius-release.rpm
    ```
-   For **Centos 7**:
+   For **CentOS 7**:
    ```
    sudo yum install https://centos7.iuscommunity.org/ius-release.rpm
    ```
