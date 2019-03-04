@@ -1,7 +1,7 @@
-### Medusa Wiki
 
-
+![Info Logo](https://i.imgur.com/TCi7NIC.png)
   
+### Medusa Wiki
 
 With this page we try to inform you about how to setup and use Medusa.
 You can find explanations of functions, settings and commonly asked questions.
