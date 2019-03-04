@@ -2,7 +2,7 @@
 
 ## CentOS 6-7
 The following instructions are for installing Medusa on CentOS.
-The installation should also be applicable to RHEL and Fedora with minimal changes.
+They should also be applicable to RHEL and Fedora with minimal changes.
 
 The installation assumes that you're not using the root user to install/run Medusa. The entries for **user:group** throughout the document will be set as **medusa:media** and you will have to modify it if you want it to match your user configuration.
 
