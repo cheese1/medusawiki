@@ -18,11 +18,11 @@ The installation assumes that you're not using the root user to install/run Medu
    sudo yum install https://centos7.iuscommunity.org/ius-release.rpm
    ```
 
-2. Install prerequisites
+2. Install dependencies:
 
    ```
-    sudo yum install python36u wget git
-    ```
+   sudo yum install python36u wget git
+   ```
    Install unrar:
 
    64bit
@@ -38,7 +38,7 @@ The installation assumes that you're not using the root user to install/run Medu
    sudo cp -v rar/rar rar/unrar /usr/local/bin/
    ```
 
-3. Add new group and user
+3. Add new group media and user medusa
    ```
    sudo groupadd media
    sudo useradd -g media medusa
