@@ -10,7 +10,7 @@ contribute to the wiki, please let us know.
 
 ### Installation
 
-- Windows
-- Ubuntu/Debian
-- CentOS
-- Docker
+- [Windows](https://github.com/pymedusa/Medusa/wiki/Medusa-Windows-Installer)
+- [Ubuntu/Debian](https://github.com/pymedusa/Medusa/wiki/Medusa-installation-Debian-Ubuntu)
+- [CentOS](https://github.com/pymedusa/Medusa/wiki/Medusa-installation-CentOS)
+- [Docker for armhf](https://github.com/pymedusa/Medusa/wiki/Medusa-Docker-for-ARMHF--and-Nginx-Proxy-Config#install-docker-for-armhf)
