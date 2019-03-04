@@ -1,6 +1,6 @@
 
 
-## CentOS 6-7
+## CentOS 6 - 7
 The following instructions are for installing Medusa on CentOS.
 They should also be applicable to RHEL and Fedora with minimal changes.
 
