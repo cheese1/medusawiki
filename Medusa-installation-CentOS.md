@@ -4,7 +4,7 @@
 The following instructions are for installing Medusa on CentOS.
 They should also be applicable to RHEL and Fedora with minimal changes.
 
-The installation assumes that you're not using the root user to install/run Medusa. The entries for **user:group** throughout the document will be set as **medusa:media** and you will have to modify it if you want it to match your user configuration.
+The installation assumes that you're not using the root user to install/run Medusa. The entries for **user:group** throughout the document will be set as **medusa:medusa** and you will have to modify it if you want it to match your user configuration.
 
 1. Install [IUS Community Project](https://ius.io/) repository.
     The repository is needed for recent Python versions.
@@ -38,10 +38,10 @@ The installation assumes that you're not using the root user to install/run Medu
    sudo cp -v rar/rar rar/unrar /usr/local/bin/
    ```
 
-3. Add new group media and user medusa
+3. Add new group medusa and user medusa
    ```
-   sudo groupadd media
-   sudo useradd -g media medusa
+   sudo groupadd medusa
+   sudo useradd -g medusa medusa
    ```
 
 4. Clone Medusa git repo
@@ -53,7 +53,7 @@ The installation assumes that you're not using the root user to install/run Medu
 5. Set correct ownership
 
     ```bash
-    chown -R medusa:media /usr/share/medusa
+    chown -R medusa:medusa /usr/share/medusa
     ```
 
 **For systemd (CentOS 7)**
@@ -105,24 +105,24 @@ The installation assumes that you're not using the root user to install/run Medu
     ```bash
     # Medusa service configuration
     
-    #run Medusa as
-    SR_USER=media
+    # run Medusa as
+    SR_USER=medusa
     SR_HOME=/usr/share/medusa
     SR_DATA=/usr/share/medusa
     SR_PIDFILE=/usr/share/medusa/medusa.pid
     
-    #gui address, eg: \${protocol}://\${host}:\${port}/home/
+    # gui address, eg: \${protocol}://\${host}:\${port}/home/
     protocol=http
     host='<<< hostname or IP >>>' #example host=mymachine
     port='<<<Desired Port>>>'     #example port=8081
     
-    #leave blank if no username/password is required to access the gui
+    # leave blank if no username/password is required to access the gui
     username=
     password=
     
-    #use nice, ionice, taskset to start Medusa
+    # use nice, ionice, taskset to start Medusa
     nicecmd=
-    #  example: nicecmd="nice -n 19 ionice -c3"
+    # example: nicecmd="nice -n 19 ionice -c3"
     ```
 
 9. Add the medusa service to system services
