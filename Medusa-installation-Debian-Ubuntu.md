@@ -1,7 +1,7 @@
 ## Ubuntu 14.x - 18.x | Debian 7.0 - 9
 The following instructions are for installing Medusa on Ubuntu 14.x - 18.x and Debian 7.0 - 9.
 
-The installation assumes that you're not using the root user to install/run Medusa. The entries for **user:group** throughout the document will be set as **medusa:media** and you will have to modify it if you want it to match your user configuration.
+The installation assumes that you're not using the root user to install/run Medusa. The entries for **user:group** throughout the document will be set as **medusa:medusa** and you will have to modify it if you want it to match your user configuration.
 
 1. Update repositories and install dependencies.
     This will give you unrar-free and git to pull the repo
@@ -10,20 +10,20 @@ The installation assumes that you're not using the root user to install/run Medu
    sudo apt-get update && sudo apt-get install unrar-free git-core openssl libssl-dev python2.7 ffmpeg mediainfo
    ```
 
-2. Create medusa user and group media.
+2. Create medusa user and group medusa.
     This makes sure that Medusa is isolated and is best practice for security
    
     ```
-    sudo addgroup --system media
-    sudo adduser --disabled-password --system --home /var/lib/medusa --gecos "Medusa" --ingroup media medusa
+    sudo addgroup --system medusa
+    sudo adduser --disabled-password --system --home /var/lib/medusa --gecos "Medusa" --ingroup medusa medusa
     ```
    
 3. Clone Medusa git repo
  
     ```
-    sudo mkdir /opt/medusa && sudo chown medusa:media /opt/medusa
+    sudo mkdir /opt/medusa && sudo chown medusa:medusa /opt/medusa
     sudo git clone https://github.com/pymedusa/Medusa.git /opt/medusa
-    sudo chown -R medusa:media /opt/medusa
+    sudo chown -R medusa:medusa /opt/medusa
     ```
 
 **For Init Systems**
