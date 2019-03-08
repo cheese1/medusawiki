@@ -15,9 +15,9 @@ However there are more ways to help. If you are familiar with Python, HTML, Java
 ***
 [ratoaq2](https://github.com/ratoaq2)
 ***
-[supergonkas](https://github.com/duramato) - Feel free to donate to the PT [Red Cross](http://www.cruzvermelha.pt/donativos.html) [<img src="http://www.cruzvermelha.pt/favicon.ico" width="32" alt="Red Cross">](http://www.cruzvermelha.pt/donativos.html)    
+[duramato](https://github.com/duramato) - Feel free to donate to the PT [Red Cross](http://www.cruzvermelha.pt/donativos.html) [<img src="https://banner2.kisspng.com/20180329/eiq/kisspng-neuss-american-red-cross-international-red-cross-a-red-cross-5abd29fb4fa481.6432700915223464913262.jpg" width="32" alt="Red Cross">](http://www.cruzvermelha.pt/donativos.html)    
 ***
-[p0psicles](https://github.com/p0psicles) - Like supergonkas I would appreciate any donation to the [Red Cross](http://www.redcross.org/donations/ways-to-donate) [<img src="http://www.redcross.org/images/MEDIA_CustomProductCatalog/m3440072_footer-promo-Join_the_movement.png" height="32px" alt="Red Cross">](http://www.redcross.org/donations/ways-to-donate) 
+[p0psicles](https://github.com/p0psicles) - Like duramato I would appreciate any donation to the [Red Cross](http://www.redcross.org/donations/ways-to-donate) [<img src="https://banner2.kisspng.com/20180329/eiq/kisspng-neuss-american-red-cross-international-red-cross-a-red-cross-5abd29fb4fa481.6432700915223464913262.jpg" height="32px" alt="Red Cross">](http://www.redcross.org/donations/ways-to-donate) 
 ***
 [OmgImAlexis](https://github.com/OmgImAlexis) -  [![PayPal donate button](https://github-cloud.s3.amazonaws.com/assets%2F390379%2F10957731%2Fdf1228ce-831b-11e5-9f1b-d5ee712d392d.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MXNTEL7HLGFQA)  
 ### Special thanks to (in alphabetical order):
