@@ -9,7 +9,7 @@ Both x32 and x64 bit installations are supported and automatically recognized.
 
 ## Network drive mappings ##
 
-The installer uses a service (account) to run Medusa automatically on startup. This is a different account than your Windows user account witch you use to login to Windows. Meaning that any network drive mappings are not existing for that (service) account and need to be created.
+The installer uses a service (account) to run Medusa automatically on startup. This is a different account than your Windows user account which you use to login to Windows. Meaning that any network drive mappings are not existing for that (service) account and need to be created.
 Or edit the service to run with another [account](https://technet.microsoft.com/en-us/library/cc755249.aspx) that has the network drive mappings setup.
 You can manually change the account from the command prompt (administrative rights) with the below commands. :  
 ```
