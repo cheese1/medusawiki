@@ -26,7 +26,7 @@ The installation assumes that you're not using the root user to install/run Medu
     sudo chown -R medusa:medusa /opt/medusa
     ```
 
-**For Init Systems**
+**For SysVinit Systems**
 	
 4. Copy init.d service
  
