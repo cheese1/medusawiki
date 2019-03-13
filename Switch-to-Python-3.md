@@ -21,7 +21,7 @@ Update your systemd script: [Systems with systemd](https://github.com/pymedusa/M
 
 **Debian 7.0**:
 
-Update your initd script: [Systems with SysVinit](https://github.com/pymedusa/Medusa/wiki/_new#systems-with-sysvinit).
+Update your initd script: [Systems with SysVinit](https://github.com/pymedusa/Medusa/wiki/Switch-to-Python-3#systems-with-sysvinit).
 
 ## CentOS
 1. Install Python 3.6 if you haven't already:
@@ -36,7 +36,7 @@ Update your systemd script: [Systems with systemd](https://github.com/pymedusa/M
 
 **CentOS 6**:
 
-Update your initd script: [Systems with SysVinit](https://github.com/pymedusa/Medusa/wiki/_new#systems-with-sysvinit).
+Update your initd script: [Systems with SysVinit](https://github.com/pymedusa/Medusa/wiki/Switch-to-Python-3#systems-with-sysvinit).
 
 ## Systems with systemd
 1. Open your systemd script located at:
