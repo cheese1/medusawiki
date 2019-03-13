@@ -1,4 +1,4 @@
-Since version 3.0.0 Medusa supports Python version 3.5 and newer. As Python 2.7 will reach its [EOL in 2020](https://github.com/python/devguide/pull/344) we recommend to switch to Python 3 as soon as possible. For security reasons we won't be providing support for Python 2.7 after its EOL date.
+Since version 0.3.0 Medusa supports Python version 3.5 and newer. As Python 2.7 will reach its [EOL in 2020](https://github.com/python/devguide/pull/344) we recommend to switch to Python 3 as soon as possible. For security reasons we won't be providing support for Python 2.7 after its EOL date.
 
 ## Ubuntu
 1. Install Python 3.6 if you haven't already:
