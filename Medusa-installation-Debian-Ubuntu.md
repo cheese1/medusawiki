@@ -7,8 +7,17 @@ The installation assumes that you're not using the root user to install/run Medu
     This will give you unrar-free and git to pull the repo
  
    ```
-   sudo apt-get update && sudo apt-get install unrar-free git-core openssl python2.7 mediainfo
+   sudo apt-get update && sudo apt-get install unrar-free git-core openssl mediainfo
    ```
+   Install Python 3:
+
+   Since Medusa v0.3.0 we recommend installing Python 3, [follow these instructions](https://github.com/pymedusa/Medusa/wiki/Switch-to-Python-3).
+   
+   Install Python 2.7 (not recommended):
+   ```
+   sudo apt-get install python2.7
+   ```
+
 
 2. Create medusa user and group medusa.
     This makes sure that Medusa is isolated and is best practice for security
