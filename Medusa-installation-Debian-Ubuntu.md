@@ -7,7 +7,7 @@ The installation assumes that you're not using the root user to install/run Medu
     This will give you unrar-free and git to pull the repo
  
    ```
-   sudo apt-get update && sudo apt-get install unrar-free git-core openssl libssl-dev python2.7 ffmpeg mediainfo
+   sudo apt-get update && sudo apt-get install unrar-free git-core openssl python2.7 mediainfo
    ```
 
 2. Create medusa user and group medusa.
