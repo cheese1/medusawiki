@@ -5,7 +5,7 @@ Since version 3.0.0 Medusa supports Python version 3.5 and newer. As Python 2.7 
 
 Follow this well written guide over at [Real Python](https://realpython.com/installing-python/#ubuntu).
 
-2. Update your systemd script: [Systems with systemd](https://github.com/pymedusa/Medusa/wiki/_new#systems-with-systemd).
+2. Update your systemd script: [Systems with systemd](https://github.com/pymedusa/Medusa/wiki/Switch-to-Python-3#systems-with-systemd).
 
 
 ## Debian
@@ -17,7 +17,7 @@ Follow this well written guide over at [Real Python](https://realpython.com/inst
 
 **Debian 8.0 and newer**:
 
-Update your systemd script: [Systems with systemd](https://github.com/pymedusa/Medusa/wiki/_new#systems-with-systemd).
+Update your systemd script: [Systems with systemd](https://github.com/pymedusa/Medusa/wiki/Switch-to-Python-3#systems-with-systemd).
 
 **Debian 7.0**:
 
@@ -32,7 +32,7 @@ Follow this well written guide over at [Real Python](https://realpython.com/inst
 
 **CentOS 7 and newer**:
 
-Update your systemd script: [Systems with systemd](https://github.com/pymedusa/Medusa/wiki/_new#systems-with-systemd).
+Update your systemd script: [Systems with systemd](https://github.com/pymedusa/Medusa/wiki/Switch-to-Python-3#systems-with-systemd).
 
 **CentOS 6**:
 
