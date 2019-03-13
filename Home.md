@@ -10,6 +10,7 @@ contribute to the wiki, please let us know.
 
 ### Installation
 
+- [Switch to Python 3](https://github.com/pymedusa/Medusa/wiki/Switch-to-Python-3)
 - [Windows](https://github.com/pymedusa/Medusa/wiki/Medusa-Windows-Installer)
 - [Ubuntu/Debian](https://github.com/pymedusa/Medusa/wiki/Medusa-installation-Debian-Ubuntu)
 - [CentOS](https://github.com/pymedusa/Medusa/wiki/Medusa-installation-CentOS)
