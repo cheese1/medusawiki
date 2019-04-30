@@ -4,7 +4,7 @@
 
 First you need send a `POST` request to `/api/v2/authenticate` to get a JWT token, which will be needed for all future requests. The response should also contain the header `x-medusa-server` with a value of the current install version. If this header is missing the server is out of date or isn't actually a Medusa install, this can happen if the user provides an incorrect server address.
 
-The JWT can be passed with requests using the "Authentication" header. Pass the token as follows: "Authentication": "Bearer [your jwt]".
+The JWT can be passed with requests using the "Authentication" header. Pass the token using the request header: "Authentication": "Bearer [your jwt]".
 
 An alternative way of authenticating is by using the api key. You can retrieve by checking your config.ini. It's stored using the 'api_key' key. It's a static api key. So make sure to store it in a secure place. The API key should be sent to all new requests via the `x-api-key` header or if needed via the `api_key` query string.
 
