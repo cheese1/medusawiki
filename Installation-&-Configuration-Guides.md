@@ -1,3 +1,12 @@
+### Official Installation Guides
+
+- [Windows](https://github.com/pymedusa/Medusa/wiki/Medusa-Windows-Installer)
+- [Ubuntu/Debian](https://github.com/pymedusa/Medusa/wiki/Medusa-installation-Debian-Ubuntu)
+- [CentOS](https://github.com/pymedusa/Medusa/wiki/Medusa-installation-CentOS)
+- [Docker for armhf](https://github.com/pymedusa/Medusa/wiki/Medusa-Docker-for-ARMHF--and-Nginx-Proxy-Config#install-docker-for-armhf)
+- [Switch to Python 3](https://github.com/pymedusa/Medusa/wiki/Switch-to-Python-3)
+
+--------------------
 ### Configuration Guides
 
 New to Medusa? Then the below guides will help you with the setup, and discover all its cool features.
@@ -23,7 +32,7 @@ Make sure you use `https://github.com/pyMedusa/Medusa.git`
 * When upgrading be sure to delete collections.py and collections.pyc from medusa/helper as this will make starting not possible on some systems.
 
 --------------------
-### Installation Guides
+### External Installation Guides
 
 Medusa can be installed on many different systems. Below you will find guides for many of those.
 For some of these guides you will need to provide a GitHub URL. If this is asked, please use the correct URL: https://github.com/pymedusa/Medusa.git
