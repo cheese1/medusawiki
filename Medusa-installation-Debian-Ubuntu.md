@@ -38,9 +38,14 @@ The installation assumes that you're not using the root user to install/run Medu
 **For SysVinit Systems**
 	
 4. Copy init.d service
- 
+
+    Ubuntu:
     ```
     sudo cp -v /opt/medusa/runscripts/init.ubuntu /etc/init.d/medusa
+    ```
+    Debian:
+    ```
+    sudo cp -v /opt/medusa/runscripts/init.debian /etc/init.d/medusa
     ```
  
 5. Make sure your new service has correct permissions
