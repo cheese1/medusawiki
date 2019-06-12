@@ -8,20 +8,19 @@ If you're starting with a fresh checkout of Medusa, you will see that there is a
 `themes-default` is the source and `themes` is the distributable.
 
 At time of writing Medusa ships with a single main theme: `slim`.  
-`slim` is the theme that has been made ES6 ready. And this theme should be used with modern browsers like Chrome, Firefox and other webkit compatible browsers.
+`slim` is the theme that has been made ES6 ready, and this theme should be used with modern browsers like Chrome, Firefox and other webkit compatible browsers.
 
-You should navigate to the following directory: `./themes-default/slim/`.
-By running the following command, you will make sure you have installed all the node modules, required for building and testing the theme.
-Install yarn, if you haven't done so already:
-```
-npm install -g yarn
-```
-Install all dependencies and start the lint.
+Install yarn globally, if you haven't done so already: [Installation | Yarn](https://yarnpkg.com/lang/en/docs/install)  
+
+You should navigate to the following directory: `./themes-default/slim/`.  
+By running the following command, you will make sure you have installed all the node modules, required for building and testing the theme.  
+
+Install all dependencies and start the lint:
 ```
 yarn
 ```
 
-Webpack is used to bundle the web application.  
+**Webpack** is used to bundle the web application.  
 You may use the following command to bundle the application for **development** mode:
 ```
 yarn dev
@@ -37,14 +36,17 @@ Both commands will automatically copy the relevant files to the each theme's dir
 * Copy all js files from `./static/js` -> `themes/{theme}/assets/js`
 * Copy all fonts from `./static/fonts` -> `themes/{theme}/assets/fonts`
 * ~~Copy all images from `./static/images` -> `themes/{theme}/assets/img`~~  
-  [See `gulp` section below]
-* Copy all mako templates from `./views` -> `themes/{theme}/templates`
-* Copy index.html from `./` -> `themes/{theme}/`
+  [See **Gulp** section below]
+* Copy all Mako templates from `./views` -> `themes/{theme}/templates`
+* Copy `index.html` from `./` -> `themes/{theme}/`
 * Update theme metadata in `themes/{theme}/package.json`
 
 Where `{theme}` is the theme name (`dark` or `light`).
 
-Gulp is temporarily used for copying and compressing images.  
+Please not that at the time of writing, when renaming/removing files in any of the folders above,  
+it is required to manually remove the old files from the target folders in `./themes`.
+
+**Gulp** is temporarily used for copying and compressing images.  
 If you're adding a new image to `./static/images` or modifying an existing image, run the following command:
 ```
 yarn gulp sync
