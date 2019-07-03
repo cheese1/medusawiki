@@ -321,17 +321,17 @@
 {
 	"results": [
 		[
-			<String>,					// The provider's name, e.g. "TVMaze," "TMDB," etc.
-			<Number>,					// The index of the provider (via the user's settings)*?
-			<String:URL>,					// The provider's URL (homepage)
-			<Number>,					// The show's ID
-			<String>,					// The show's name
-			<String:Date[YYYY-MM-DD]>,			// The show's premiere date
-			<String>,					// The show's production network, e.g. Amazon Prime
-			<String>,					// The show's local name
+			<String>,			// The provider's name, e.g. "TVMaze," "TMDB," etc.
+			<Number>,			// The index of the provider (via the user's settings)*?
+			<String:URL>,			// The provider's URL (homepage)
+			<Number>,			// The show's ID
+			<String>,			// The show's name
+			<String:Date[YYYY-MM-DD]>,	// The show's premiere date
+			<String>,			// The show's production network, e.g. Amazon Prime
+			<String>,			// The show's local name
 			[
-				<String>,				// The provider's short name, e.g. "tmdb"
-				<Number>				// The show's ID for the provider
+				<String>,		// The provider's short name, e.g. "tmdb"
+				<Number>		// The show's ID for the provider
 			]
 		], // ...
 	],
