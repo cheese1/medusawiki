@@ -2,7 +2,9 @@
 
 - *API* &mdash; the API URL, default is `http://localhost:8081/api/v2`
 
-> API/config &mdash; get the user's configuration
+<details>
+<summary> <b>API</b>/config &mdash; get the user's configuration </summary>
+<article>
 
 ```javascript
 {
@@ -13,12 +15,12 @@
 			"enabled": <Boolean>,		// self explanatory
 			"highBandwidth": <Boolean>,	// self explanatory
 			"host": <String:URL>,		// the URL to the user's torrent searcher
-			"label": <String>,		// the label to add (if applicable)
+			"label": <String>,			// the label to add (if applicable)
 			"labelAnime": <String>,		// label for anime
-			"method": <String>,		// the torrent searcher to use
+			"method": <String>,			// the torrent searcher to use
 			"path": <String:folder>,	// DIR to the searcher's download path
 			"paused": <Boolean>,		// add in the paused state?
-			"rpcUrl": <String>,		// the torrent search type ("transmission", etc.)
+			"rpcUrl": <String>,			// the torrent search type ("transmission", etc.)
 			"seedLocation": <String>,	// the seeding location
 			"seedTime": <Number>,		// the time allowed to seed (upload)
 			"username": <String>,		// self explanatory
@@ -134,7 +136,7 @@
 				"showListOrder": <Array>
 			}
 		},
-		"selectedRootIndex": -1,
+		"selectedRootIndex": <Number>,
 		"backlogOverview": {
 			"period": <String>,
 			"status": <String>
@@ -276,3 +278,6 @@
 	}
 }
 ```
+
+</article>
+</details>
