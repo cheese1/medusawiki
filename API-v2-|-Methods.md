@@ -276,7 +276,8 @@
 				"nextRun": <Number>,
 				"lastRun": <String>,
 				"isSilent": <Boolean>
-			}, // ...
+			},
+			/* ... */
 		],
 		"showQueue": <Array>
 	}
@@ -304,7 +305,8 @@
 			"seriesName": <String>,
 			"indexer": <Number>
 		}
-	}, // ...
+	},
+	/* ... */
 ]
 ```
 
@@ -321,19 +323,20 @@
 {
 	"results": [
 		[
-			<String>,			// The provider's name, e.g. "TVMaze," "TMDB," etc.
-			<Number>,			// The index of the provider (via the user's settings)*?
-			<String:URL>,			// The provider's URL (homepage)
-			<Number>,			// The show's ID
-			<String>,			// The show's name
-			<String:Date[YYYY-MM-DD]>,	// The show's premiere date
-			<String>,			// The show's production network, e.g. Amazon Prime
-			<String>,			// The show's local name
+		0	<String>,			// The provider's name, e.g. "TVMaze," "TMDB," etc.
+		1	<Number>,			// The index of the provider (via the user's settings)*?
+		2	<String:URL>,			// The provider's URL (homepage)
+		3	<Number>,			// The show's ID
+		4	<String>,			// The show's name
+		5	<String:Date[YYYY-MM-DD]>,	// The show's premiere date
+		6	<String>,			// The show's production network, e.g. Amazon Prime
+		7	<String>,			// The show's local name
 			[
-				<String>,		// The provider's short name, e.g. "tmdb"
-				<Number>		// The show's ID for the provider
+			0	<String>,		// The provider's short name, e.g. "tmdb"
+			1	<Number>		// The show's ID for the provider
 			]
-		], // ...
+		],
+		/* ... */
 	],
 	"languageId": <Number>
 }
@@ -433,7 +436,8 @@
 			},
 			"airdateOffset": <Number>
 		}
-	}, // ...
+	},
+	/* ... */
 ]
 ```
 
@@ -563,41 +567,42 @@
 				},
 				"wantedQualities": <Array>
 			}
-		], // ...
+		],
+		/* ... */
 	],
 	"episodeCount": <Number>,
 	"showQueueStatus": [
-		{
+0		{
 			"action": <String:"isBeingAdded">,
 			"active": <Boolean>,
 			"message": <String>
 		},
-		{
+1		{
 			"action": <String:"isBeingUpdated">,
 			"active": <Boolean>,
 			"message": <String>
 		},
-		{
+2		{
 			"action": <String:"isBeingRefreshed">,
 			"active": <Boolean>,
 			"message": <String>
 		},
-		{
+3		{
 			"action": <String:"isBeingSubtitled">,
 			"active": <Boolean>,
 			"message": <String>
 		},
-		{
+4		{
 			"action": <String:"isInRefreshQueue">,
 			"active": <Boolean>,
 			"message": <String>
 		},
-		{
+5		{
 			"action": <String:"isInUpdateQueue">,
 			"active": <Boolean>,
 			"message": <String>
 		},
-		{
+6		{
 			"action": <String:"isInSubtitleQueue">,
 			"active": <Boolean>,
 			"message": <String>
