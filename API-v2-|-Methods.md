@@ -4,6 +4,8 @@
 
 ----
 
+## API/config/
+
 <details>
 <summary> <b>API</b>/config &mdash; get the user's configuration </summary>
 <article>
@@ -286,6 +288,31 @@
 
 ----
 
+## API/internal
+
+<details>
+<summary> <b>API</b>/internal/existingSeries?rootDirs=<code>Number</code> </summary>
+<article>
+
+```javascript
+[
+	{
+		"path": <String:folder>,
+		"alreadyAdded": <Boolean>,
+		"metadata": {
+			"seriesId": <String|Number>,
+			"seriesName": <String>,
+			"indexer": <Number>
+		}
+	}, // ...
+]
+```
+
+</article>
+</details>
+
+----
+
 <details>
 <summary> <b>API</b>/internal/searchIndexersForShowName?query=<code>{showName}</code>&indexerId=<code>Number</code>&language=<code>ISO-Language</code> &mdash; search for a show (using the indexers) </summary>
 <article>
@@ -318,6 +345,8 @@
 - *showName* &mdash; replace all spaces with `+`, e.g. `tv show` &rightarrow; `tv+show`
 
 ----
+
+## API/series
 
 <details>
 <summary> <b>API</b>/series/<code>{idProvider}{showID}</code>?detailed=<code>Boolean</code> &mdash; get a show's information </summary>
