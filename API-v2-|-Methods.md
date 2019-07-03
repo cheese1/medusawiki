@@ -1,6 +1,8 @@
 # Kinda needs an API documentation page... Rough start
 
-- *API* &mdash; the API URL, default is `http://localhost:8081/api/v2`
+> *API* &mdash; the API URL, default is `http://localhost:8081/api/v2`
+
+----
 
 <details>
 <summary> <b>API</b>/config &mdash; get the user's configuration </summary>
@@ -15,12 +17,12 @@
 			"enabled": <Boolean>,		// self explanatory
 			"highBandwidth": <Boolean>,	// self explanatory
 			"host": <String:URL>,		// the URL to the user's torrent searcher
-			"label": <String>,			// the label to add (if applicable)
+			"label": <String>,		// the label to add (if applicable)
 			"labelAnime": <String>,		// label for anime
-			"method": <String>,			// the torrent searcher to use
+			"method": <String>,		// the torrent searcher to use
 			"path": <String:folder>,	// DIR to the searcher's download path
 			"paused": <Boolean>,		// add in the paused state?
-			"rpcUrl": <String>,			// the torrent search type ("transmission", etc.)
+			"rpcUrl": <String>,		// the torrent search type ("transmission", etc.)
 			"seedLocation": <String>,	// the seeding location
 			"seedTime": <Number>,		// the time allowed to seed (upload)
 			"username": <String>,		// self explanatory
@@ -277,6 +279,303 @@
 		"showQueue": <Array>
 	}
 }
+```
+
+</article>
+</details>
+
+----
+
+<details>
+<summary> <b>API</b>/internal/searchIndexersForShowName?query=<code>{showName}</code>&indexerId=<code>Number</code>&language=<code>ISO-Language</code> </summary>
+<article>
+
+*showName* &mdash; replace all spaces with `+`, e.g. `tv show` &rightarrow; `tv+show`
+
+```javascript
+{
+	"results": [
+		[
+			<String>,					// The provider's name, e.g. "TVMaze," "TMDB," etc.
+			<Number>,					// The index of the provider (via the user's settings)*?
+			<String:URL>,				// The provider's URL (homepage)
+			<Number>,					// The show's ID
+			<String>,					// The show's name
+			<String:Date[YYYY-MM-DD]>,	// The show's premiere date
+			<String>,					// The show's production network, e.g. Amazon Prime
+			<String>,					// The show's local name
+			[
+				<String>,				// The provider's short name, e.g. "tmdb"
+				<Number>				// The show's ID for the provider
+			]
+		], // ...
+	],
+	"languageId": <Number>
+}
+```
+
+</article>
+</details>
+
+----
+
+<details>
+<summary> <b>API</b>/series/<code>{idProvider}{showID}</code>?detailed=<code>Boolean</code> </summary>
+<article>
+
+```javascript
+{
+	"id": {
+		"tvdb": <Number>,
+		"imdb": <String>,
+		"slug": <String>,
+		"trakt": <Object>
+	},
+	"title": <String>,
+	"indexer": <String>,
+	"network": <String>,
+	"type": <String>,
+	"status": <String>,
+	"airs": <String:Date/Time>,
+	"airsFormatValid": <Boolean>,
+	"language": <String:ISO-Language>,
+	"showType": <String:Enum>,
+	"imdbInfo": {
+		"countries": <String>,
+		"countryCodes": <String>,
+		"imdbId": <String>,
+		"title": <String>,
+		"year": <String>,
+		"akas": <String>,
+		"genres": <String>,
+		"rating": <String>,
+		"votes": <String>,
+		"runtimes": <String:Time>,
+		"certificates": <String>,
+		"plot": <String>,
+		"lastUpdate": <String:Date>
+	},
+	"year": {
+		"start": <String>,
+		"stop": <String>
+	},
+	"nextAirDate": <Object>,
+	"runtime": <String:Time>,
+	"genres": <Array:String>,
+	"rating": {
+		"imdb": {
+			"rating": <String>
+			"votes": <Number>
+		}
+	},
+	"classification": <String>,
+	"cache": {
+		"poster": <String:file>,
+		"banner": <String:file>
+	},
+	"countries": <Array:String>,
+	"countryCodes": <Array:String>,
+	"plot": <String>,
+	"config": {
+		"location": <String:folder>,
+		"locationValid": <Boolean>,
+		"qualities": {
+			"allowed": <Array:Number>,
+			"preferred": <Array>
+		},
+		"paused": <Boolean>,
+		"airByDate": <Boolean>,
+		"subtitlesEnabled": <Boolean>,
+		"dvdOrder": <Boolean>,
+		"seasonFolders": <Boolean>,
+		"anime": <Boolean>,
+		"scene": <Boolean>,
+		"sports": <Boolean>,
+		"defaultEpisodeStatus": <String:Enum>,
+		"aliases": <Array>,
+		"release": {
+			"ignoredWords": <array:String>,
+			"requiredWords": <array:String>,
+			"ignoredWordsExclude": <Boolean>,
+			"requiredWordsExclude": <Boolean>,
+			"blacklist": <array:String>,
+			"whitelist": <array:String>
+		},
+		"airdateOffset": <Number>
+	},
+	"size": <Number:Size>,
+	"seasons": [
+		[
+			{
+				"identifier": <String>,
+				"id": <Object>,
+				"season": <Number>,
+				"episode": <Number>,
+				"airDate": <String:Date/Time>,
+				"title": <String>,
+				"description": <String>,
+				"content": <Array>,
+				"subtitles": <Array>,
+				"status": <String>,
+				"watched": <Boolean>,
+				"quality": <Number>,
+				"release": {
+					"name": <String>,
+					"group": <String>,
+					"proper": <Boolean>,
+					"version": <Number>
+				},
+				"scene": {
+					"season": <Number>,
+					"episode": <Number>
+				},
+				"file": {
+					"location": <String:folder>
+				},
+				"statistics": {
+					"subtitleSearch": {
+						"last": <String:Date>,
+						"count": <Number>
+					}
+				},
+				"wantedQualities": <Array>
+			}
+		], // ...
+	],
+	"episodeCount": <Number>,
+	"showQueueStatus": [
+		{
+			"action": <String:"isBeingAdded">,
+			"active": false,
+			"message": "This show is in the process of being downloaded - the info below is incomplete"
+		},
+		{
+			"action": <String:"isBeingUpdated">,
+			"active": <Boolean>,
+			"message": <String>
+		},
+		{
+			"action": <String:"isBeingRefreshed">,
+			"active": <Boolean>,
+			"message": <String>
+		},
+		{
+			"action": <String:"isBeingSubtitled">,
+			"active": <Boolean>,
+			"message": <String>
+		},
+		{
+			"action": <String:"isInRefreshQueue">,
+			"active": <Boolean>,
+			"message": <String>
+		},
+		{
+			"action": <String:"isInUpdateQueue">,
+			"active": <Boolean>,
+			"message": <String>
+		},
+		{
+			"action": <String:"isInSubtitleQueue">,
+			"active": <Boolean>,
+			"message": <String>
+		}
+	],
+	"xemNumbering": <Array>
+}
+```
+
+</article>
+</details>
+
+----
+
+<details>
+<summary> <b>API</b>/series?limit=<code>Number</code>&page=<code>Number</code> </summary>
+<article>
+
+```javascript
+[
+	{
+		"id": {
+			"tvdb": <Number>,
+			"imdb": <String>,
+			"slug": <String>,
+			"trakt": <Object>
+		},
+		"title": <String>,
+		"indexer": <String>,
+		"network": <String>,
+		"type": <String>,
+		"status": <String>,
+		"airs": <String:Date/Time>,
+		"airsFormatValid": <Boolean>,
+		"language": <String:ISO-Language>,
+		"showType": <String:Enum>,
+		"imdbInfo": {
+			"countries": <String>,
+			"countryCodes": <String>,
+			"imdbId": <String>,
+			"title": <String>,
+			"year": <String>,
+			"akas": <String>,
+			"genres": <String>,
+			"rating": <String>,
+			"votes": <String>,
+			"runtimes": <String:Time>,
+			"certificates": <String>,
+			"plot": <String>,
+			"lastUpdate": <String:Date>
+		},
+		"year": {
+			"start": <String>,
+			"stop": <String>
+		},
+		"nextAirDate": <Object>,
+		"runtime": <String:Time>,
+		"genres": <Array:String>,
+		"rating": {
+			"imdb": {
+				"rating": <String>
+				"votes": <Number>
+			}
+		},
+		"classification": <String>,
+		"cache": {
+			"poster": <String:file>,
+			"banner": <String:file>
+		},
+		"countries": <Array:String>,
+		"countryCodes": <Array:String>,
+		"plot": <String>,
+		"config": {
+			"location": <String:folder>,
+			"locationValid": <Boolean>,
+			"qualities": {
+				"allowed": <Array:Number>,
+				"preferred": <Array>
+			},
+			"paused": <Boolean>,
+			"airByDate": <Boolean>,
+			"subtitlesEnabled": <Boolean>,
+			"dvdOrder": <Boolean>,
+			"seasonFolders": <Boolean>,
+			"anime": <Boolean>,
+			"scene": <Boolean>,
+			"sports": <Boolean>,
+			"defaultEpisodeStatus": <String:Enum>,
+			"aliases": <Array>,
+			"release": {
+				"ignoredWords": <array:String>,
+				"requiredWords": <array:String>,
+				"ignoredWordsExclude": <Boolean>,
+				"requiredWordsExclude": <Boolean>,
+				"blacklist": <array:String>,
+				"whitelist": <array:String>
+			},
+			"airdateOffset": <Number>
+		}
+	}, // ...
+]
 ```
 
 </article>
