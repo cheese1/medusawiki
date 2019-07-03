@@ -287,7 +287,7 @@
 ----
 
 <details>
-<summary> <b>API</b>/internal/searchIndexersForShowName?query=<code>{showName}</code>&indexerId=<code>Number</code>&language=<code>ISO-Language</code> </summary>
+<summary> <b>API</b>/internal/searchIndexersForShowName?query=<code>{showName}</code>&indexerId=<code>Number</code>&language=<code>ISO-Language</code> &mdash; search for a show (using the indexers) </summary>
 <article>
 
 ```javascript
@@ -320,7 +320,7 @@
 ----
 
 <details>
-<summary> <b>API</b>/series/<code>{idProvider}{showID}</code>?detailed=<code>Boolean</code> </summary>
+<summary> <b>API</b>/series/<code>{idProvider}{showID}</code>?detailed=<code>Boolean</code> &mdash; get a show's information </summary>
 <article>
 
 ```javascript
@@ -490,7 +490,7 @@
 ----
 
 <details>
-<summary> <b>API</b>/series?limit=<code>Number</code>&page=<code>Number</code> </summary>
+<summary> <b>API</b>/series?limit=<code>Number</code>&page=<code>Number</code> &mdash; list the user's recently added/modified shows </summary>
 <article>
 
 ```javascript
