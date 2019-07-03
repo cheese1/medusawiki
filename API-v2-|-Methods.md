@@ -446,7 +446,7 @@
 	"showQueueStatus": [
 		{
 			"action": <String:"isBeingAdded">,
-			"active": false,
+			"active": <Boolean>,
 			"message": "This show is in the process of being downloaded - the info below is incomplete"
 		},
 		{
