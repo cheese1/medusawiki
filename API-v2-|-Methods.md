@@ -331,7 +331,7 @@
 		5	<String:Date[YYYY-MM-DD]>,	// The show's premiere date
 		6	<String>,			// The show's production network, e.g. Amazon Prime
 		7	<String>,			// The show's local name
-			[
+		8	[
 			0	<String>,		// The provider's short name, e.g. "tmdb"
 			1	<Number>		// The show's ID for the provider
 			]
