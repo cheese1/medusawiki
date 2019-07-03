@@ -290,8 +290,6 @@
 <summary> <b>API</b>/internal/searchIndexersForShowName?query=<code>{showName}</code>&indexerId=<code>Number</code>&language=<code>ISO-Language</code> </summary>
 <article>
 
-*showName* &mdash; replace all spaces with `+`, e.g. `tv show` &rightarrow; `tv+show`
-
 ```javascript
 {
 	"results": [
@@ -316,6 +314,8 @@
 
 </article>
 </details>
+
+- *showName* &mdash; replace all spaces with `+`, e.g. `tv show` &rightarrow; `tv+show`
 
 ----
 
