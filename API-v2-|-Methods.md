@@ -447,7 +447,7 @@
 		{
 			"action": <String:"isBeingAdded">,
 			"active": <Boolean>,
-			"message": "This show is in the process of being downloaded - the info below is incomplete"
+			"message": <String>
 		},
 		{
 			"action": <String:"isBeingUpdated">,
