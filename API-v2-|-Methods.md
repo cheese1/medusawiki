@@ -270,8 +270,7 @@
 				"nextRun": <Number>,
 				"lastRun": <String>,
 				"isSilent": <Boolean>
-			},
-            // ...
+			}, // ...
 		],
 		"showQueue": <Array>
 	}
