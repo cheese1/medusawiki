@@ -7,7 +7,7 @@
 ## API/config/
 
 <details>
-<summary> <b>API</b>/config &mdash; get the user's configuration </summary>
+<summary> <b>API/config/</b> &mdash; get the user's configuration data </summary>
 <article>
 
 ```javascript
@@ -288,10 +288,10 @@
 
 ----
 
-## API/internal
+## API/internal/
 
 <details>
-<summary> <b>API</b>/internal/existingSeries?rootDirs=<code>Number</code> </summary>
+<summary> <b>API/internal/</b>existingSeries?rootDirs=<code>Number</code> </summary>
 <article>
 
 ```javascript
@@ -314,7 +314,7 @@
 ----
 
 <details>
-<summary> <b>API</b>/internal/searchIndexersForShowName?query=<code>{showName}</code>&indexerId=<code>Number</code>&language=<code>ISO-Language</code> &mdash; search for a show (using the indexers) </summary>
+<summary> <b>API/internal/</b>searchIndexersForShowName?query=<code>{showName}</code>&indexerId=<code>Number</code>&language=<code>ISO-Language</code> &mdash; search for a show (using the indexers) </summary>
 <article>
 
 ```javascript
@@ -346,10 +346,104 @@
 
 ----
 
-## API/series
+## API/series/
 
 <details>
-<summary> <b>API</b>/series/<code>{idProvider}{showID}</code>?detailed=<code>Boolean</code> &mdash; get a show's information </summary>
+<summary> <b>API/series</b>?limit=<code>Number</code>&page=<code>Number</code> &mdash; list the user's recently added/modified shows </summary>
+<article>
+
+```javascript
+[
+	{
+		"id": {
+			"tvdb": <Number>,
+			"imdb": <String>,
+			"slug": <String>,
+			"trakt": <Object>
+		},
+		"title": <String>,
+		"indexer": <String>,
+		"network": <String>,
+		"type": <String>,
+		"status": <String>,
+		"airs": <String:Date/Time>,
+		"airsFormatValid": <Boolean>,
+		"language": <String:ISO-Language>,
+		"showType": <String:Enum>,
+		"imdbInfo": {
+			"countries": <String>,
+			"countryCodes": <String>,
+			"imdbId": <String>,
+			"title": <String>,
+			"year": <String>,
+			"akas": <String>,
+			"genres": <String>,
+			"rating": <String>,
+			"votes": <String>,
+			"runtimes": <String:Time>,
+			"certificates": <String>,
+			"plot": <String>,
+			"lastUpdate": <String:Date>
+		},
+		"year": {
+			"start": <String>,
+			"stop": <String>
+		},
+		"nextAirDate": <Object>,
+		"runtime": <String:Time>,
+		"genres": <Array:String>,
+		"rating": {
+			"imdb": {
+				"rating": <String>
+				"votes": <Number>
+			}
+		},
+		"classification": <String>,
+		"cache": {
+			"poster": <String:file>,
+			"banner": <String:file>
+		},
+		"countries": <Array:String>,
+		"countryCodes": <Array:String>,
+		"plot": <String>,
+		"config": {
+			"location": <String:folder>,
+			"locationValid": <Boolean>,
+			"qualities": {
+				"allowed": <Array:Number>,
+				"preferred": <Array>
+			},
+			"paused": <Boolean>,
+			"airByDate": <Boolean>,
+			"subtitlesEnabled": <Boolean>,
+			"dvdOrder": <Boolean>,
+			"seasonFolders": <Boolean>,
+			"anime": <Boolean>,
+			"scene": <Boolean>,
+			"sports": <Boolean>,
+			"defaultEpisodeStatus": <String:Enum>,
+			"aliases": <Array>,
+			"release": {
+				"ignoredWords": <Array:String>,
+				"requiredWords": <Array:String>,
+				"ignoredWordsExclude": <Boolean>,
+				"requiredWordsExclude": <Boolean>,
+				"blacklist": <Array:String>,
+				"whitelist": <Array:String>
+			},
+			"airdateOffset": <Number>
+		}
+	}, // ...
+]
+```
+
+</article>
+</details>
+
+----
+
+<details>
+<summary> <b>API/series/</b><code>{idProvider}{showID}</code>?detailed=<code>Boolean</code> &mdash; get a show's information </summary>
 <article>
 
 ```javascript
@@ -511,100 +605,6 @@
 	],
 	"xemNumbering": <Array>
 }
-```
-
-</article>
-</details>
-
-----
-
-<details>
-<summary> <b>API</b>/series?limit=<code>Number</code>&page=<code>Number</code> &mdash; list the user's recently added/modified shows </summary>
-<article>
-
-```javascript
-[
-	{
-		"id": {
-			"tvdb": <Number>,
-			"imdb": <String>,
-			"slug": <String>,
-			"trakt": <Object>
-		},
-		"title": <String>,
-		"indexer": <String>,
-		"network": <String>,
-		"type": <String>,
-		"status": <String>,
-		"airs": <String:Date/Time>,
-		"airsFormatValid": <Boolean>,
-		"language": <String:ISO-Language>,
-		"showType": <String:Enum>,
-		"imdbInfo": {
-			"countries": <String>,
-			"countryCodes": <String>,
-			"imdbId": <String>,
-			"title": <String>,
-			"year": <String>,
-			"akas": <String>,
-			"genres": <String>,
-			"rating": <String>,
-			"votes": <String>,
-			"runtimes": <String:Time>,
-			"certificates": <String>,
-			"plot": <String>,
-			"lastUpdate": <String:Date>
-		},
-		"year": {
-			"start": <String>,
-			"stop": <String>
-		},
-		"nextAirDate": <Object>,
-		"runtime": <String:Time>,
-		"genres": <Array:String>,
-		"rating": {
-			"imdb": {
-				"rating": <String>
-				"votes": <Number>
-			}
-		},
-		"classification": <String>,
-		"cache": {
-			"poster": <String:file>,
-			"banner": <String:file>
-		},
-		"countries": <Array:String>,
-		"countryCodes": <Array:String>,
-		"plot": <String>,
-		"config": {
-			"location": <String:folder>,
-			"locationValid": <Boolean>,
-			"qualities": {
-				"allowed": <Array:Number>,
-				"preferred": <Array>
-			},
-			"paused": <Boolean>,
-			"airByDate": <Boolean>,
-			"subtitlesEnabled": <Boolean>,
-			"dvdOrder": <Boolean>,
-			"seasonFolders": <Boolean>,
-			"anime": <Boolean>,
-			"scene": <Boolean>,
-			"sports": <Boolean>,
-			"defaultEpisodeStatus": <String:Enum>,
-			"aliases": <Array>,
-			"release": {
-				"ignoredWords": <Array:String>,
-				"requiredWords": <Array:String>,
-				"ignoredWordsExclude": <Boolean>,
-				"requiredWordsExclude": <Boolean>,
-				"blacklist": <Array:String>,
-				"whitelist": <Array:String>
-			},
-			"airdateOffset": <Number>
-		}
-	}, // ...
-]
 ```
 
 </article>
