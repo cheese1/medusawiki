@@ -102,7 +102,7 @@
 			"statusAfter": <Number>,
 			"quality": <Number>,
 			"subtitles": <Boolean>,
-			"seasonFolders": <boolean>,
+			"seasonFolders": <Boolean>,
 			"anime": <Boolean>,
 			"scene": <Boolean>
 		},
@@ -394,12 +394,12 @@
 		"defaultEpisodeStatus": <String:Enum>,
 		"aliases": <Array>,
 		"release": {
-			"ignoredWords": <array:String>,
-			"requiredWords": <array:String>,
+			"ignoredWords": <Array:String>,
+			"requiredWords": <Array:String>,
 			"ignoredWordsExclude": <Boolean>,
 			"requiredWordsExclude": <Boolean>,
-			"blacklist": <array:String>,
-			"whitelist": <array:String>
+			"blacklist": <Array:String>,
+			"whitelist": <Array:String>
 		},
 		"airdateOffset": <Number>
 	},
@@ -565,12 +565,12 @@
 			"defaultEpisodeStatus": <String:Enum>,
 			"aliases": <Array>,
 			"release": {
-				"ignoredWords": <array:String>,
-				"requiredWords": <array:String>,
+				"ignoredWords": <Array:String>,
+				"requiredWords": <Array:String>,
 				"ignoredWordsExclude": <Boolean>,
 				"requiredWordsExclude": <Boolean>,
-				"blacklist": <array:String>,
-				"whitelist": <array:String>
+				"blacklist": <Array:String>,
+				"whitelist": <Array:String>
 			},
 			"airdateOffset": <Number>
 		}
