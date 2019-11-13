@@ -11,7 +11,7 @@ Follow this well written guide over at [Real Python](https://realpython.com/inst
 ## Debian
 1. Your best bet will be compiling Python 3 from source:
 
-Follow this well written guide over at [Real Python](https://realpython.com/installing-python/#compiling-python-from-source).
+Follow this well written guide over at [Real Python](https://realpython.com/installing-python/#debian).
 
 2. Update your daemon:
 
