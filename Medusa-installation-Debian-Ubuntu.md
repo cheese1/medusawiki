@@ -1,5 +1,5 @@
-## Ubuntu 14.x - 18.x | Debian 7.0 - 9
-The following instructions are for installing Medusa on Ubuntu 14.x - 18.x and Debian 7.0 - 9.
+## Ubuntu 14.04+ | Debian 7.0+
+The following instructions are for installing Medusa on Ubuntu 14.04 and newer or Debian 7.0 and newer.
 
 The installation assumes that you're not using the root user to install/run Medusa. The entries for **user:group** throughout the document will be set as **medusa:medusa** and you will have to modify it if you want it to match your user configuration.
 
@@ -9,15 +9,16 @@ The installation assumes that you're not using the root user to install/run Medu
    ```
    sudo apt-get update && sudo apt-get install unrar-free git-core openssl mediainfo
    ```
-   Install Python 3:
+   **Install Python 3:**
 
-   Since Medusa v0.3.0 we recommend installing Python 3, [follow these instructions](https://github.com/pymedusa/Medusa/wiki/Switch-to-Python-3).
-   
-   Install Python 2.7 (not recommended):
-   ```
-   sudo apt-get install python2.7
-   ```
+   Ubuntu: Follow this well written guide over at [Real Python](https://realpython.com/installing-python/#ubuntu).
 
+   Debian 7.0 - 9: Follow this well written guide over at [Real Python](https://realpython.com/installing-python/#debian).
+
+   Debian since 10: `sudo apt-get install python3`
+
+
+   **Still using Python 2.7?** Switch now! [Follow these instructions](https://github.com/pymedusa/Medusa/wiki/Switch-to-Python-3).
 
 2. Create medusa user and group medusa.
     This makes sure that Medusa is isolated and is best practice for security
