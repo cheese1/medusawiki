@@ -8,6 +8,7 @@
 - [Docker for armhf](https://github.com/pymedusa/Medusa/wiki/Medusa-Docker-for-ARMHF--and-Nginx-Proxy-Config#install-docker-for-armhf)
 - [Synology NAS](https://github.com/SynoCommunity/spksrc/issues/3710#issuecomment-524808904)
 - [Asustor NAS](https://github.com/pymedusa/Medusa/issues/7342#issuecomment-553765241)
+- [QNAP NAS](https://onecdonly.github.io/sherpa/)
 
 --------------------
 ### Configuration Guides
