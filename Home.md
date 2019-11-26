@@ -14,4 +14,7 @@ contribute to the wiki, please let us know.
 - [Windows](https://github.com/pymedusa/Medusa/wiki/Medusa-Windows-Installer)
 - [Ubuntu/Debian](https://github.com/pymedusa/Medusa/wiki/Medusa-installation-Debian-Ubuntu)
 - [CentOS](https://github.com/pymedusa/Medusa/wiki/Medusa-installation-CentOS)
+- [Docker amd64 (official)](https://hub.docker.com/r/pymedusa/medusa) | [Docker amd64/arm/arm64](https://hub.docker.com/r/linuxserver/medusa)
 - [Docker for armhf](https://github.com/pymedusa/Medusa/wiki/Medusa-Docker-for-ARMHF--and-Nginx-Proxy-Config#install-docker-for-armhf)
+- [Synology NAS](https://github.com/SynoCommunity/spksrc/issues/3710#issuecomment-524808904)
+- [Asustor NAS](https://github.com/pymedusa/Medusa/issues/7342#issuecomment-553765241)
