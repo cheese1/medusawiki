@@ -13,9 +13,9 @@ The installation assumes that you're not using the root user to install/run Medu
 
    Ubuntu: Follow this well written guide over at [Real Python](https://realpython.com/installing-python/#ubuntu).
 
-   Debian 7.0 - 9: Follow this well written guide over at [Real Python](https://realpython.com/installing-python/#debian).
+   Debian 7.0 - 8.0: Follow this well written guide over at [Real Python](https://realpython.com/installing-python/#debian).
 
-   Debian since 10: `sudo apt-get install python3`
+   Debian 9 and newer: `sudo apt-get install python3`
 
 
    **Still using Python 2.7?** Switch now! [Follow these instructions](https://github.com/pymedusa/Medusa/wiki/Switch-to-Python-3).
