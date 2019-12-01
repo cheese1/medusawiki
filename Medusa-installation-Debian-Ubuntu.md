@@ -4,7 +4,7 @@ The following instructions are for installing Medusa on Ubuntu 14.04 and newer o
 The installation assumes that you're not using the root user to install/run Medusa. The entries for **user:group** throughout the document will be set as **medusa:medusa** and you will have to modify it if you want it to match your user configuration.
 
 1. Update repositories and install dependencies.
-    This will give you unrar-free and git to pull the repo
+    This will install mediainfo, unrar-free and git to pull the repo
  
    ```
    sudo apt-get update && sudo apt-get install unrar-free git-core openssl mediainfo
