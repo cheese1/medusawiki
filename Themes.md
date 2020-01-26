@@ -43,7 +43,7 @@ Both commands will automatically copy the relevant files to the each theme's dir
 
 Where `{theme}` is the theme name (`dark` or `light`).
 
-Please not that at the time of writing, when renaming/removing files in any of the folders above,  
+Please note that at the time of writing, when renaming/removing files in any of the folders above,  
 it is required to manually remove the old files from the target folders in `./themes`.
 
 **Gulp** is temporarily used for copying and compressing images.  
