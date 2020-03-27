@@ -1,0 +1,1 @@
+Due to security reasons, the execution of external scripts is limited to Python scripts. This limitation can easily be overcome by using a Python script that acts as intermediary between Medusa and one or multiple non-Python scripts.
