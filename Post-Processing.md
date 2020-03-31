@@ -41,12 +41,12 @@ Lets you mark the downloaded episode as failed, and lets Medusa search/snatch an
 Examples:  
 For Windows C:\Script\test.py  
 For Linux: /Script/test.py  
-Running non-Python scripts? See https://github.com/pymedusa/Medusa/wiki/External-scripts
+
 
 Use single back slashes, Medusa/Python will escape them and make them double.  
-Additional scripts can be used, separated by `|`  
-Scripts are called after Medusa's own post-processing.
+Scripts are called after Medusa's own post-processing.  
 Medusa will then wait for a feedback from your script before post-processing anything else.  
+Running non-Python scripts? See [running external scripts](https://github.com/pymedusa/Medusa/wiki/External-scripts).
 
 Parameters that are passed:
 
