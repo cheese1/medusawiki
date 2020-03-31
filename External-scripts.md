@@ -7,7 +7,7 @@ import sys
 
 subprocess.call(['my_cmd', 'my_script'] + sys.argv[1:])
 # If you need to run more scripts (optional)
-subprocess.call(['my_cmd2', 'my_script2'] + sys.argv[1:])
+# subprocess.call(['my_cmd2', 'my_script2'] + sys.argv[1:])
 ```
 
 Replace `my_cmd` and `my_script` and save the code as `script.py` (or the name you prefer).
