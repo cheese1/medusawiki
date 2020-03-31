@@ -39,8 +39,9 @@ Lets you mark the downloaded episode as failed, and lets Medusa search/snatch an
 
 ## Extra Scripts:  
 Examples:  
-For Windows C:\Python27\pythonw.exe C:\Script\test.py  
-For Linux: python /Script/test.py  
+For Windows C:\Script\test.py  
+For Linux: /Script/test.py  
+Running non-Python scripts? See https://github.com/pymedusa/Medusa/wiki/External-scripts
 
 Use single back slashes, Medusa/Python will escape them and make them double.  
 Additional scripts can be used, separated by `|`  
