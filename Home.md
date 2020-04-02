@@ -19,3 +19,4 @@ contribute to the wiki, please let us know.
 - [Synology NAS](https://github.com/SynoCommunity/spksrc/issues/3710#issuecomment-524808904)
 - [Asustor NAS](https://github.com/pymedusa/Medusa/issues/7342#issuecomment-553765241)
 - [QNAP NAS](https://onecdonly.github.io/sherpa/)
+- [ReadyNAS](https://github.com/ArieKindicator/ReadyNAS/tree/master/Medusa)
