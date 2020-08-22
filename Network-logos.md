@@ -27,9 +27,12 @@ Some guidelines for the network logos are :
 The last is because Medusa has two color themes, Dark and Light. If the logo contains too much of either color it will not show properly/correctly on one of those themes. Make sure you test/check this.
 
 Last step is to rename the image. It needs to have the exact name of the network in the show overview list.
-Also use only lower case characters as upper case characters are not recognized.
+Also use only lower case characters as upper case characters are not recognized. Replace ' ' with '-' and use only ASCII-characters.
+The translation-table is in https://github.com/pymedusa/Medusa/blob/master/medusa/tv/series.py#L374 around line number 374 (search for network_logo_name)
 
-Example : `Sky Atlantic`   this needs to be renamed to `sky atlantic` So the logo filename will be sky atlantic.png
+Example : `Sky Atlantic` this needs to be renamed to `sky-atlantic`. So the filename will be sky-atlantic.png
+`Česká televize` will get a logo named ceska-televize.png
+
 
 Note : Special characters are not supported!
 
